@@ -1,0 +1,100 @@
+.btn_participer{
+    
+    width: 216px;
+    height: 62px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 32px;
+    gap: 10px;
+    margin-top: 90px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+/* identical to box height */
+    border: none;
+
+
+/* green */
+
+color: #008773;
+    
+    /* yellow */
+    
+    background: #FAC400;
+    border-radius: 12px;
+}
+
+.road{
+    
+    font-family: 'Thunder';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 59px;
+    text-align: center;
+
+    /* green */
+
+    color: #008773;
+
+}
+.header{
+    justify-content: center;
+}
+
+.timer{
+    background-color: white;
+}
+
+.rond{
+    /* yellow */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    margin: 15px;
+    width: 70px;
+    height: 70px;
+    background: #FAC400;
+    border: 1px solid rgba(164, 5, 45, 0.8);
+    border-radius: 50%;
+    font-family: 'Thunder';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 33px;
+    text-align: center;
+}
+.bg{
+    // background-color: green;
+    justify-content: center;
+}
+
+.date{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-items: center;font-family: 'Thunder';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    /* black */
+    
+    color: #060606;
+    margin: 15px;
+    padding-bottom: 10%;
+    width: 70px;
+    height: 70px;
+}

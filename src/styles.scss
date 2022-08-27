@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: "DM Sans";
+    src: local("DM Sans"), url(./assets/fonts/DM/DM-Sans-Bold-700.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Thunder";
+    src: local("Thunder"), url(./assets/fonts/Thunder/Thunder-MediumHC-500.otf);
+}
