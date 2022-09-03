@@ -16,7 +16,7 @@ import { AboutComponent } from './components/about/about.component';
     NavbarComponent,
     FooterComponent,
     HomeComponent,
-    SpeakersComponent
+    SpeakersComponent,
     AboutComponent
 
   ],
