@@ -1,0 +1,144 @@
+
+.history{
+    background-color: #008773;
+    margin-top: 5%;
+}
+.titre_history{
+    font-family: 'Thunder';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 59px;
+    /* identical to box height */
+    
+    
+    
+    /* yellow */
+    
+    color: #FAC400;
+}
+
+.lead{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    /* or 200% */
+    
+    width: 85%;
+
+
+    /* white */
+
+    color: #FFFFFF;
+}
+.lead1{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    /* or 200% */
+    
+    width: 85%;
+
+
+}
+.div1{
+    margin-left: 15%; 
+    // width: 85%;
+    // margin-right: 10%; 
+    // background-color: red;
+}
+.img1{
+    margin: 2%;
+    background-color: #FAC400;
+}
+
+.div2{
+    
+    margin-top: 5%;
+    background-color: #FFFFFF;
+    color: black;
+}
+
+.jaune{
+    background-color: blue;
+    position: relative;
+    float: right;
+    width: 589px;
+    height: 332px;
+
+    background: #F2C94C;
+    box-shadow: 0px 20px 40px rgba(242, 201, 76, 0.25);
+    border-radius: 12px;
+}
+
+.vert{
+    position: relative;
+    width: 421px;
+    height: 462px;
+    top: 30%;
+    margin-left: 10%;
+
+    background: #219653;
+    box-shadow: 0px 20px 40px rgba(33, 150, 83, 0.25);
+    border-radius: 12px;
+}
+
+.rouge{
+    
+    position: relative;
+    width: 589px;
+    height: 345px;
+    float: right;
+
+    background: #EB5757;
+    box-shadow: 0px 20px 40px rgba(235, 87, 87, 0.25);
+    border-radius: 12px;
+}
+
+.theme{
+    margin-top: 5%;
+    width: 85%;
+    margin-left: 15%;
+}
+
+.card_jaune{
+    // width: 35%;
+    // margin-top: 2%;
+    padding: 2%;
+    /* yellow */
+
+    background: #FAC400;
+    border-radius: 12px;
+}
+.card_vert{
+    // width: 35%;
+    // margin-top: 2%;
+    padding: 2%;
+    /* yellow */
+
+    background: #008773;
+    border-radius: 12px;
+}
+.disc{
+    // margin-top: 3%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+
+
+    color: #000000;
+
+    list-style-type: disc;
+}
+
+.cible{
+    width: 120%;
+}
+
