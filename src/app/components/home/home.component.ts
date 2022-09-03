@@ -47,8 +47,8 @@ private allocateTimeUnits (timeDifference: any) {
     this.subscription = interval(1000)
     .subscribe(x => { this.getTimeDifference(); });
 
-    let portalDiv = document.getElementById('map') as HTMLElement;
-    console.log(portalDiv.innerHTML);
+    // let portalDiv = document.getElementById('map') as HTMLElement;
+    // console.log(portalDiv.innerHTML);
     
     // if (!portalDiv) {
     //     throw new Error("The element id wasn't found");
