@@ -1,0 +1,94 @@
+* {
+    background: #008773;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    background-color: #008773;
+}
+
+.speakers {
+    position: relative;
+}
+
+section, .team-row, .member {
+    margin-top: 5%;
+
+}
+
+.title1 {
+    position: relative;
+    text-align: center;
+    top: 15%;
+    left: 10%;
+    right: 10%;
+    color: #FAC400;
+    font-family: 'Inter';
+    font-style: normal;
+    width: 80%;
+    padding-top: 5%;
+}
+
+.sp_paragraph {
+    position: relative;
+    top: 5%;
+    left: 5%;
+    right: 5%;
+    line-height: 35px;
+    text-align: center;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    width: 90%;
+    margin-top: 5%;
+}
+
+.team-row {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.member {
+    text-align: center;
+    padding: 50px 10px;
+}
+
+.member:hover {
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.1);
+    transform: translateY(-20px);
+    border-radius: 10%;
+}
+
+.member img {
+    display: block;
+    width: 150px;
+    height: 150px;
+    border: 5px solid #A4052D;
+    border-image: linear-gradient(120deg, green, yellow, red);
+    border-image-slice: 1;
+    border-radius: 50%;
+    margin: 0 150px;
+}
+
+.member h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFF;
+}
+
+.member p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFF; 
+}
