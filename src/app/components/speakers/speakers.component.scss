@@ -66,13 +66,13 @@ section, .team-row, .member {
 
 .member img {
     display: block;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border: 5px solid #A4052D;
     border-image: linear-gradient(120deg, green, yellow, red);
     border-image-slice: 1;
     border-radius: 50%;
-    margin: 0 150px;
+    margin: 0 100px;
 }
 
 .member h3 {
