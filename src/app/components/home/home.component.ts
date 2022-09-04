@@ -1,5 +1,5 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
-import { Loader } from '@googlemaps/js-api-loader';
+// import { Loader } from '@googlemaps/js-api-loader';
 import { interval, Subscription } from 'rxjs';
 
 
@@ -47,43 +47,43 @@ private allocateTimeUnits (timeDifference: any) {
     this.subscription = interval(1000)
     .subscribe(x => { this.getTimeDifference(); });
 
-    let portalDiv = document.getElementById('map') as HTMLElement;
-    console.log(portalDiv.innerHTML);
+    // let portalDiv = document.getElementById('map') as HTMLElement;
+    // console.log(portalDiv.innerHTML);
     
-    if (!portalDiv) {
-        throw new Error("The element id wasn't found");
-    }
+    // if (!portalDiv) {
+    //     throw new Error("The element id wasn't found");
+    // }
 
-    let laoder = new Loader({
-      apiKey: "AIzaSyC0c_j5nQRK_YOEPkEhytO9xZ20RfEMaLw"
-    })
-    laoder.load().then(() => {
-      console.log("test map");
+    // let laoder = new Loader({
+    //   apiKey: "AIzaSyC0c_j5nQRK_YOEPkEhytO9xZ20RfEMaLw"
+    // })
+    // laoder.load().then(() => {
+    //   console.log("test map");
 
-      const location = {
-        lat: 	14.7645042,
-        lng: 	-17.3660286
-      };
+    //   const location = {
+    //     lat: 	14.7645042,
+    //     lng: 	-17.3660286
+    //   };
 
-      this.map = new google.maps.Map(portalDiv, {
-        center: location,
-        zoom: 6
-      })
+    //   this.map = new google.maps.Map(portalDiv, {
+    //     center: location,
+    //     zoom: 6
+    //   })
 
-      const maker = new google.maps.Marker({
-        position: location,
-        map: this.map
-      })
+    //   const maker = new google.maps.Marker({
+    //     position: location,
+    //     map: this.map
+    //   })
       
-    })
+    // })
 
   }
 
   ngOnDestroy() {
     this.subscription.unsubscribe();
  }
-  title =  "google maps";
-  private map: google.maps.Map;
+  // title =  "google maps";
+  // private map: google.maps.Map;
   
 
 }
