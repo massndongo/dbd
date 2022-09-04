@@ -13,6 +13,11 @@
     position: relative;
 }
 
+section {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
 section, .team-row, .member {
     margin-top: 5%;
 
