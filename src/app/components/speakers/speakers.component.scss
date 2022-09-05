@@ -17,7 +17,15 @@ section, .team-row, .member {
     margin-top: 5%;
 
 }
-
+section{
+    display: flex;
+    justify-content: center;
+}
+.team-row{
+    display: flex;
+    width: 85%;
+    justify-content: center;
+}
 .title1 {
     position: relative;
     text-align: center;
