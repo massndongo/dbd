@@ -379,7 +379,10 @@ ul .disc{
 
 #map{
     margin-left: 5%;
+    // width: 45%;
+    // height: 500px;
 }
+
 .form_info{
     margin-left: 3%;
 }
@@ -408,4 +411,13 @@ textarea, input {
     background: #FAC400;
     border-radius: 12px;
     border: none;
+}
+
+.marker{
+    // background-image: url('assets/img/marker.jpg');
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
 }

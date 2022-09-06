@@ -1,6 +1,8 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 // import { Loader } from '@googlemaps/js-api-loader';
+import * as mapboxgl from 'mapbox-gl';
 import { interval, Subscription } from 'rxjs';
+import { environment } from 'src/environments/environment';
 
 
 @Component({
@@ -37,45 +39,71 @@ private allocateTimeUnits (timeDifference: any) {
     this.daysToDday = Math.floor((timeDifference) / (this.milliSecondsInASecond * this.minutesInAnHour * this.SecondsInAMinute * this.hoursInADay));
 }
 
+  map: mapboxgl.Map
+  style="mapbox://styles/mapbox/streets-v11"
+  lat = 14.7645042
+  lng = -17.3660286
+  zoom = 9
   
     
-  constructor(
-  ) { }
+  constructor() {
+    
+  }
 
   ngOnInit(): void {
+
+    this.buildMap();
+
+  
 
     this.subscription = interval(1000)
     .subscribe(x => { this.getTimeDifference(); });
 
-    // let portalDiv = document.getElementById('map') as HTMLElement;
-    // console.log(portalDiv.innerHTML);
+
+
+
+
+  }
+  buildMap(){
+    this.map = new mapboxgl.Map({
+      accessToken: environment.mapbox.accessToken,
+      container: 'map',
+      style: this.style,
+      zoom: this.zoom,
+      center: [this.lng, this.lat],
+      attributionControl: false,
+    });
+
+    const navControl = new mapboxgl.NavigationControl({
+      visualizePitch: true
+    });
+
+    this.map.addControl(navControl, 'top-right');
+    this.map.addControl(new mapboxgl.FullscreenControl(), 'top-right')
+
+        // Add markers to the map.
+
+    // Create a DOM element for each marker.
+    const el = document.createElement('div');
+    const width = 40;
+    const height = 40;
+    el.className = 'marker';
+    el.style.backgroundImage = `url(https://imageholdr.com/336x250/transparent/a4052d/fa-bitcoin)`;
+    el.style.width = `${width}px`;
+    el.style.height = `${height}px`;
+    el.style.backgroundSize = '100%';
+
+
+
+
+    // Add markers to the map.
+    new mapboxgl.Marker(el)
+      .setLngLat([this.lng, this.lat])
+      .addTo(this.map);
+
     
-    // if (!portalDiv) {
-    //     throw new Error("The element id wasn't found");
-    // }
+    
 
-    // let laoder = new Loader({
-    //   apiKey: "AIzaSyC0c_j5nQRK_YOEPkEhytO9xZ20RfEMaLw"
-    // })
-    // laoder.load().then(() => {
-    //   console.log("test map");
-
-    //   const location = {
-    //     lat: 	14.7645042,
-    //     lng: 	-17.3660286
-    //   };
-
-    //   this.map = new google.maps.Map(portalDiv, {
-    //     center: location,
-    //     zoom: 6
-    //   })
-
-    //   const maker = new google.maps.Marker({
-    //     position: location,
-    //     map: this.map
-    //   })
-      
-    // })
 
   }
 
