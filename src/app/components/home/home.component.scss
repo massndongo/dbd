@@ -177,7 +177,7 @@
     /* green */
 
     color: #008773;
-    margin-left: 15%;
+    // margin-left: 15%;    
 }
 .card{
     
@@ -420,4 +420,11 @@ textarea, input {
     height: 50px;
     border-radius: 50%;
     cursor: pointer;
+}
+.bigSponsor{
+    width: 85%;
+    margin-left: 15%;
+}
+.sponsor_img{
+   margin: 2% 2% 2% 0%;
 }
