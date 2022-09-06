@@ -8,6 +8,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './components/home/home.component';
 import { SpeakersComponent } from './components/speakers/speakers.component';
 import { AboutComponent } from './components/about/about.component';
+import { ReserveComponent } from './components/reserve/reserve.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { AboutComponent } from './components/about/about.component';
     FooterComponent,
     HomeComponent,
     SpeakersComponent,
-    AboutComponent
+    AboutComponent,
+    ReserveComponent
 
   ],
   imports: [
