@@ -2,6 +2,8 @@ import { Component, OnDestroy, OnInit } from '@angular/core';
 // import { Loader } from '@googlemaps/js-api-loader';
 import * as mapboxgl from 'mapbox-gl';
 import { interval, Subscription } from 'rxjs';
+import { User } from 'src/app/models/user.model';
+import { DataService } from 'src/app/services/firebase/data.service';
 import { environment } from 'src/environments/environment';
 
 
@@ -11,6 +13,9 @@ import { environment } from 'src/environments/environment';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit, OnDestroy {
+
+  user: User = new User()
+  submitted = false
 
   private subscription: Subscription;
   
@@ -46,7 +51,9 @@ private allocateTimeUnits (timeDifference: any) {
   zoom = 9
   
     
-  constructor() {
+  constructor(
+    private dataService: DataService
+  ) {
     
   }
 
@@ -105,6 +112,19 @@ private allocateTimeUnits (timeDifference: any) {
     
 
 
+  }
+
+  saveUser(): void {
+    this.dataService.create(this.user).then(() => {
+      console.log('Create new user successfully!');
+      this.submitted = true;
+      
+    })
+  }
+
+  newUser(): void {
+    this.submitted = false;
+    this.user = new User()
   }
 
   ngOnDestroy() {

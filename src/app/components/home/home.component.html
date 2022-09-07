@@ -213,7 +213,7 @@
         </div>
         <div class="row">
             <div class="bigSponsor row">
-                <h1 class="titre_target">Our Sponsors</h1>
+                <h1 class="titre_target1">Our Sponsors</h1>
                 <div class="col-lg-4 col-md-6">
                     <img src="../../../assets/img/sponsor.png" class="sponsor_img" alt="Avatar" />
                 </div>
@@ -284,21 +284,26 @@
         </div>
         
         <div class="col-lg-5 col-md-10 form_info">
-            <form class="row g-3">
+            <div class="row g-3" *ngIf="!submitted">
                 <span class="titre_info text-start">Pour plus d'informations sur l'événement, contacter nous!</span>
                 <div class="col-10 col-lg-5">
-                <input type="text" placeholder="Full name" class="form-control" id="inputEmail4">
+                <input type="text" placeholder="Full name" class="form-control" id="name" required [(ngModel)]="user.name">
                 </div>
                 <div class="col-10 col-lg-5">
-                <input type="email" placeholder="Email" class="form-control" id="inputEmail4">
+                <input type="email" placeholder="Email" class="form-control" id="email" required [(ngModel)]="user.email">
                 </div>
                 <div class="col-10">
-                <textarea class="form-control" placeholder="Message" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <textarea class="form-control" placeholder="Message" id="message" rows="3" required [(ngModel)]="user.message"></textarea>
                 </div>
                 <div class="col-10">
-                <button type="submit" class="btn btn-info col-4 mt-4 p-2">Envoyer</button>
+                <button (click)="saveUser()" class="btn btn-info col-4 mt-4 p-2">Envoyer</button>
                 </div>
-          </form>
+                
+            </div>
+          <div *ngIf="submitted">
+              <h4>You submitted successfully!</h4>
+              <button class="btn btn-success" (click)="newUser()">Add</button>
+          </div>
         </div>
     </div>
     

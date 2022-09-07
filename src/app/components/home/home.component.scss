@@ -165,7 +165,7 @@
     margin-top: 8%;
 
 }
-.titre_target{
+.titre_target, .titre_target1{
     font-family: 'Thunder';
     font-style: normal;
     font-weight: 700;
@@ -176,8 +176,10 @@
 
     /* green */
 
-    color: #008773;
-    // margin-left: 15%;    
+    color: #008773;  
+}
+.titre_target{
+    margin-left: 15%;  
 }
 .card{
     
