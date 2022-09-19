@@ -38,13 +38,28 @@
 
     /* green */
 
-    color: #008773;
+    color: #004137;
 
 }
 .header{
     justify-content: center;
     background-color: #E0E0E0;
+    // background-image: url('../../../assets/img/website\ banner.png');
+    background-attachment: fixed;
+    background-position: 100%;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    height: 550px;
+    background: linear-gradient(
+     rgba(0, 0, 0, 0.45), 
+     rgba(0, 0, 0, 0.45)
+   ),url('../../../assets/img/website\ banner.png')no-repeat;
+   background-size: 100% 650px;
+
+    
 }
+
+
 
 .timer{
     background-color: white;

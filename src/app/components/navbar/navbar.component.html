@@ -1,92 +1,94 @@
-<div class="bg-nav1">
-  <nav *ngIf="bg==1" class="navbar nav1 navbar-expand-lg container navbar-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <img src="../../../assets/img/removebg-preview.png" alt="logo" style="width: 100px;">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav nav me-auto mb-2 mb-lg-0" style="position: absolute; right: 0;">
-          <li class="nav-item">
-            <a class="nav-link" href="accueil">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about">About DBD</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="speakers">Speakers</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link">Programme</a>
-          </li>
-          <li class="nav-item ms-lg-5">
-            <button type="button" class="btn btn_participer rounded btn-dark"><a href="reserver">Participer</a></button>
-          </li>
-        </ul>
+<div class="big-nav">
+  <div class="bg-nav1">
+    <nav *ngIf="bg==1" class="navbar nav1 navbar-expand-lg container">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="../../../assets/img/removebg-preview.png" alt="logo" style="width: 100px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav nav me-auto mb-2 mb-lg-0" style="position: absolute; right: 0;">
+            <li class="nav-item">
+              <a class="nav-link" href="accueil">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about">About DBD</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="speakers">Speakers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Programme</a>
+            </li>
+            <li class="nav-item ms-lg-5">
+              <button type="button" class="btn btn_participer rounded btn-dark"><a href="reserver">Participer</a></button>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
-</div>
-
-<div class="container-fluid" style="background-color: #008773;">
-  <nav *ngIf="bg==2" class="navbar nav2 navbar-expand-lg container" style="background-color: #008773;">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <img src="../../../assets/img/removebg-preview.png" alt="logo" style="width: 100px;">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav nav me-auto mb-2 mb-lg-0" id="nav2" style="position: absolute; right: 0;">
-          <li class="nav-item">
-            <a class="nav-link text-white" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" routerLink="about">About DBD</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="speakers">Speakers</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="#">Programme</a>
-          </li>
-          <li class="nav-item ms-lg-5">
-            <button type="button" class="btn btn_participer2 rounded btn-dark" routerLink="reserver"><a href="reserver">Participer</a></button>
-          </li>
-        </ul>
+    </nav>
+  </div>
+  
+  <div class="container-fluid" style="background-color: #008773;">
+    <nav *ngIf="bg==2" class="navbar nav2 navbar-expand-lg container" style="background-color: #008773;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="../../../assets/img/removebg-preview.png" alt="logo" style="width: 100px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav nav me-auto mb-2 mb-lg-0" id="nav2" style="position: absolute; right: 0;">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" routerLink="about">About DBD</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="speakers">Speakers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Programme</a>
+            </li>
+            <li class="nav-item ms-lg-5">
+              <button type="button" class="btn btn_participer2 rounded btn-dark" routerLink="reserver"><a href="reserver">Participer</a></button>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
-</div>
-
-<div class="container-fluid" style="background-color: #fff;">
-  <nav *ngIf="bg==3" class="navbar nav3 navbar-expand-lg container" style="background-color: #fff;">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <img src="../../../assets/img/removebg-preview.png" alt="logo" style="width: 100px;">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav nav me-auto mb-2 mb-lg-0" id="nav2" style="position: absolute; right: 0;">
-          <li class="nav-item">
-            <a class="nav-link " href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" routerLink="about">About DBD</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="speakers">Speakers</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Programme</a>
-          </li>
-        </ul>
+    </nav>
+  </div>
+  
+  <div class="container-fluid" style="background-color: #fff;">
+    <nav *ngIf="bg==3" class="navbar nav3 navbar-expand-lg container" style="background-color: #fff;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="../../../assets/img/removebg-preview.png" alt="logo" style="width: 100px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav nav me-auto mb-2 mb-lg-0" id="nav2" style="position: absolute; right: 0;">
+            <li class="nav-item">
+              <a class="nav-link " href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="about">About DBD</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="speakers">Speakers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Programme</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+  </div>
 </div>
