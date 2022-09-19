@@ -19,7 +19,7 @@ export class NavbarComponent implements OnInit {
     if (window.location.href =='http://localhost:4200/speakers' || window.location.href =='http://localhost:4200/about') {
       this.bg = 2;
     }
-    if (window.location.href =='http://localhost:4200/accueil' || window.location.href =='http://localhost:4200/#') {
+    if (window.location.href =='http://localhost:4200/accueil' || window.location.href =='http://localhost:4200/#' || window.location.href != null) {
       this.bg = 1;
 
     }
