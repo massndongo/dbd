@@ -1,58 +1,112 @@
-<nav class="navbar navbar-expand-lg container navbar-light bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <img src="../../../assets/img/logo_dbd.jpg" alt="logo" style="width: 100px;">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav nav me-auto mb-2 mb-lg-0" style="position: absolute; right: 0;">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" routerLink="about">About DBD</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="speakers">Speakers</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Programme</a>
-          </li>
-          <li class="nav-item ms-lg-5">
-            <button type="button" class="btn btn_participer rounded btn-dark">Participer</button>
-          </li>
-        </ul>
+<div class="big-nav">
+  <div class="bg-nav1">
+    <nav *ngIf="bg=='1'" class="navbar nav1 navbar-expand-lg container">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="../../../assets/img/removebg-preview.png" alt="logo" style="width: 100px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav nav me-auto mb-2 mb-lg-0" style="position: absolute; right: 0;">
+            <li class="nav-item">
+              <a class="nav-link" href="accueil" (click)="changeBg('1')">{{'navbar.home' | translate}}</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about" (click)="changeBg('2')">{{'navbar.about' | translate}}</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="speakers" (click)="changeBg('2')">{{'navbar.speakers' | translate}}</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">{{'navbar.program' | translate}}</a>
+            </li>
+            <li class="nav-item">
+              <select class="nav-link" (change)="changeLang($any($event.target).value)">
+                <option value="fr" [selected]="lang == 'fr'">{{'navbar.btn_lang_fr' | translate}}</option>
+                <option value="en" [selected]="lang == 'en'">{{'navbar.btn_lang_en' | translate}}</option>
+              </select>
+            </li>
+            <li class="nav-item ms-lg-5">
+              <button type="button" class="btn btn_participer rounded btn-dark"><a href="reserver"  (click)="changeBg('3')">{{'navbar.participer' | translate}}</a></button>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
-
-<!-- 
-  <nav class="navbar navbar-expand-lg bg-light container">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Logo</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse lien" id="navbarText">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><button type="button" class="btn btn-primary">Primary</button></a>
-          </li>
-        </ul>
+    </nav>
+  </div>
+  
+  <div class="container-fluid" style="background-color: #008773;">
+    <nav *ngIf="bg=='2'" class="navbar nav2 navbar-expand-lg container" style="background-color: #008773;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="../../../assets/img/removebg-preview.png" alt="logo" style="width: 100px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav nav me-auto mb-2 mb-lg-0" id="nav2" style="position: absolute; right: 0;">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="accueil" (click)="changeBg('1')">{{'navbar.home' | translate}}</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="about"  (click)="changeBg('2')">{{'navbar.about' | translate}}</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="speakers" (click)="changeBg('2')">{{'navbar.speakers' | translate}}</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">{{'navbar.program' | translate}}</a>
+            </li>
+            <li class="nav-item">
+              <select class="nav-link" (change)="changeLang($any($event.target).value)">
+                <option value="fr" [selected]="lang == 'fr'">{{'navbar.btn_lang_fr' | translate}}</option>
+                <option value="en" [selected]="lang == 'en'">{{'navbar.btn_lang_en' | translate}}</option>
+              </select>
+            </li>
+            <li class="nav-item ms-lg-5">
+              <button type="button" class="btn btn_participer2 rounded btn-dark" routerLink="reserver"><a href="reserver"  (click)="changeBg('3')">Participer</a></button>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav> -->
+    </nav>
+  </div>
+  
+  <div class="container-fluid" style="background-color: #fff;">
+    <nav *ngIf="bg=='3'" class="navbar nav3 navbar-expand-lg container" style="background-color: #fff;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="../../../assets/img/removebg-preview.png" alt="logo" style="width: 100px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav nav me-auto mb-2 mb-lg-0" id="nav2" style="position: absolute; right: 0;">
+            <li class="nav-item">
+              <a class="nav-link " href="accueil"  (click)="changeBg('1')">{{'navbar.home' | translate}}</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="about" (click)="changeBg('2')">{{'navbar.about' | translate}}</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="speakers" (click)="changeBg('2')">{{'navbar.speakers' | translate}}</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">{{'navbar.program' | translate}}</a>
+            </li>
+            <li class="nav-item">
+              <select class="nav-link" (change)="changeLang($any($event.target).value)">
+                <option value="fr" [selected]="lang == 'fr'">{{'navbar.btn_lang_fr' | translate}}</option>
+                <option value="en" [selected]="lang == 'en'">{{'navbar.btn_lang_en' | translate}}</option>
+              </select>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+</div>

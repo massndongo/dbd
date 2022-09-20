@@ -1,0 +1,33 @@
+{
+    "navbar": {
+        "home": "Accueil",
+        "about": "A propros de DBD",
+        "speakers": "Intervenants",
+        "program": "Programme",
+        "participer": "Participer",
+        "btn_lang_fr": "Français",
+        "btn_lang_en": "Anglais"
+    },
+    "home": {
+        "header_text": "Le 1er forum du Sénégal et d'Afrique francophone 100% dédié au Bitcoin",
+        "day": "Jours",
+        "hour": "Heures",
+        "minute": "Minutes",
+        "second": "Secondes",
+        "card1": "Sans profit, de portée internationale, à destination des acteurs publiques, privés, universitaires, et de la population locale et sous régionale. Durant ce forum, il s’agira de parler des différents aspects qui sous-tendent le Bitcoin, d’en apporter une meilleure compréhension, de rendre visibles les communautés, les usages, de développer des projets/partenariats et de présenter des solutions pratiques et intuitives qu'offrent le protocole Bitcoin. Cette 1ère édition est dédiée à l’éducation, la sensibilisation et à la promotion de la technologie, au service de l'éducation financière.",
+        "more": "En savoir plus",
+        "target": "Cibles",
+        "target_p": "Les personnes ciblées restent les sénégalais et les francophones d'Afrique qui s’intéressent de plus en plus au Bitcoin et au domaine plus large communément appelé la 'blockchain'. Il sera important qu’à la sortie du forum, qu’ils puissent démêler le vrai du faux lorsqu’il s’agit du Bitcoin.",
+        "target_student_title": "Etudiants & Académiciens",
+        "target_student_p": "Le forum est à destination des étudiants (programmation, sécurité, droit, économie, réseaux, télécoms, iot…) et du monde académique et de la recherche en général.",
+        "target_sector_title": "Secteur privé & Entrepreneurs",
+        "target_sector_p": "Une de nos cibles prioritaires reste les commerçants, entrepreneurs et industriels de notre tissu économique qui ont besoin d’être exposés aux avantages d’utiliser et d’accepter le Bitcoin comme moyen de paiement.",
+        "target_finance_title": "Finances",
+        "target_finance_p": "Le secteur de la Finance (Banques, Assurances, Sociétés de Gestion et d’Intermédiation, Banque Centrale) est impacté par le nouveau paradigme proposé par le bitcoin en matière de transfert d’argent, d’épargne et d’investissement.",
+        "target_ins_title": "Institutionnels",
+        "target_ins_p": "Les pouvoirs publics verront les différentes facettes du Bitcoin afin qu’ils saisissent pourquoi est-ce que des pays comme le Salvador ou encore la République Centrafricaine ont décidé de créer un cadre légal pour le Bitcoin.",
+        "program_p": "Le forum se tiendra sur 2 journées avec différentes cibles et différents formats de contenu qui tourneront autour de panels (4 personnes maximum), de présentations sur des sujets spécifiques, de démos de solutions innovantes et d’un hackathon. Il y aura aussi des stands dédiés aux startups, aux entreprises qui évoluent autour du bitcoin et aux commerces qui acceptent le bitcoin comme moyen de paiement.",
+        "speakers": "Nos Intervenants",
+        "sponsors": "Nos Sponsors"
+    }
+}

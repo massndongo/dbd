@@ -10,6 +10,9 @@ export class SpeakersComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    
+    localStorage.setItem('bgColor', '2')
+    
   }
 
 }

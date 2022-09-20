@@ -1,0 +1,79 @@
+
+.titre{
+    font-family: 'Thunder';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 59px;
+    /* identical to box height */
+
+
+    /* green */
+
+    color: #008773;
+    width: 100%;
+    margin-top: 2%;
+}
+
+.para{
+    margin: 5% 15% 0% 15% ;
+}
+
+label{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+input, textarea, select, input:focus, textarea:focus, select:focus{
+    background-color: #80C3B9;
+    // border: 2px solid #FAC400;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: rgba(0, 0, 0, 0.63);
+}
+
+input[type=checkbox]:focus{
+    
+    background-color: #80C3B9;
+}
+input[type=checkbox]:checked{
+    background-color: #008773;
+    border: 2px solid #008773;
+
+ 
+}
+.form-control{
+    border: 2px solid #FAC400;
+}
+.btn_send{
+    padding: 18px 64px;
+    gap: 10px;
+
+    /* yellow */
+
+    background: #FAC400;
+    border-radius: 12px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+
+    /* green */
+
+    color: #008773;
+    border:none;
+}

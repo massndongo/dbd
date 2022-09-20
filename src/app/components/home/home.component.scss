@@ -38,12 +38,28 @@
 
     /* green */
 
-    color: #008773;
+    color: #004137;
 
 }
 .header{
     justify-content: center;
+    background-color: #E0E0E0;
+    // background-image: url('../../../assets/img/website\ banner.png');
+    background-attachment: fixed;
+    background-position: 100%;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    height: 550px;
+    background: linear-gradient(
+     rgba(0, 0, 0, 0.45), 
+     rgba(0, 0, 0, 0.45)
+   ),url('../../../assets/img/website\ banner.png')no-repeat;
+   background-size: 100% 650px;
+
+    
 }
+
+
 
 .timer{
     background-color: white;
@@ -164,7 +180,7 @@
     margin-top: 8%;
 
 }
-.titre_target{
+.titre_target, .titre_target1{
     font-family: 'Thunder';
     font-style: normal;
     font-weight: 700;
@@ -175,8 +191,10 @@
 
     /* green */
 
-    color: #008773;
-    margin-left: 15%;
+    color: #008773;  
+}
+.titre_target{
+    margin-left: 15%;  
 }
 .card{
     
@@ -347,6 +365,8 @@ ul .disc{
 }
 .imgSlideVert{
     border-radius: 50%;
+    width: 400px;
+    height: 350px;
     border: 1px solid #008773;
 
 }
@@ -378,7 +398,10 @@ ul .disc{
 
 #map{
     margin-left: 5%;
+    // width: 45%;
+    // height: 500px;
 }
+
 .form_info{
     margin-left: 3%;
 }
@@ -407,4 +430,22 @@ textarea, input {
     background: #FAC400;
     border-radius: 12px;
     border: none;
+}
+
+.marker{
+    // background-image: url('assets/img/marker.jpg');
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.bigSponsor{
+    width: 85%;
+    margin-left: 15%;
+}
+.sponsor_img{
+   margin: 2% 2% 2% 0%;
+   width: 250px;
+   height: 250px;
 }

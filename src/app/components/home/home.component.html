@@ -1,8 +1,8 @@
 
-<div class="row text-center flex justify-center">
+<div class="row text-center flex justify-center mb-5">
 
     <div class="p-5 row justify-center header">
-        <h1 class="mb-3 road">Road The First Dakar <br> Bitcoin Days</h1>
+        <h1 class="mb-3 road">{{'home.header_text' | translate}} </h1>
         <a class="btn btn_participer btn-primary" href="" role="button">Participer</a>
     </div>
     <div class="row timer">
@@ -15,21 +15,21 @@
                 <div class="rond col-3"> <span>{{secondsToDday}} </span> </div>
             </div>
             <div class="row bg">
-                <div class="date col-3"> <span>Days</span> </div>
-                <div class="date col-3"> <span>Hours</span> </div>
-                <div class="date col-3"> <span>Minutes</span> </div>
-                <div class="date col-3"> <span>Seconds</span> </div>
+                <div class="date col-3"> <span>{{'home.day' | translate}}</span> </div>
+                <div class="date col-3"> <span>{{'home.hour' | translate}}</span> </div>
+                <div class="date col-3"> <span>{{'home.minute' | translate}}</span> </div>
+                <div class="date col-3"> <span>{{'home.second' | translate}}</span> </div>
             </div>
         </div>
         <div class="left col-4"></div>
     </div>
     <div class="row dbd">
         <div class="col-md-6 div1 mt-5 text-start">
-            <h2 class="heading titre_dbd text-start"> Dakar Bitcoin Days</h2>
+            <h2 class="heading titre_dbd text-start">Dakar Bitcoin Days</h2>
             <p class="lead text-start">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mus in amet sit metus, sit sed leo vulputate. Luctus eget tortor in tempus rhoncus nibh sit id turpis. Arcu viverra sit eget at tristique velit euismod. Lobortis urna, tristique adipiscing pellentesque lectus. Sit nec sit nunc pellentesque quis malesuada. Et neque, consequat, tellus, sit. Donec volutpat mauris, hac nulla. Ac faucibus egestas lectus amet. Lacus, fermentum varius ultrices ultricies. Amet elit sit enim tristique fermentum morbi tristique nisl. Risus, gravida sit mauris vulputate elit dignissim.
+                {{'home.card1' | translate}}
             </p>
-            <button class="btn btn_discover"><span class="discover"> Dscover more</span></button>
+            <button class="btn btn_discover"><span class="discover">{{'home.more' | translate}}</span></button>
         </div>
         <div class="col-lg-3 col-md-11 img1 rounded-2">
             <img class="featurette-image img-fluid mx-auto"  alt="500x500" src="assets/img/logo_dbd.jpg"  >
@@ -37,62 +37,61 @@
     </div>
     <div class="row target">
         <div class="">
-            <h1 class="titre_target text-start">Interested targets</h1>
+            <h1 class="titre_target text-start">{{'home.target' | translate}}</h1>
         </div>
         <div class="card_target row">
+            <p class="lead text-start text-dark">
+                {{'home.target_p' | translate}}
+            </p>
             <div class="card col-lg-3 col-md-5 m-4" style="width: 18rem;">
                 <div class="card-body text-start">
                   <img src="../../../assets/img/StudentMale.png" style="width: 32px; height: 32px" alt="" srcset="">
-                  <h6 class="card-subtitle mt-2">Etudiants</h6>
-                  <p class="card-text mt-2">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="card-link">Card link</a>
+                  <h6 class="card-subtitle mt-2">{{'home.target_student_title' | translate}}</h6>
+                  <p class="card-text mt-2">{{'home.target_student_p' | translate}}</p>
                 </div>
             </div>
             <div class="card col-lg-3 col-md-5 m-4" style="width: 18rem;">
                 <div class="card-body text-start">
                   <img src="../../../assets/img/SchoolBuilding.png" style="width: 32px; height: 32px" alt="" srcset="">
-                  <h6 class="card-subtitle mt-2">Académiciens</h6>
-                  <p class="card-text mt-2">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="card-link">Card link</a>
+                  <h6 class="card-subtitle mt-2">{{'home.target_sector_title' | translate}}</h6>
+                  <p class="card-text mt-2">{{'home.target_sector_p' | translate}}</p>
                 </div>
             </div>
             <div class="card col-lg-3 col-md-5 m-4" style="width: 18rem;">
                 <div class="card-body text-start">
                   <img src="../../../assets/img/Informatics.png" class="" style="width: 32px; height: 32px" alt="" srcset="">
-                  <h6 class="card-subtitle mt-2">Tech & Com & Industrie</h6>
-                  <p class="card-text mt-2">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="card-link">Card link</a>
+                  <h6 class="card-subtitle mt-2">{{'home.target_finance_title' | translate}}</h6>
+                  <p class="card-text mt-2">{{'home.target_finance_p' | translate}}</p>
                 </div>
             </div>
             <div class="card col-lg-3 col-md-5 m-4" style="width: 18rem;">
                 <div class="card-body text-start">
                   <img src="../../../assets/img/Organization.png" style="width: 32px; height: 32px" alt="" srcset="">
-                  <h6 class="card-subtitle mt-2">Institutionnel</h6>
-                  <p class="card-text mt-2">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="card-link">Card link</a>
+                  <h6 class="card-subtitle mt-2">{{'home.target_ins_title' | translate}}</h6>
+                  <p class="card-text mt-2">{{'home.target_ins_p' | translate}}</p>
                 </div>
             </div>
         </div>
     </div>
-    <div class="row program">
+    <div class="row program" id="programme">
         <div class="">
-            <h1 class="titre_target text-start">Programs</h1>
+            <h1 class="titre_target text-start">{{'navbar.program' | translate}}</h1>
         </div>
         <div class="contenu_program text-start row">
-            <div class="text_program col-lg-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mus in amet sit metus, sit sed leo vulputate. Luctus eget tortor in tempus rhoncus nibh sit id turpis. Arcu viverra sit eget at tristique velit euismod.</div>
+            <div class="text_program col-lg-4">{{'home.program_p' | translate}}</div>
             <div class="content_program col-lg-8">
                 <ul class="nav nav-tabs" id="myTab" role="tablist">
                     <li class="nav-item" role="presentation">
-                      <button class="nav-link active buttonday" id="home-tab" data-bs-toggle="tab" data-bs-target="#day1" type="button" role="tab" aria-controls="day1" aria-selected="true">Day 1</button>
+                      <button class="nav-link active buttonday" id="home-tab" data-bs-toggle="tab" data-bs-target="#day1" type="button" role="tab" aria-controls="day1" aria-selected="true">Vendredi 02 Décembre 2022</button>
                     </li>
                     <li class="nav-item " role="presentation">
-                      <button class="nav-link buttonday" id="profile-tab" data-bs-toggle="tab" data-bs-target="#day2" type="button" role="tab" aria-controls="day2" aria-selected="false">Day 2</button>
+                      <button class="nav-link buttonday" id="profile-tab" data-bs-toggle="tab" data-bs-target="#day2" type="button" role="tab" aria-controls="day2" aria-selected="false">Samedi 03 Décembre 2022</button>
                     </li>
                 </ul>
                 <div class="tab-content" id="myTabContent">
                     <div class="tab-pane fade show active" id="day1" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
                         <div class="stepper row">
-                            <div class="horaire col-4">10:00 AM - 14:00 PM</div>
+                            <div class="horaire col-4">09:00 - 13:00</div>
                             <div class="step1 col-1 justify-content-center">
                                 <button class="butonStep1">1</button>
                                 <div class="line1">&nbsp;</div>
@@ -100,43 +99,29 @@
                             <div class="contenu_step1 col-5">
                                 <ul>
                                     <li>Discours d’introduction</li>
-                                    <li>Projection documentaire sur le bitcoin au Sénégal
-                                        <ul class="disc">
-                                            <li>Le Bitcoin dans les pays d’Afrique francophones</li>
-                                            <li>L’impact économique du bitcoin</li>
-                                            <li>Est ce la fin de la finance traditionnelle ?</li>
-                                            <li>Les oppotunités qu’offre le bitcoin ?</li>
-                                            <li>Le minage en Afrique: fantasme ou opportunité ?</li>
-                                            <li>Le fléau des ponzis : danger sur la perception vis à vis du bitcoin</li>
-                                            <li>Garder ses bitcoins soit même ou les laisser sur un exchange ?</li>
-                                            <li>Bitcoin est il vraiment sûr ?</li>
-                                        </ul>
-                                    </li>
+                                    <li>Histoire de la monnaie : son évolution jusqu'à la naissance de la philosophie Bitcoin
+                                    <li>L’impact économique du Bitcoin</li>
+                                    <li>Les oppotunités qu’offre le Bitcoin (emploi, entrepreunariat, consulting international...)?</li>
+                                    <li>Le minage de bitcoin, aide économique au développement de la production électrique renouvelable en Afrique?</li>
+                                    <li>Minage et rentabilité - ENG</li>
                                 </ul>
                             </div>
                             
-                            <div class="horaire col-4">15:00 PM - 18:00 PM</div>
+                            <div class="horaire col-4">15:00 - 17:30</div>
                             <div class="step1 col-1 justify-content-center">
                                 <button class="butonStep1">2</button>
                                 <div class="line1">&nbsp;</div>
                             </div>
                             <div class="contenu_step1 col-5">
                                 <ul>
-                                    <li>Panels (quelques exemples)
-                                        <ul class="disc">
-                                            <li>Histoire de la monnaie</li>
-                                            <li>Histoire du Bitcoin</li>
-                                            <li>Le minage et les aspects liés à l'énergie / réchauffement climatique</li>
-                                        </ul>
-                                    </li>
-                                    <li>Hackaton
-                                        <ul class="disc">
-                                            <li>Communication du sujet et du format</li>
-                                            <li>Prélaunch</li>
-                                            <li>Bootcamp</li>
-                                            <li>Déroulement du Hakaton</li>
-                                        </ul>
-                                    </li>
+                                    <li>Le Bitcoin en Afrique : état des lieux</li>
+                                    <li>L'état de la réglementation du Bitcoin dans le monde, avec un focus sur les cas du Salvador et de la Centrafrique</li>
+                                    <li>Le lightning network : transfert d'argent et micropaiements</li>
+                                    <li>Le lightning network : aspects techniques - ENG</li>
+                                    <li>Bitcoin vs Finance traditionnelle vs Transfert d'argent</li>
+                                    <li>Mutations de la finance traditionnelle : Bitcoin, DeFi, Stablecoins, CBDCs...</li>
+                                    <li>Garder ses bitcoins soit même ou les laisser sur un exchange ?</li>
+                                    <li>Ponzi, altcoins, shitcoins : Y'a t-il que le Bitcoin de vrai ?</li>
                                 </ul>
                             </div>
 
@@ -155,7 +140,7 @@
     </div>
     <div class="row speaker" style="background-color: #ffffff;">
         <div class="">
-            <h1 class="titre_target text-start">Our Speakers</h1>
+            <h1 class="titre_target text-start">{{'home.speakers' | translate}}</h1>
         </div>
         <div class="" style="background-color: #ffffff;">
           <div class="container mt-5">
@@ -168,34 +153,34 @@
                                   <div class="swiper-slide">
                                     <div class="imgSlideRed">
                                         <div class="imgSlideJaune">
-                                            <img class="img-fluid imgSlideVert" src="assets/img/logo_dbd.jpg" alt="alternative" />
+                                            <img class="img-fluid imgSlideVert" src="assets/img/peter.jpeg" alt="alternative" />
                                         </div>
                                     </div>
                                     <div class="text_imgSlide">
-                                        <span class="nom_img">Massam Ndongo</span> <br>
-                                        <span class="titre_img">Developpeur Fullstack</span>
+                                        <span class="nom_img">Peter Todd</span> <br>
+                                        <span class="titre_img">Contributeur Bitcoin</span>
                                     </div>
                                   </div>
                                   <div class="swiper-slide">
                                     <div class="imgSlideRed">
                                         <div class="imgSlideJaune">
-                                            <img class="img-fluid imgSlideVert" src="assets/img/logo_dbd.jpg" alt="alternative" />
+                                            <img class="img-fluid imgSlideVert" src="assets/img/saifedean ammous.jpg" alt="alternative" />
                                         </div>
                                     </div>
                                     <div class="text_imgSlide">
-                                        <span class="nom_img">Nourou</span> <br>
-                                        <span class="titre_img">Entrepreneur</span>
+                                        <span class="nom_img">Dr Saifedean Ammous</span> <br>
+                                        <span class="titre_img">Ecrivain - Professeur</span>
                                     </div>
                                   </div>
                                   <div class="swiper-slide">
                                     <div class="imgSlideRed">
                                         <div class="imgSlideJaune">
-                                            <img class="img-fluid imgSlideVert" src="assets/img/logo_dbd.jpg" alt="alternative" />
+                                            <img class="img-fluid imgSlideVert" src="assets/img/abdoulaye.jpg" alt="alternative" />
                                         </div>
                                     </div>
                                     <div class="text_imgSlide">
-                                        <span class="nom_img">Samba Ndiaye</span> <br>
-                                        <span class="titre_img">Money Cash</span>
+                                        <span class="nom_img">Pr Abdoulaye Ndiaye</span> <br>
+                                        <span class="titre_img">Professeur</span>
                                     </div>
                                   </div>
                               </div>
@@ -209,35 +194,36 @@
     </div>
     <div class="row speaker" style="background-color: #ffffff;">
         <div class="">
-            <h1 class="titre_target text-start">Our Sponsors</h1>
+            <!-- <h1 class="titre_target text-start">Our Sponsors</h1> -->
         </div>
-        <div class="" style="background-color: #ffffff;">
-          <div class="container mt-5">
-              <div class="row">
-                  <div class="col-lg-12">
-                   
-                      <div class="slider-container">
-                          <div class="swiper-container image-slide">
-                              <div class="swiper-wrapper" >
-                                  <div class="swiper-slide">
-                                        <img class="img-fluid img_slide" src="assets/img/etf-investment-guide-theme-crypto.jpg" alt="alternative" />
-                                  </div>
-                                  <div class="swiper-slide">
-                                        <img class="img-fluid img_slide" src="assets/img/cours-bitcoin-marche-crypto-rouge.jpg" alt="alternative" />
-                                  </div>
-                                  <div class="swiper-slide">
-                                        <img class="img-fluid img_slide" src="assets/img/etf-investment-guide-theme-crypto.jpg" alt="alternative" />
-                                  </div>
-                                  <div class="swiper-slide">
-                                        <img class="img-fluid img_slide" src="assets/img/cours-bitcoin-marche-crypto-rouge.jpg" alt="alternative" />
-                                  </div>
-                              </div>
-                          </div> 
-                      </div> 
-                     
-                  </div> 
-              </div>
-          </div> 
+        <div class="row">
+            <div class="bigSponsor row">
+                <h1 class="titre_target1">{{'home.sponsors' | translate}}</h1>
+                <div class="col-lg-4 col-md-6">
+                    <img src="../../../assets/img/econoalchemist-promo-image.jpg" class="sponsor_img" alt="Avatar" />
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <img src="../../../assets/img/sponsor.png" class="sponsor_img" alt="Avatar" />
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <img src="../../../assets/img/sponsor.png" class="sponsor_img" alt="Avatar" />
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <img src="../../../assets/img/sponsor.png" class="sponsor_img" alt="Avatar" />
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <img src="../../../assets/img/sponsor.png" class="sponsor_img" alt="Avatar" />
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <img src="../../../assets/img/sponsor.png" class="sponsor_img" alt="Avatar" />
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <img src="../../../assets/img/sponsor.png" class="sponsor_img" alt="Avatar" />
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <img src="../../../assets/img/sponsor.png" class="sponsor_img" alt="Avatar" />
+                </div>
+            </div>
         </div> 
     </div>
    <div class="row dbd dbd1">
@@ -278,26 +264,31 @@
     </div>
 
     <div class="row info">
-        <div class="col-lg-5 col-10" id="map">
+        <div class="col-lg-5 col-10 map" id="map">
             
         </div>
         
         <div class="col-lg-5 col-md-10 form_info">
-            <form class="row g-3">
+            <div class="row g-3" *ngIf="!submitted">
                 <span class="titre_info text-start">Pour plus d'informations sur l'événement, contacter nous!</span>
                 <div class="col-10 col-lg-5">
-                <input type="text" placeholder="Full name" class="form-control" id="inputEmail4">
+                <input type="text" placeholder="Full name" class="form-control" id="name" required [(ngModel)]="user.name">
                 </div>
                 <div class="col-10 col-lg-5">
-                <input type="email" placeholder="Email" class="form-control" id="inputEmail4">
+                <input type="email" placeholder="Email" class="form-control" id="email" required [(ngModel)]="user.email">
                 </div>
                 <div class="col-10">
-                <textarea class="form-control" placeholder="Message" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <textarea class="form-control" placeholder="Message" id="message" rows="3" required [(ngModel)]="user.message"></textarea>
                 </div>
                 <div class="col-10">
-                <button type="submit" class="btn btn-info col-4 mt-4 p-2">Envoyer</button>
+                <button (click)="saveUser()" class="btn btn-info col-4 mt-4 p-2">Envoyer</button>
                 </div>
-          </form>
+                
+            </div>
+          <div *ngIf="submitted">
+              <h4>You submitted successfully!</h4>
+              <button class="btn btn-success" (click)="newUser()">Add</button>
+          </div>
         </div>
     </div>
     
