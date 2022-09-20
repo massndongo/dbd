@@ -8,6 +8,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 })
 export class NavbarComponent implements OnInit {
   bg: any;
+  lang: string;
 
   constructor(
     private route: ActivatedRoute
@@ -15,11 +16,13 @@ export class NavbarComponent implements OnInit {
 
   ngOnInit(): void {
 
+    this.lang = localStorage.getItem('lang') || 'en'
+
     console.log(window.location.href)
     if (window.location.href =='http://localhost:4200/speakers' || window.location.href =='http://localhost:4200/about') {
       this.bg = 2;
     }
-    if (window.location.href =='http://localhost:4200/accueil' || window.location.href =='http://localhost:4200/#' || window.location.href != null) {
+    if (window.location.href =='http://localhost:4200/accueil' || window.location.href =='http://localhost:4200/#' || window.location.href == 'http://localhost:4200/') {
       this.bg = 1;
 
     }
@@ -29,11 +32,12 @@ export class NavbarComponent implements OnInit {
     }
     console.log(this.bg);
     console.log(window.location.href);
-    
-    
-    
-    
 
+  }
+
+  changeLang(lang: string){
+    localStorage.setItem('lang', lang)
+    window.location.reload()
   }
 
 }
