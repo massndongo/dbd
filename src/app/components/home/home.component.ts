@@ -59,6 +59,8 @@ private allocateTimeUnits (timeDifference: any) {
 
   ngOnInit(): void {
 
+    localStorage.setItem('bgColor', '1')
+
     this.buildMap();
 
   

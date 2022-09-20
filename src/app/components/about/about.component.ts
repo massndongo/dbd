@@ -10,6 +10,9 @@ export class AboutComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    
+    localStorage.setItem('bgColor', '2')
+    
   }
 
 }

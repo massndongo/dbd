@@ -10,6 +10,8 @@ export class ReserveComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    localStorage.setItem('bgColor', '3')
+
   }
 
 }
