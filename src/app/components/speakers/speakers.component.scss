@@ -33,7 +33,7 @@ section{
     left: 10%;
     right: 10%;
     color: #FAC400;
-    font-family: 'Inter';
+    font-family: 'Sora';
     font-style: normal;
     width: 80%;
     padding-top: 5%;
@@ -47,7 +47,7 @@ section{
     line-height: 35px;
     text-align: center;
     color: white;
-    font-family: 'Inter';
+    font-family: 'Sora';
     font-style: normal;
     width: 90%;
     margin-top: 5%;
@@ -74,29 +74,29 @@ section{
 
 .member img {
     display: block;
-    width: 310px;
-    height: 310px;
-    border: 5px solid #A4052D;
-    border-image: linear-gradient(120deg, green, yellow, red);
+    width: 180px;
+    height: 180px;
+    //border: 5px solid #A4052D;
+    border-image: linear-gradient;
     border-image-slice: 1;
     border-radius: 50%;
     margin: 0 100px;
 }
 
 .member h3 {
-    font-family: 'Inter';
+    font-family: 'Sora';
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 29px;
     color: #FFF;
 }
 
 .member p {
-    font-family: 'Inter';
+    font-family: 'Sora';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 13px;
     line-height: 19px;
     color: #FFF; 
 }

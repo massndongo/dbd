@@ -7,11 +7,11 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 90px;
-    font-family: 'DM Sans';
+    margin-top: 50px;
+    font-family: 'Sora';
     font-style: normal;
     font-weight: 700;
-    font-size: 32px;
+    font-size: 25px;
     line-height: 42px;
 /* identical to box height */
     border: none;
@@ -29,7 +29,7 @@
 
 .road{
     
-    font-family: 'Thunder';
+    font-family: 'Sora';
     font-style: normal;
     font-weight: bold;
     font-size: 64px;
@@ -78,11 +78,11 @@
     background: #FAC400;
     border: 1px solid rgba(164, 5, 45, 0.8);
     border-radius: 50%;
-    font-family: 'Thunder';
+    font-family: 'Sora';
     font-style: normal;
     font-weight: 700;
-    font-size: 36px;
-    line-height: 33px;
+    font-size: 30px;
+    line-height: 30px;
     text-align: center;
 }
 .bg{
@@ -95,10 +95,10 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    justify-items: center;font-family: 'Thunder';
+    justify-items: center;font-family: 'Sora';
     font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
+    font-weight: 300;
+    font-size: 13px;
     line-height: 15px;
     /* identical to box height */
     
@@ -113,13 +113,13 @@
     height: 70px;
 }
 .dbd{
-    background-color: #008773;
+    background-color: white;
 }
 .titre_dbd{
-    font-family: 'Thunder';
+    font-family: 'Sora';
     font-style: normal;
     font-weight: bold;
-    font-size: 64px;
+    font-size: 45px;
     line-height: 59px;
     /* identical to box height */
     
@@ -127,7 +127,7 @@
     
     /* yellow */
     
-    color: #FAC400;
+    color: #004137;
 }   
 .btn_discover{
     width: 110px;
@@ -135,10 +135,10 @@
     background: #FAC400;
     border: 1px solid rgba(0, 135, 115, 0.8);
     border-radius: 50%;
-    font-family: 'Thunder';
+    font-family: 'Sora';
     font-style: normal;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 10px;
     line-height: 20px;
     /* identical to box height, or 100% */
 
@@ -151,7 +151,7 @@
 
 }
 .lead{
-    font-family: 'DM Sans';
+    font-family: 'Sora';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -162,7 +162,7 @@
 
     /* white */
 
-    color: #FFFFFF;
+    color: black;
 }
 .div1{
     margin-left: 15%; 
@@ -173,7 +173,7 @@
     position: relative;
     top: 5%;
     left: 2%;
-    background-color: #FAC400;
+    background-color: white;
 }
 
 .target, .program, .speaker, .dbd1, .info{
@@ -181,10 +181,10 @@
 
 }
 .titre_target, .titre_target1{
-    font-family: 'Thunder';
+    font-family: 'Sora';
     font-style: normal;
     font-weight: 700;
-    font-size: 64px;
+    font-size: 45px;
     line-height: 59px;
     /* identical to box height */
 
@@ -210,7 +210,7 @@
     // background-color: red;
 }
 .card-subtitle{
-    font-family: 'DM Sans';
+    font-family: 'Sora';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -223,7 +223,7 @@
     color: #008773;
 }
 .card-text{
-    font-family: 'DM Sans';
+    font-family: 'Sora';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -234,7 +234,7 @@
     color: #000000;
 }
 .card-link{
-    font-family: 'DM Sans';
+    font-family: 'Sora';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -256,7 +256,7 @@
 }
 
 .text_program{
-    font-family: 'DM Sans';
+    font-family: 'Sora';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -295,10 +295,10 @@
 }
 .horaire{
     margin-left: 5%;
-    font-family: 'DM Sans';
+    font-family: 'Sora';
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 13px;
     line-height: 21px;
     
     /* black */
@@ -309,7 +309,7 @@
     border: none;
     background: #0087732a;
     // opacity: 0.3; 
-    font-family: 'Thunder';
+    font-family: 'Sora';
     font-style: normal;
     font-weight: 900;
     font-size: 16px;
@@ -341,7 +341,7 @@
 
 }
 .contenu_step1{
-    font-family: 'DM Sans';
+    font-family: 'Sora';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -365,13 +365,13 @@ ul .disc{
 }
 .imgSlideVert{
     border-radius: 50%;
-    width: 400px;
-    height: 350px;
+    width: 200px;
+    height: 200px;
     border: 1px solid #008773;
 
 }
 .nom_img{
-    font-family: 'DM Sans';
+    font-family: 'Sora';
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -380,7 +380,7 @@ ul .disc{
     color: #000000;
 }
 .titre_img{
-    font-family: 'DM Sans';
+    font-family: 'Sora';
     font-style: normal;
     font-size: 16px;
     line-height: 21px;
@@ -406,7 +406,7 @@ ul .disc{
     margin-left: 3%;
 }
 .titre_info{
-    font-family: 'DM Sans';
+    font-family: 'Sora';
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -418,7 +418,7 @@ textarea, input {
     border: 2px solid #008773;
 }
 .btn-info{
-    font-family: 'DM Sans';
+    font-family: 'Sora';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -446,6 +446,6 @@ textarea, input {
 }
 .sponsor_img{
    margin: 2% 2% 2% 0%;
-   width: 250px;
-   height: 250px;
+   width: 150px;
+   height: 150px;
 }
