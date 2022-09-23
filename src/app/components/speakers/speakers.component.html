@@ -1,4 +1,4 @@
-<div class="main">
+<!-- <div class="main">
     <div class="speakers">
         <h1 class="title1">Découvrez nos intervenants</h1>
         <p class="sp_paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque deserunt eligendi quia, cupiditate, dolorum harum ratione consectetur minus tempore temporibus officiis quaerat perspiciatis debitis molestiae iure nobis odio, veniam in! <br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel aperiam dolore laboriosam hic quibusdam dolorum sint cum odio excepturi, explicabo ipsum ipsa aspernatur reprehenderit adipisci commodi magni enim soluta provident!</p>
@@ -62,4 +62,220 @@
 
         </div>
     </section>
+</div> -->
+<nav id="navbarExample" class="navbar navbar-expand-lg nav1 sticky-top" aria-label="Main navigation">
+    <div class="container mx-auto">    
+        <a class="navbar-brand logo-text" href="#">
+            <img src="../../../assets/img/removebg-preview.png" alt="logo" style="width: 100px;">
+        </a> 
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto navbar-nav-scroll ml-lg-5 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="accueil" >{{'navbar.home' | translate}}</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="about" >{{'navbar.about' | translate}}</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="speakers" >{{'navbar.speakers' | translate}}</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark">{{'navbar.program' | translate}}</a>
+                </li>
+                <li class="nav-item">
+                    <select class="nav-link" (change)="changeLang($any($event.target).value)">
+                    <option value="fr" [selected]="lang == 'fr'">{{'navbar.btn_lang_fr' | translate}}</option>
+                    <option value="en" [selected]="lang == 'en'">{{'navbar.btn_lang_en' | translate}}</option>
+                    </select>
+                </li>
+                <li class="nav-item ms-lg-5">
+                    <button type="button" class="btn btn_participer rounded btn-dark"><a href="reserver" >{{'navbar.participer' | translate}}</a></button>
+                </li>
+            </ul>
+            <!-- <span class="nav-item">
+                <a class="btn-solid-sm" href="#contact">Participer</a>
+            </span> -->
+        </div> 
+    </div> 
+</nav>
+
+<div class="row text-center flex justify-center mb-5">
+
+    <div class="speakers"></div>
+
+    <h1 class="title1">Découvrez nos intervenants</h1>
+    <p class="sp_paragraph text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque deserunt eligendi quia, cupiditate, dolorum harum ratione consectetur minus tempore 
+        temporibus officiis quaerat perspiciatis debitis molestiae iure nobis odio, veniam in! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel aperiam dolore 
+        laboriosam hic quibusdam dolorum sint cum odio excepturi, explicabo ipsum ipsa aspernatur reprehenderit adipisci commodi magni enim soluta provident!
+    </p>
+    <div class="speaker">
+        <div class="mt-5">
+            <div class="row flex justify-center ">
+                <div class="imgSlideJaune col-lg-4 col-md-12">
+                    <img class="img-fluid imgSlideVert" src="assets/img/peter.jpeg" alt="alternative" />
+                    <div class="text_imgSlide">
+                        <span class="nom_img">Peter Todd</span> <br>
+                        <span class="titre_img">Contributeur Bitcoin</span>
+                    </div>
+                </div>
+                <div class="imgSlideJaune col-lg-4 col-md-12">
+                    <img class="img-fluid imgSlideVert" src="assets/img/saifedean ammous.jpg" alt="alternative" />
+                    <div class="text_imgSlide">
+                        <span class="nom_img">Dr Saifedean Ammous</span> <br>
+                        <span class="titre_img">Ecrivain - Professeur</span>
+                    </div>
+                </div>
+                <div class="imgSlideJaune col-lg-4 col-md-12">
+                    <img class="img-fluid imgSlideVert" src="assets/img/abdoulaye.jpg" alt="alternative" />
+                    <div class="text_imgSlide">
+                        <span class="nom_img">Peter Todd</span> <br>
+                        <span class="titre_img">Contributeur Bitcoin</span>
+                    </div>
+                </div>
+                <div class="imgSlideJaune col-lg-4 col-md-12">
+                    <img class="img-fluid imgSlideVert" src="../../../assets/img/bashir.jpg" alt="alternative" />
+                    <div class="text_imgSlide">
+                        <span class="nom_img">Peter Todd</span> <br>
+                        <span class="titre_img">Contributeur Bitcoin</span>
+                    </div>
+                </div>
+                <div class="imgSlideJaune col-lg-4 col-md-12">
+                    <img class="img-fluid imgSlideVert" src="../../../assets/img/bineta.jpg" alt="alternative" />
+                    <div class="text_imgSlide">
+                        <span class="nom_img">Peter Todd</span> <br>
+                        <span class="titre_img">Contributeur Bitcoin</span>
+                    </div>
+                </div>
+                <div class="imgSlideJaune col-lg-4 col-md-12">
+                    <img class="img-fluid imgSlideVert" src="../../../assets/img/cheikh seye.jpg" alt="alternative" />
+                    <div class="text_imgSlide">
+                        <span class="nom_img">Peter Todd</span> <br>
+                        <span class="titre_img">Contributeur Bitcoin</span>
+                    </div>
+                </div>
+                <div class="imgSlideJaune col-lg-4 col-md-12">
+                    <img class="img-fluid imgSlideVert" src="../../../assets/img/djiby.png" alt="alternative" />
+                    <div class="text_imgSlide">
+                        <span class="nom_img">Peter Todd</span> <br>
+                        <span class="titre_img">Contributeur Bitcoin</span>
+                    </div>
+                </div>
+                <div class="imgSlideJaune col-lg-4 col-md-12">
+                    <img class="img-fluid imgSlideVert" src="../../../assets/img/elisee.jpg" alt="alternative" />
+                    <div class="text_imgSlide">
+                        <span class="nom_img">Peter Todd</span> <br>
+                        <span class="titre_img">Contributeur Bitcoin</span>
+                    </div>
+                </div>
+                <div class="imgSlideJaune col-lg-4 col-md-12">
+                    <img class="img-fluid imgSlideVert" src="../../../assets/img/emmanuel.jpg" alt="alternative" />
+                    <div class="text_imgSlide">
+                        <span class="nom_img">Peter Todd</span> <br>
+                        <span class="titre_img">Contributeur Bitcoin</span>
+                    </div>
+                </div>
+                <div class="imgSlideJaune col-lg-4 col-md-12">
+                    <img class="img-fluid imgSlideVert" src="../../../assets/img/hermann-vivier-promo-image.jpg" alt="alternative" />
+                    <div class="text_imgSlide">
+                        <span class="nom_img">Peter Todd</span> <br>
+                        <span class="titre_img">Contributeur Bitcoin</span>
+                    </div>
+                </div>
+                <div class="imgSlideJaune col-lg-4 col-md-12">
+                    <img class="img-fluid imgSlideVert" src="../../../assets/img/joe.png" alt="alternative" />
+                    <div class="text_imgSlide">
+                        <span class="nom_img">Peter Todd</span> <br>
+                        <span class="titre_img">Contributeur Bitcoin</span>
+                    </div>
+                </div>
+                <div class="imgSlideJaune col-lg-4 col-md-12">
+                    <img class="img-fluid imgSlideVert" src="../../../assets/img/massamba sy.png" alt="alternative" />
+                    <div class="text_imgSlide">
+                        <span class="nom_img">Peter Todd</span> <br>
+                        <span class="titre_img">Contributeur Bitcoin</span>
+                    </div>
+                </div>
+                <div class="imgSlideJaune col-lg-4 col-md-12">
+                    <img class="img-fluid imgSlideVert" src="../../../assets/img/Mouhammad Dieng.jpeg" alt="alternative" />
+                    <div class="text_imgSlide">
+                        <span class="nom_img">Peter Todd</span> <br>
+                        <span class="titre_img">Contributeur Bitcoin</span>
+                    </div>
+                </div>
+                <div class="imgSlideJaune col-lg-4 col-md-12">
+                    <img class="img-fluid imgSlideVert" src="../../../assets/img/ousmane.jpg" alt="alternative" />
+                    <div class="text_imgSlide">
+                        <span class="nom_img">Peter Todd</span> <br>
+                        <span class="titre_img">Contributeur Bitcoin</span>
+                    </div>
+                </div>
+                <div class="imgSlideJaune col-lg-4 col-md-12">
+                    <img class="img-fluid imgSlideVert" src="../../../assets/img/paco.jpg" alt="alternative" />
+                    <div class="text_imgSlide">
+                        <span class="nom_img">Peter Todd</span> <br>
+                        <span class="titre_img">Contributeur Bitcoin</span>
+                    </div>
+                </div>
+                <div class="imgSlideJaune col-lg-4 col-md-12">
+                    <img class="img-fluid imgSlideVert" src="../../../assets/img/prince.jpg" alt="alternative" />
+                    <div class="text_imgSlide">
+                        <span class="nom_img">Peter Todd</span> <br>
+                        <span class="titre_img">Contributeur Bitcoin</span>
+                    </div>
+                </div>
+                <div class="imgSlideJaune col-lg-4 col-md-12">
+                    <img class="img-fluid imgSlideVert" src="../../../assets/img/saifedean ammous.jpg" alt="alternative" />
+                    <div class="text_imgSlide">
+                        <span class="nom_img">Peter Todd</span> <br>
+                        <span class="titre_img">Contributeur Bitcoin</span>
+                    </div>
+                </div>
+                <div class="imgSlideJaune col-lg-4 col-md-12">
+                    <img class="img-fluid imgSlideVert" src="../../../assets/img/sebastien.jpg" alt="alternative" />
+                    <div class="text_imgSlide">
+                        <span class="nom_img">Peter Todd</span> <br>
+                        <span class="titre_img">Contributeur Bitcoin</span>
+                    </div>
+                </div>
+                <div class="imgSlideJaune col-lg-4 col-md-12">
+                    <img class="img-fluid imgSlideVert" src="../../../assets/img/stephanlivera.33924e6.jpg" alt="alternative" />
+                    <div class="text_imgSlide">
+                        <span class="nom_img">Peter Todd</span> <br>
+                        <span class="titre_img">Contributeur Bitcoin</span>
+                    </div>
+                </div>
+                <div class="imgSlideJaune col-lg-4 col-md-12">
+                    <img class="img-fluid imgSlideVert" src="../../../assets/img/seydina.jpg" alt="alternative" />
+                    <div class="text_imgSlide">
+                        <span class="nom_img">Peter Todd</span> <br>
+                        <span class="titre_img">Contributeur Bitcoin</span>
+                    </div>
+                </div>
+                <div class="imgSlideJaune col-lg-4 col-md-12">
+                    <img class="img-fluid imgSlideVert" src="../../../assets/img/toffene.jpeg" alt="alternative" />
+                    <div class="text_imgSlide">
+                        <span class="nom_img">Peter Todd</span> <br>
+                        <span class="titre_img">Contributeur Bitcoin</span>
+                    </div>
+                </div>
+                <div class="imgSlideJaune col-lg-4 col-md-12">
+                    <img class="img-fluid imgSlideVert" src="../../../assets/img/vlad costea.jpg" alt="alternative" />
+                    <div class="text_imgSlide">
+                        <span class="nom_img">Peter Todd</span> <br>
+                        <span class="titre_img">Contributeur Bitcoin</span>
+                    </div>
+                </div>
+                <div class="imgSlideJaune col-lg-4 col-md-12">
+                    <img class="img-fluid imgSlideVert" src="../../../assets/img/vlad fomene.jpg" alt="alternative" />
+                    <div class="text_imgSlide">
+                        <span class="nom_img">Peter Todd</span> <br>
+                        <span class="titre_img">Contributeur Bitcoin</span>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
 </div>

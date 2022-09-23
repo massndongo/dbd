@@ -26,7 +26,26 @@
         "target_finance_p": "The Finance sector (Banks, Insurance, Management and Intermediation Companies, Central Bank) is impacted by the new paradigm offered by bitcoin in terms of money transfer, savings and investment.",
         "target_ins_title" : "Institutional",
         "target_ins_p": "Public authorities will see the different facets of Bitcoin so that they understand why countries like El Salvador or the Central African Republic have decided to create a legal framework for Bitcoin.",
+        "program_p": "The forum will be held over 2 days with different targets and different content formats that will revolve around panels (4 people maximum), presentations on specific topics, demos of innovative solutions and a hackathon. There will also be stands dedicated to startups, businesses that evolve around bitcoin and businesses that accept bitcoin as a means of payment.",
         "speakers": "Our Speakers",
-        "sponsors": "Our Sponsors"
+        "sponsors": "Our Sponsors",
+        "program_day_1": "Friday 02 December 2022",
+        "program_day_2": "Saturday 03 December 2022",
+        "program_hour_1": "09:00 - 13:00",
+        "program_hour_2": "15:00 - 17:30",
+        "program_1": "Introductory speech",
+        "program_2": "History of money: its evolution until the birth of the Bitcoin philosophy",
+        "program_3": "The economic impact of Bitcoin",
+        "program_4": "The opportunities offered by Bitcoin (employment, entrepreneurship, international consulting...)?",
+        "program_5": "Bitcoin mining, economic aid for the development of renewable electricity production in Africa?",
+        "program_6": "Mining and profitability - ENG",
+        "program_7": "Bitcoin in Africa: state of play",
+        "program_8": "The state of Bitcoin regulation around the world, with a focus on the cases of El Salvador and the Central African Republic",
+        "program_9": "The lightning network: money transfer and micropayments",
+        "program_10": "The lightning network: technical aspects - ENG",
+        "program_11": "Bitcoin vs Traditional Finance vs. Money Transfer",
+        "program_12": "Mutations in traditional finance: Bitcoin, DeFi, Stablecoins, CBDCs...",
+        "program_13": "Keep your bitcoins yourself or leave them on an exchange?",
+        "program_14": "Ponzi, altcoins, shitcoins: Is Bitcoin real?"
     }
 }

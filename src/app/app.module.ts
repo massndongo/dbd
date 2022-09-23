@@ -14,10 +14,6 @@ import { FormsModule } from '@angular/forms';
 import { provideFirebaseApp, getApp, initializeApp } from '@angular/fire/app';
 import { getFirestore, provideFirestore } from '@angular/fire/firestore';
 import { environment } from 'src/environments/environment';
-import { DataService } from './services/firebase/data.service';
-import { AngularFireModule, FIREBASE_OPTIONS } from '@angular/fire/compat';
-import { AngularFireDatabase } from '@angular/fire/compat/database';
-
 import {TranslateModule, TranslateLoader, TranslateService} from '@ngx-translate/core';
 import {TranslateHttpLoader} from '@ngx-translate/http-loader';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
@@ -48,13 +44,8 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
     ),
     AppRoutingModule,
     FormsModule,
-    provideFirebaseApp(() => initializeApp(environment.firebase)),
-    provideFirestore(() => getFirestore()),
   ],
-  providers: [
-    DataService, 
-    { provide: FIREBASE_OPTIONS, useValue: environment.firebase }
-  ],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
