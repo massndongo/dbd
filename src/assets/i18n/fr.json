@@ -28,6 +28,24 @@
         "target_ins_p": "Les pouvoirs publics verront les différentes facettes du Bitcoin afin qu’ils saisissent pourquoi est-ce que des pays comme le Salvador ou encore la République Centrafricaine ont décidé de créer un cadre légal pour le Bitcoin.",
         "program_p": "Le forum se tiendra sur 2 journées avec différentes cibles et différents formats de contenu qui tourneront autour de panels (4 personnes maximum), de présentations sur des sujets spécifiques, de démos de solutions innovantes et d’un hackathon. Il y aura aussi des stands dédiés aux startups, aux entreprises qui évoluent autour du bitcoin et aux commerces qui acceptent le bitcoin comme moyen de paiement.",
         "speakers": "Nos Intervenants",
-        "sponsors": "Nos Sponsors"
+        "sponsors": "Nos Sponsors",
+        "program_day_1": "Vendredi 02 Décembre 2022",
+        "program_day_2": "Samedi 03 Décember 2022",
+        "program_hour_1": "09:00 - 13:00",
+        "program_hour_2": "15:00 - 17:30",
+        "program_1": "Discours d’introduction",
+        "program_2": "Histoire de la monnaie : son évolution jusqu'à la naissance de la philosophie Bitcoin",
+        "program_3": "L’impact économique du Bitcoin",
+        "program_4": "Les oppotunités qu’offre le Bitcoin (emploi, entrepreunariat, consulting international...)?",
+        "program_5": "Le minage de bitcoin, aide économique au développement de la production électrique renouvelable en Afrique?",
+        "program_6": "Minage et rentabilité - ENG",
+        "program_7": "Le Bitcoin en Afrique : état des lieux",
+        "program_8": "L'état de la réglementation du Bitcoin dans le monde, avec un focus sur les cas du Salvador et de la Centrafrique",
+        "program_9": "Le lightning network : transfert d'argent et micropaiements",
+        "program_10": "Le lightning network : aspects techniques - ENG",
+        "program_11": "Bitcoin vs Finance traditionnelle vs Transfert d'argent",
+        "program_12": "Mutations de la finance traditionnelle : Bitcoin, DeFi, Stablecoins, CBDCs...",
+        "program_13": "Garder ses bitcoins soit même ou les laisser sur un exchange ?",
+        "program_14": "Ponzi, altcoins, shitcoins : Y'a t-il que le Bitcoin de vrai ?"
     }
 }

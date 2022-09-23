@@ -1,9 +1,48 @@
+<nav id="navbarExample" class="navbar navbar-expand-lg nav1 sticky-top " aria-label="Main navigation">
+    <div class="container">    
+        <a class="navbar-brand logo-text" href="#">
+            <img src="../../../assets/img/removebg-preview.png" alt="logo" style="width: 100px;">
+        </a> 
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto navbar-nav-scroll ml-lg-5 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="accueil" >{{'navbar.home' | translate}}</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="about" >{{'navbar.about' | translate}}</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="speakers" >{{'navbar.speakers' | translate}}</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark">{{'navbar.program' | translate}}</a>
+                </li>
+                <li class="nav-item">
+                    <select class="nav-link" (change)="changeLang($any($event.target).value)">
+                    <option value="fr" [selected]="lang == 'fr'">{{'navbar.btn_lang_fr' | translate}}</option>
+                    <option value="en" [selected]="lang == 'en'">{{'navbar.btn_lang_en' | translate}}</option>
+                    </select>
+                </li>
+                <li class="nav-item ms-lg-5">
+                    <button type="button" class="btn btn_participer rounded btn-dark"><a href="reserver" >{{'navbar.participer' | translate}}</a></button>
+                </li>
+            </ul>
+            <!-- <span class="nav-item">
+                <a class="btn-solid-sm" href="#contact">Participer</a>
+            </span> -->
+        </div> 
+    </div> 
+</nav>
+
 <div class="row text-center flex justify-center mb-5">
 
     
     <div class="row history">
-        <div class="col-md-10 col-lg-6 div1 mt-5 text-start">
-            <h2 class="heading titre_history text-start">Le Bitcoin, une révolution technologique</h2>
+        <div class="col-md-10 col-lg-6 div1 text-start">
+            <h2 class="heading titre_history text-start"> Our History</h2>
             <p class="lead text-start">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mus in amet sit metus, sit sed leo vulputate. Luctus eget tortor in tempus rhoncus nibh sit id turpis. Arcu viverra sit eget at tristique velit euismod. Lobortis urna, tristique adipiscing pellentesque lectus. Sit nec sit nunc pellentesque quis malesuada. Et neque, consequat, tellus, sit. Donec volutpat mauris, hac nulla. Ac faucibus egestas lectus amet. Lacus, fermentum varius ultrices ultricies. Amet elit sit enim tristique fermentum morbi tristique nisl. Risus, gravida sit mauris vulputate elit dignissim.
             </p>

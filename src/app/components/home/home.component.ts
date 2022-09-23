@@ -3,7 +3,6 @@ import { Component, OnDestroy, OnInit } from '@angular/core';
 import * as mapboxgl from 'mapbox-gl';
 import { interval, Subscription } from 'rxjs';
 import { User } from 'src/app/models/user.model';
-import { DataService } from 'src/app/services/firebase/data.service';
 import { environment } from 'src/environments/environment';
 
 
@@ -16,6 +15,9 @@ export class HomeComponent implements OnInit, OnDestroy {
 
   user: User = new User()
   submitted = false
+
+  bg: string;
+  lang: string;
 
   private subscription: Subscription;
   
@@ -51,13 +53,17 @@ private allocateTimeUnits (timeDifference: any) {
   zoom = 9
   
     
-  constructor(
-    private dataService: DataService
-  ) {
+  constructor() {
     
   }
 
   ngOnInit(): void {
+    
+    this.lang = localStorage.getItem('lang') || 'en'
+
+    this.bg = localStorage.getItem('bgColor') || '1'
+    
+    console.log(this.bg);
 
     localStorage.setItem('bgColor', '1')
 
@@ -72,6 +78,16 @@ private allocateTimeUnits (timeDifference: any) {
 
 
 
+  }
+  changeLang(lang: string){
+    localStorage.setItem('lang', lang)
+    window.location.reload()
+  }
+
+  changeBg(bg: string){
+    
+    localStorage.setItem('bgColor', bg)
+    window.location.reload()
   }
   buildMap(){
     this.map = new mapboxgl.Map({
@@ -116,18 +132,9 @@ private allocateTimeUnits (timeDifference: any) {
 
   }
 
-  saveUser(): void {
-    this.dataService.create(this.user).then(() => {
-      console.log('Create new user successfully!');
-      this.submitted = true;
-      
-    })
-  }
 
-  newUser(): void {
-    this.submitted = false;
-    this.user = new User()
-  }
+
+
 
   ngOnDestroy() {
     this.subscription.unsubscribe();
