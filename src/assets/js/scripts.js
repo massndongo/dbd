@@ -1,3 +1,22 @@
+$(document).ready(function(){       
+	var scroll_start = 0;
+	var startchange = $('#startchange');
+	var offset = startchange.offset();
+	$(document).scroll(function() { 
+	   scroll_start = $(this).scrollTop();
+	   if(scroll_start > offset.top) {
+		   $('#navbarExample').css('background-color', '#fff');
+		} else {
+		   $('#navbarExample').css('background-color', 'transparent');
+		}
+	});
+ });
+ 
+ $(document).ready( function () {
+	$('#redirection').click(function() {
+	  $('html,body').animate({scrollTop: $("#monancre").offset().top}, 'slow'      );
+	});  
+ }) 
 setTimeout(function(){ 
 // window.onscroll = function () {
 // 	scrollFunction();

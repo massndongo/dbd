@@ -1,3 +1,37 @@
+
+<nav id="navbarExample" class="navbar navbar-expand-lg nav1 sticky-top" aria-label="Main navigation">
+  <div class="container mx-auto">    
+      <a class="navbar-brand logo-text" href="#">
+          <img src="../../../assets/img/removebg-preview.png" alt="logo" style="width: 100px;">
+      </a> 
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto navbar-nav-scroll ml-lg-5 mb-lg-0">
+              <li class="nav-item">
+                  <a class="nav-link " href="accueil" >{{'navbar.home' | translate}}</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link " href="about" >{{'navbar.about' | translate}}</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link " href="speakers" >{{'navbar.speakers' | translate}}</a>
+              </li>
+              <li class="nav-item">
+                  <select class="nav-link" (change)="changeLang($any($event.target).value)">
+                  <option value="fr" [selected]="lang == 'fr'">{{'navbar.btn_lang_fr' | translate}}</option>
+                  <option value="en" [selected]="lang == 'en'">{{'navbar.btn_lang_en' | translate}}</option>
+                  </select>
+              </li>
+          </ul>
+          <!-- <span class="nav-item">
+              <a class="btn-solid-sm" href="#contact">Participer</a>
+          </span> -->
+      </div> 
+  </div> 
+</nav>
+
 <div class="row text-center flex justify-center">
     <div class="container row reserve flex justify-center">
         <div class="col-12">

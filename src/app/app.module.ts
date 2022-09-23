@@ -11,12 +11,11 @@ import { AboutComponent } from './components/about/about.component';
 import { ReserveComponent } from './components/reserve/reserve.component';
 
 import { FormsModule } from '@angular/forms';
-import { provideFirebaseApp, getApp, initializeApp } from '@angular/fire/app';
-import { getFirestore, provideFirestore } from '@angular/fire/firestore';
 import { environment } from 'src/environments/environment';
 import {TranslateModule, TranslateLoader, TranslateService} from '@ngx-translate/core';
 import {TranslateHttpLoader} from '@ngx-translate/http-loader';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+
 
 
 @NgModule({
@@ -27,7 +26,8 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
     HomeComponent,
     SpeakersComponent,
     AboutComponent,
-    ReserveComponent
+    ReserveComponent,
+    
 
   ],
   imports: [
@@ -44,6 +44,7 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
     ),
     AppRoutingModule,
     FormsModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]

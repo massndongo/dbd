@@ -2,9 +2,9 @@
 .history{
     background-color: #FFFFFF;
     box-shadow: 0px 20px 40px rgba(0, 135, 115, 0.2);
-    padding-top: 3%;
-    margin-top: 0%;
-    position: relative;
+    padding-top: 8%;
+    margin-top: 30%;
+    // position: absolute;
     // top: 30%;
 }
 .titre_history{
@@ -35,7 +35,7 @@
 
     /* white */
 
-    color: #000000;
+    // color: #060606;
 }
 .lead1{
     font-family: 'DM Sans';
@@ -65,6 +65,7 @@
     margin-top: 5%;
     background-color: #FFFFFF;
     color: black;
+    position: relative
 }
 
 .jaune{
@@ -107,6 +108,7 @@
     margin-top: 5%;
     width: 85%;
     margin-left: 15%;
+    position: relative;
 }
 
 .card_jaune{
@@ -146,9 +148,23 @@
     width: 120%;
 }
 
-.bg-nav1, .nav1{
-    // background-color: #FFFFFF;
+.nav1{
     background: transparent;
+
+
+    // position: relative;
+    
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    justify-content: center;
+    align-items: center;
+    /* identical to box height */
+
+    color: #060606;
+
 }
 .btn_participer{
     justify-content: center;

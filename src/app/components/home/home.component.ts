@@ -1,4 +1,4 @@
-import { Component, OnDestroy, OnInit } from '@angular/core';
+import { Component, Inject, OnDestroy, OnInit } from '@angular/core';
 // import { Loader } from '@googlemaps/js-api-loader';
 import * as mapboxgl from 'mapbox-gl';
 import { interval, Subscription } from 'rxjs';
@@ -22,7 +22,7 @@ export class HomeComponent implements OnInit, OnDestroy {
   private subscription: Subscription;
   
   public dateNow = new Date();
-  public dDay = new Date('Dec 03 2022 00:00:00');
+  public dDay = new Date('Dec 02 2022 00:00:00');
   milliSecondsInASecond = 1000;
   hoursInADay = 24;
   minutesInAnHour = 60;
