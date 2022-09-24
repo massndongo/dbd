@@ -116,13 +116,7 @@ private allocateTimeUnits (timeDifference: any) {
 
   }
 
-  saveUser(): void {
-    this.dataService.create(this.user).then(() => {
-      console.log('Create new user successfully!');
-      this.submitted = true;
-      
-    })
-  }
+  
 
   newUser(): void {
     this.submitted = false;
