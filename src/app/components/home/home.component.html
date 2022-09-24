@@ -13,16 +13,16 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto navbar-nav-scroll ml-lg-5 mb-lg-0">
                         <li class="nav-item">
-                          <a class="nav-link text-dark" href="accueil" (click)="changeBg('1')">{{'navbar.home' | translate}}</a>
+                          <a class="nav-link " href="accueil" (click)="changeBg('1')">{{'navbar.home' | translate}}</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link text-dark" href="about" (click)="changeBg('2')">{{'navbar.about' | translate}}</a>
+                          <a class="nav-link " href="about" (click)="changeBg('2')">{{'navbar.about' | translate}}</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link text-dark" href="speakers" (click)="changeBg('2')">{{'navbar.speakers' | translate}}</a>
+                          <a class="nav-link " href="speakers" (click)="changeBg('2')">{{'navbar.speakers' | translate}}</a>
                         </li>
-                        <li class="nav-item">
-                          <a class="nav-link text-dark">{{'navbar.program' | translate}}</a>
+                        <li class="nav-item" id="redirection">
+                          <a class="nav-link ">{{'navbar.program' | translate}}</a>
                         </li>
                         <li class="nav-item">
                           <select class="nav-link" (change)="changeLang($any($event.target).value)">
@@ -82,7 +82,7 @@
             <a class="btn btn_participer btn-primary" href="" role="button">Participer</a>
         </div> -->
     </div>
-    <div class="row timer">
+    <div class="row timer" id="startchange">
         <div class="left col-4"></div>
         <div class="left col-lg-4 col-md-12">
             <div class="row bg">
@@ -150,7 +150,7 @@
             </div>
         </div>
     </div>
-    <div class="row program" id="programme">
+    <div id="monancre" class="row program">
         <div class="">
             <h1 class="titre_target text-start">{{'navbar.program' | translate}}</h1>
         </div>
@@ -324,6 +324,18 @@
                                     <div class="text_imgSlide">
                                         <span class="nom_img">Vladimir Fomene</span> <br>
                                         <span class="titre_img">Développeur - Contributeur Bitcoin Dev Kit</span>
+                                    </div>
+                                  </div>
+                                  
+                                  <div class="swiper-slide">
+                                    <div class="imgSlideRed">
+                                        <div class="imgSlideJaune">
+                                            <img class="img-fluid imgSlideVert" src="../../../assets/img/bineta.png" alt="alternative" />
+                                        </div>
+                                    </div>
+                                    <div class="text_imgSlide">
+                                        <span class="nom_img">Pr Abdoulaye Ndiaye</span> <br>
+                                        <span class="titre_img">Professeur - NYU</span>
                                     </div>
                                   </div>
                               </div>
