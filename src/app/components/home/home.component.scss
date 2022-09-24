@@ -11,8 +11,8 @@
     // margin-top: 90px;
     font-family: 'Sora';
     font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
+    font-weight: 400;
+    font-size: 30px;
     line-height: 42px;
 /* identical to box height */
     border: none;
@@ -70,7 +70,7 @@
     
 }
 .header> h1{
-    background-color: transparent;
+    background-color: white;
     margin-top: 5%;
 }
 
@@ -138,7 +138,7 @@
     font-family: 'Sora';
     font-style: normal;
     font-weight: bold;
-    font-size: 64px;
+    font-size: 50px;
     line-height: 59px;
     /* identical to box height */
     
@@ -197,8 +197,8 @@
 .titre_target, .titre_target1{
     font-family: 'Sora';
     font-style: normal;
-    font-weight: 700;
-    font-size: 64px;
+    font-weight: 400;
+    font-size: 50px;
     line-height: 59px;
     /* identical to box height */
 
@@ -227,7 +227,7 @@
     font-family: 'Sora';
     font-style: normal;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 26px;
     /* identical to box height */
 
@@ -240,7 +240,7 @@
     font-family: 'Sora';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 22px;
     /* or 138% */
 
@@ -273,7 +273,7 @@
     font-family: 'Sora';
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 32px;
     /* or 200% */
 
@@ -369,8 +369,8 @@ ul .disc{
 }
 .imgSlideVert{
     border-radius: 50%;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
 
@@ -383,7 +383,7 @@ ul .disc{
     font-family: 'Sora';
     font-style: normal;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 23px;
     line-height: 31px;
 
     color: #000000;
@@ -391,7 +391,7 @@ ul .disc{
 .titre_img{
     font-family: 'Sora';
     font-style: normal;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 21px;
     /* identical to box height */
 
@@ -417,8 +417,8 @@ ul .disc{
 .titre_info{
     font-family: 'Sora';
     font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
+    font-weight: 400;
+    font-size: 25px;
     line-height: 42px;
     color: #008773;
 }
@@ -429,8 +429,8 @@ textarea, input {
 .btn-info{
     font-family: 'Sora';
     font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
+    font-weight: 400;
+    font-size: 20px;
     line-height: 31px;
 
     /* green */
@@ -467,8 +467,8 @@ textarea, input {
     -webkit-filter: grayscale(0);
 }
 .img_slide{
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     filter: grayscale(100%);
      -webkit-filter: grayscale(100%);  
 }
@@ -502,8 +502,8 @@ textarea, input {
     border-radius: 12px;
     font-family: 'Sora';
     font-style: normal;
-    font-size: 24px;
-    line-height: 31px;
+    font-size: 20px;
+    line-height: 25px;
     border: 1px solid #008773;
 
     /* yellow */
@@ -515,7 +515,7 @@ textarea, input {
     color: #FAC400;
 }
 .nav1{
-    background: transparent;
+    background: white;
     width: 100%;
 
 }
@@ -539,10 +539,10 @@ textarea, input {
 }
 .nav1{
     
-    color: #000000;
+    color: #008773;
 }
 
 #nav2, .nav3{
     
-    color: #060606;
+    color: #008773;
 }
