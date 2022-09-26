@@ -178,3 +178,11 @@
     text-decoration: none;
     color: #FAC400;
 }
+
+ul.navbar-nav li a:hover, ul.navbar-nav li a:active, ul.navbar-nav li select:hover {
+    color: #008773 !important;
+}
+
+ul.navbar-nav li.active a {
+    color: #008773 !important;
+}

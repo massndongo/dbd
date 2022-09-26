@@ -191,3 +191,12 @@
     align-items: center;
     /* identical to box height */
 }
+
+
+ul.navbar-nav li a:hover, ul.navbar-nav li a:active, ul.navbar-nav li a:visited, ul.navbar-nav li select:hover {
+    color: #008773 !important;
+}
+
+ul.navbar-nav li.active a {
+    color: #008773 !important;
+}

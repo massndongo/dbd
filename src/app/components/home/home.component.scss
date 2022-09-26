@@ -208,7 +208,7 @@
     color: #008773;  
 }
 .titre_target{
-    margin-left: 15%;  
+    margin-left: 0%;  
 }
 .card{
     
@@ -545,4 +545,13 @@ textarea, input {
 #nav2, .nav3{
     
     color: #008773;
+}
+
+
+ul.navbar-nav li a:hover, ul.navbar-nav li a:active, ul.navbar-nav li select:hover {
+    color: #008773 !important;
+}
+
+ul.navbar-nav li.active a {
+    color: #008773 !important;
 }
