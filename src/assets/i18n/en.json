@@ -47,5 +47,8 @@
         "program_12": "Mutations in traditional finance: Bitcoin, DeFi, Stablecoins, CBDCs...",
         "program_13": "Keep your bitcoins yourself or leave them on an exchange?",
         "program_14": "Ponzi, altcoins, shitcoins: Is Bitcoin real?"
+    },
+    "footer": {
+        "text": "All rights reserved."
     }
 }

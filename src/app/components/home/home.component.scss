@@ -187,7 +187,7 @@
     position: relative;
     top: 5%;
     left: 2%;
-    background-color: white;
+    background-color: transparent;
 }
 
 .target, .program, .speaker, .dbd1, .info{
@@ -208,7 +208,7 @@
     color: #008773;  
 }
 .titre_target{
-    margin-left: 15%;  
+    margin-left: 0%;  
 }
 .card{
     
@@ -218,11 +218,22 @@
     box-shadow: 0px 20px 40px rgba(0, 135, 115, 0.2);
 }
 .card_target{
-    width: 85%;
+    width: 100%;
     margin-left: 15%;
     margin-top: 2%;
     // background-color: red;
 }
+
+  
+// .horizontal-scrollable {
+//     overflow-x: auto;
+//     white-space: nowrap;
+// }
+  
+// .horizontal-scrollable > .card {
+//     display: inline-block;
+//     float: none;
+// }
 .card-subtitle{
     font-family: 'Sora';
     font-style: normal;
@@ -308,7 +319,7 @@
     margin-top: 5%;
 }
 .horaire{
-    margin-left: 5%;
+    margin-left: 1%;
     font-family: 'Sora';
     font-style: normal;
     font-weight: 700;
@@ -350,7 +361,7 @@
     background-color: #00877381;
     height: 100%;
     color: #008773;
-    width: 5%;
+    width: 1%;
     margin-left: 50%;
 
 }
@@ -545,4 +556,13 @@ textarea, input {
 #nav2, .nav3{
     
     color: #008773;
+}
+
+
+ul.navbar-nav li a:hover, ul.navbar-nav li a:active, ul.navbar-nav li select:hover {
+    color: #008773 !important;
+}
+
+ul.navbar-nav li.active a {
+    color: #008773 !important;
 }

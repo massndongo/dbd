@@ -143,6 +143,15 @@
 .bg-nav1, .nav1{
     // background-color: #FFFFFF;
     background: white;
+    
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    justify-content: center;
+    align-items: center;
+    /* identical to box height */
 }
 .btn_participer{
     justify-content: center;
@@ -168,4 +177,12 @@
 .btn_participer a{
     text-decoration: none;
     color: #FAC400;
+}
+
+ul.navbar-nav li a:hover, ul.navbar-nav li a:active, ul.navbar-nav li select:hover {
+    color: #008773 !important;
+}
+
+ul.navbar-nav li.active a {
+    color: #008773 !important;
 }
