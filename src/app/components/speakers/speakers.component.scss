@@ -109,18 +109,12 @@
 .imgSlideJaune{
     border-radius: 50%;
     margin-top: 5%;
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
     // border: 5px solid #FFF;
     // width: 400px;
     // height: 350px;
 
 }
 
-.imgSlideJaune:hover{ 
-    filter: none;
-    -webkit-filter: grayscale(0);
-}
 
 .imgSlideVert{
     border-radius: 50%;
@@ -178,8 +172,7 @@
     color: #FAC400;
 }
 
-.nav1{
-    
+.nav1{   
     background: white;
     
     font-family: 'Sora';
