@@ -16,6 +16,7 @@
         "second": "Secondes",
         "card1": "Sans profit, de portée internationale, à destination des acteurs publiques, privés, universitaires, et de la population locale et sous régionale. Durant ce forum, il s’agira de parler des différents aspects qui sous-tendent le Bitcoin, d’en apporter une meilleure compréhension, de rendre visibles les communautés, les usages, de développer des projets/partenariats et de présenter des solutions pratiques et intuitives qu'offrent le protocole Bitcoin. Cette 1ère édition est dédiée à l’éducation, la sensibilisation et à la promotion de la technologie, au service de l'éducation financière.",
         "more": "En savoir plus",
+        "less": "Moins",
         "target": "Cibles",
         "target_p": "Les personnes ciblées restent les sénégalais et les francophones d'Afrique qui s’intéressent de plus en plus au Bitcoin et au domaine plus large communément appelé la 'blockchain'. Il sera important qu’à la sortie du forum, qu’ils puissent démêler le vrai du faux lorsqu’il s’agit du Bitcoin.",
         "target_student_title": "Etudiants & Académiciens",
@@ -50,5 +51,13 @@
     },
     "footer": {
         "text": "Tous droits reservés."
+    },
+    "about": {
+        "title1": "Bitcoin, une révolution technologique",
+        "title2": "Le Bitcoin au Sénégal",
+        "p1": "Bitcoin est une révolution technologique qui met ensemble une longue liste de techniques et technologies largement diffusées et utilisées, dont l’association n’avait jamais été expérimentée. Dans Bitcoin, on manipule de la cryptographie, de l’algorithmie, de la programmation, du réseau (classique, p2p et d’anonymisation), du logiciel, du hardware, de la sécurité, de l’OS…. Avec Bitcoin, tous les aspects du monde dit « informatique » sont présents et font l’état de recherches perpétuelles pour éviter l'obsolescence.",
+        "p2": "En parralèlle, le bitcoin est devenu à travers le temps un système de paiement portant une cryptomonnaie (une monnaie sécurisée par la cryptographie) qui sert aussi de réserve de valeur, d’unité de compte et de médium d’échange. Le bitcoin est utilisé pour garder de la valeur et lutter contre l’hyperinflation, envoyer et recevoir des fonds de partout dans le monde, à des frais réduits, mettre à l’abri son argent, sans risque d’être la victime de la chute ou de mauvais comportements d’une entité centrale.",
+        "p3": "Au Sénégal, on estime les utilisateurs de cryptomonnaies répertoriés par les exchanges à un peu plus de 200.000. A cela, il faut rajouter tous les autres utilisateurs qui font des échanges en p2p. Le bitcoin, qui fait partie de cette liste de cryptomonnaies, est donc largement plébiscité par la population locale.",
+        "p4": "Il existe des commerces qui acceptent le bitcoin comme moyen de paiement, des industriels qui l’utilisent pour payer leurs fournisseurs, des startups qui bâtissent des produits et services autour du bitcoin, des associations qui promeuvent l’éducation financière à travers le bitcoin ETdes sociétés d’investissement qui proposent des véhicules d’investissement basés sur le bitcoin."
     }
 }

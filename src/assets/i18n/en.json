@@ -16,6 +16,7 @@
         "second": "Seconds",
         "card1" : "Non-profit, international in scope, aimed at public, private, academic actors, and the local and sub-regional population. During this forum, the aim will be to talk about the different aspects underlying Bitcoin, to provide a better understanding of it, to make communities and uses visible, to develop projects/partnerships and to present practical solutions and intuitive features offered by the Bitcoin protocol. This 1st edition is dedicated to education, awareness and the promotion of technology, in the service of financial education.",
         "more": "More",
+        "less": "less",
         "target": "Targets",
         "target_p" : "The people targeted remain Senegalese and French-speaking people in Africa who are increasingly interested in Bitcoin and the broader field commonly known as 'blockchain'. It will be important that when they leave the forum, they can disentangle the true from the false when it comes to Bitcoin.",
         "target_student_title": "Students & Academicians",
@@ -47,6 +48,14 @@
         "program_12": "Mutations in traditional finance: Bitcoin, DeFi, Stablecoins, CBDCs...",
         "program_13": "Keep your bitcoins yourself or leave them on an exchange?",
         "program_14": "Ponzi, altcoins, shitcoins: Is Bitcoin real?"
+    },
+    "about": {
+        "title1": "Bitcoin, a technological revolution",
+        "title2": "Bitcoin in Senegal",
+        "p1": "Bitcoin is a technological revolution that brings together a long list of widely disseminated and used techniques and technologies, the combination of which had never been experienced before. In Bitcoin, we manipulate cryptography, algorithms, programming, the network (classic, p2p and anonymization), software, hardware, security, OS…. With Bitcoin, all aspects of the so-called 'computer' world are present and are the subject of perpetual research to avoid obsolescence.",
+        "p2": "At the same time, bitcoin has become over time a payment system carrying a cryptocurrency (a currency secured by cryptography) which also serves as a store of value, a unit of account and a medium of exchange. Bitcoin is used to keep value and fight against hyperinflation, send and receive funds from all over the world, at reduced costs, to shelter your money, without the risk of being the victim of the fall or bad behavior of a central entity.",
+        "p3": "In Senegal, cryptocurrency users listed by exchanges are estimated at just over 200,000. To this must be added all the other users who trade in p2p. Bitcoin, which is part of this list of cryptocurrencies, is therefore widely acclaimed by the local population.",
+        "p4": "There are businesses that accept bitcoin as a means of payment, manufacturers who use it to pay their suppliers, startups that build products and services around bitcoin, associations that promote financial education through bitcoin AND companies investment companies that offer bitcoin-based investment vehicles."
     },
     "footer": {
         "text": "All rights reserved."

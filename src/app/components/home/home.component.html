@@ -82,7 +82,10 @@
             <a class="btn btn_participer btn-primary" href="" role="button">Participer</a>
         </div> -->
     </div>
-    <div class="row timer" id="startchange">
+    <div id="startchange"></div>
+    <div id=""></div>
+    <div id=""></div>
+    <div class="row timer" id="">
         <div class="left col-4"></div>
         <div class="left col-lg-4 col-md-12">
             <div class="row bg">
@@ -116,36 +119,65 @@
         <div class="">
             <h1 class="titre_target text-center">{{'home.target' | translate}}</h1>
         </div>
-        <div class="card_target row">
+        <div class="card_target row accordion">
             <p class="lead text-start text-dark">
                 {{'home.target_p' | translate}}
             </p>
-            <div class="card col-lg-2 col-md-5 m-2" style="width: 18rem;">
-                <div class="card-body text-start">
+
+            <div class="card col-lg-2 col-md-5 m-2 accordion-item" style="width: 18rem;">
+                <div class="card-header text-start">
                   <img src="../../../assets/img/StudentMale.png" style="width: 32px; height: 32px" alt="" srcset="">
                   <h6 class="card-subtitle mt-2">{{'home.target_student_title' | translate}}</h6>
+                </div>
+                <div *ngIf="display1" class="card-body text-start">
                   <p class="card-text mt-2">{{'home.target_student_p' | translate}}</p>
                 </div>
+                <div class="card-footer " >
+                    <button *ngIf="!display1" type="button" (click)="updateCard1()" >{{'home.more' | translate}}</button>
+                    <button *ngIf="display1" type="button" (click)="updateCard1()" >{{'home.less' | translate}}</button>
+                </div>
             </div>
+
             <div class="card col-lg-2 col-md-5 m-2" style="width: 18rem;">
-                <div class="card-body text-start">
-                  <img src="../../../assets/img/SchoolBuilding.png" style="width: 32px; height: 32px" alt="" srcset="">
-                  <h6 class="card-subtitle mt-2">{{'home.target_sector_title' | translate}}</h6>
+                <div class="card-header text-start">
+                    <img src="../../../assets/img/SchoolBuilding.png" style="width: 32px; height: 32px" alt="" srcset="">
+                    <h6 class="card-subtitle mt-2">{{'home.target_sector_title' | translate}}</h6>
+
+                </div>
+                <div *ngIf="display2" class="card-body text-start">
                   <p class="card-text mt-2">{{'home.target_sector_p' | translate}}</p>
                 </div>
-            </div>
-            <div class="card col-lg-2 col-md-5 m-2" style="width: 18rem;">
-                <div class="card-body text-start">
-                  <img src="../../../assets/img/Informatics.png" class="" style="width: 32px; height: 32px" alt="" srcset="">
-                  <h6 class="card-subtitle mt-2">{{'home.target_finance_title' | translate}}</h6>
-                  <p class="card-text mt-2">{{'home.target_finance_p' | translate}}</p>
+                <div class="card-footer " >
+                    <button *ngIf="!display2" type="button" (click)="updateCard2()" >{{'home.more' | translate}}</button>
+                    <button *ngIf="display2" type="button" (click)="updateCard2()" >{{'home.less' | translate}}</button>
                 </div>
             </div>
+
             <div class="card col-lg-2 col-md-5 m-2" style="width: 18rem;">
-                <div class="card-body text-start">
-                  <img src="../../../assets/img/Organization.png" style="width: 32px; height: 32px" alt="" srcset="">
-                  <h6 class="card-subtitle mt-2">{{'home.target_ins_title' | translate}}</h6>
+                <div class="card-header text-start">
+                    <img src="../../../assets/img/Informatics.png" class="" style="width: 32px; height: 32px" alt="" srcset="">
+                    <h6 class="card-subtitle mt-2">{{'home.target_finance_title' | translate}}</h6>
+                </div>
+                <div *ngIf="display3"  class="card-body text-start">
+                  <p class="card-text mt-2">{{'home.target_finance_p' | translate}}</p>
+                </div>
+                <div class="card-footer " >
+                    <button *ngIf="!display3" type="button" (click)="updateCard3()" >{{'home.more' | translate}}</button>
+                    <button *ngIf="display3" type="button" (click)="updateCard3()" >{{'home.less' | translate}}</button>
+                </div>
+            </div>
+
+            <div class="card col-lg-2 col-md-5 m-2" style="width: 18rem;">
+                <div class="card-header text-start">
+                    <img src="../../../assets/img/Organization.png" style="width: 32px; height: 32px" alt="" srcset="">
+                    <h6 class="card-subtitle mt-2">{{'home.target_ins_title' | translate}}</h6>
+                </div>
+                <div *ngIf="display4" class="card-body text-start">
                   <p class="card-text mt-2">{{'home.target_ins_p' | translate}}</p>
+                </div>
+                <div class="card-footer " >
+                    <button *ngIf="!display4" type="button" (click)="updateCard4()" >{{'home.more' | translate}}</button>
+                    <button *ngIf="display4" type="button" (click)="updateCard4()" >{{'home.less' | translate}}</button>
                 </div>
             </div>
         </div>

@@ -33,6 +33,10 @@ export class HomeComponent implements OnInit, OnDestroy {
   public minutesToDday: number;
   public hoursToDday: number;
   public daysToDday: number;
+  display1: boolean = false;
+  display2: boolean = false;
+  display3: boolean = false;
+  display4: boolean = false;
 
   private getTimeDifference () {
     this.timeDifference = this.dDay.getTime() - new  Date().getTime();
@@ -78,6 +82,18 @@ private allocateTimeUnits (timeDifference: any) {
 
 
 
+  }
+  updateCard1(){
+    this.display1 = !this.display1
+  }
+  updateCard2(){
+    this.display2 = !this.display2
+  }
+  updateCard3(){
+    this.display3 = !this.display3
+  }
+  updateCard4(){
+    this.display4 = !this.display4
   }
   changeLang(lang: string){
     localStorage.setItem('lang', lang)
