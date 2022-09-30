@@ -22,7 +22,7 @@
                           <a class="nav-link " href="speakers" (click)="changeBg('2')">{{'navbar.speakers' | translate}}</a>
                         </li>
                         <li class="nav-item" id="redirection">
-                          <a class="nav-link ">{{'navbar.program' | translate}}</a>
+                          <a class="nav-link" href="program">{{'navbar.program' | translate}}</a>
                         </li>
                         <li class="nav-item">
                           <select class="nav-link" (change)="changeLang($any($event.target).value)">
@@ -40,47 +40,8 @@
                 </div> 
             </div> 
         </nav>
-        <img src="../../../assets/img/website banner.png"  class="img_banner d-lg-block" />
+        <img src="assets/img/website banner.png"  class="img_banner d-lg-block" />
     
-        <!-- <nav  class="navbar nav1 navbar-expand-lg container">
-            <div class="container">
-              <a class="navbar-brand" href="#">
-                <img src="../../../assets/img/removebg-preview.png" alt="logo" style="width: 100px;">
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav nav me-auto mb-2 mb-lg-0" style="">
-                  <li class="nav-item">
-                    <a class="nav-link" href="accueil" (click)="changeBg('1')">{{'navbar.home' | translate}}</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="about" (click)="changeBg('2')">{{'navbar.about' | translate}}</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="speakers" (click)="changeBg('2')">{{'navbar.speakers' | translate}}</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link">{{'navbar.program' | translate}}</a>
-                  </li>
-                  <li class="nav-item">
-                    <select class="nav-link" (change)="changeLang($any($event.target).value)">
-                      <option value="fr" [selected]="lang == 'fr'">{{'navbar.btn_lang_fr' | translate}}</option>
-                      <option value="en" [selected]="lang == 'en'">{{'navbar.btn_lang_en' | translate}}</option>
-                    </select>
-                  </li>
-                  <li class="nav-item ms-lg-5">
-                    <button type="button" class="btn btn_participer rounded btn-dark"><a href="reserver"  (click)="changeBg('3')">{{'navbar.participer' | translate}}</a></button>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav> -->
-        <!-- <div class="p-5 row justify-center header">
-            <h1 class="mb-3 road">{{'home.header_text' | translate}} </h1>
-            <a class="btn btn_participer btn-primary" href="" role="button">Participer</a>
-        </div> -->
     </div>
     <div id="startchange"></div>
     <div id=""></div>

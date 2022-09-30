@@ -159,7 +159,7 @@
         </div>
     </section>
 </div> -->
-<nav id="navbarExample" class="navbar navbar-expand-lg nav1 sticky-top" aria-label="Main navigation">
+<nav id="navbarExample" class="navbar navbar-expand-lg nav1 fixed-top" aria-label="Main navigation">
     <div class="container mx-auto">    
         <a class="navbar-brand logo-text" href="#">
             <img src="../../../assets/img/removebg-preview.png" alt="logo" style="width: 100px;">
@@ -178,6 +178,9 @@
                 <li class="nav-item">
                     <a class="nav-link " href="speakers" >{{'navbar.speakers' | translate}}</a>
                 </li>
+                <li class="nav-item" id="redirection">
+                  <a class="nav-link" href="program">{{'navbar.program' | translate}}</a>
+                </li>
                 <li class="nav-item">
                     <select class="nav-link" (change)="changeLang($any($event.target).value)">
                     <option value="fr" [selected]="lang == 'fr'">{{'navbar.btn_lang_fr' | translate}}</option>
@@ -194,6 +197,8 @@
         </div> 
     </div> 
 </nav>
+<img src="assets/img/website banner.png"  class="img_banner d-lg-block" />
+<div id="startchange"></div>
 
 <div class="row text-center flex justify-center mb-5">
 

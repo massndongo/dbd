@@ -1,0 +1,144 @@
+.nav1{
+    background: white;
+    
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    justify-content: center;
+    align-items: center;
+    /* identical to box height */
+}
+.img_banner{
+
+    opacity: 0.7;
+    position: relative;
+    // left: 0;
+    top: 0;
+    bottom: 10%;
+    width: 100%;
+}
+
+.btn_participer{
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    // gap: 10px;
+
+
+    /* green */
+
+    background: #008773;
+    border-radius: 12px;
+    font-family: 'Sora';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 31px;
+    border: 1px solid #008773;
+
+    /* yellow */
+
+    color: #FAC400;
+}
+.btn_participer a{
+    text-decoration: none;
+    color: #FAC400;
+}
+
+ul.navbar-nav li a:hover, ul.navbar-nav li a:active, ul.navbar-nav li select:hover {
+    color: #008773 !important;
+}
+
+ul.navbar-nav li.active a {
+    color: #008773 !important;
+}
+
+.program{
+    // background-color: #008773;
+    border-radius: 12px;
+    margin: 0 6% 0 2%;
+    font-family: 'Sora';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 31px;
+    border: 1px solid #008773;
+
+    /* yellow */
+
+    color: #008773;
+
+}
+.program:hover{
+    background-color: #008773;
+    color: #FAC400;
+}
+.div1{
+    width: 96%;
+    margin-left: 2%;
+}
+
+.stepper{
+    margin-top: 5%;
+}
+
+.horaire{
+    margin-left: 1%;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    
+    /* black */
+    
+    color: #060606;
+}
+.butonStep1{
+    border: none;
+    background: #0087732a;
+    // opacity: 0.3; 
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 15px;
+/* identical to box height */
+
+
+/* green */
+
+    color: #008773;
+    // margin-left: 60%;
+    border-radius: 50%;
+}
+.step1{
+    margin-left: 8%;
+    width: auto;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+.line1{
+    background-color: #00877381;
+    height: 100%;
+    color: #008773;
+    width: 1%;
+    margin-left: 50%;
+
+}
+.contenu_step1{
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 38px;
+}
+ul .disc{
+    list-style-type: disc;
+}
+.lastStep{
+    background-color: #008773;
+}

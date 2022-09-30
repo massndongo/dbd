@@ -15,6 +15,7 @@ import { environment } from 'src/environments/environment';
 import {TranslateModule, TranslateLoader, TranslateService} from '@ngx-translate/core';
 import {TranslateHttpLoader} from '@ngx-translate/http-loader';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { ProgramComponent } from './components/program/program.component';
 
 
 
@@ -27,6 +28,7 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
     SpeakersComponent,
     AboutComponent,
     ReserveComponent,
+    ProgramComponent,
     
 
   ],
