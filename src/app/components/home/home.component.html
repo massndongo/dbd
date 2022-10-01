@@ -4,8 +4,8 @@
         
         <nav id="navbarExample" class="navbar navbar-expand-lg nav1 fixed-top text-start" aria-label="Main navigation">
             <div class="container">    
-                 <a class="navbar-brand logo-text" href="#">
-                    <img src="../../../assets/img/removebg-preview.png" alt="logo" style="width: 100px;">
+                 <a class="navbar-brand logo-text" routerLink="">
+                    <img src="assets/img/removebg-preview.png" alt="logo" style="width: 100px;">
                  </a> 
                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                    <span class="navbar-toggler-icon"></span>
@@ -13,16 +13,16 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto navbar-nav-scroll ml-lg-5 mb-lg-0">
                         <li class="nav-item active m-1">
-                          <a class="nav-link" href="accueil" (click)="changeBg('1')">{{'navbar.home' | translate}}</a>
+                          <a class="nav-link" routerLink="/accueil" (click)="changeBg('1')">{{'navbar.home' | translate}}</a>
                         </li>
                         <li class="nav-item m-1">
-                          <a class="nav-link " href="about" (click)="changeBg('2')">{{'navbar.about' | translate}}</a>
+                          <a class="nav-link " routerLink="/about" (click)="changeBg('2')">{{'navbar.about' | translate}}</a>
                         </li>
                         <li class="nav-item m-1">
-                          <a class="nav-link " href="speakers" (click)="changeBg('2')">{{'navbar.speakers' | translate}}</a>
+                          <a class="nav-link " routerLink="/speakers" (click)="changeBg('2')">{{'navbar.speakers' | translate}}</a>
                         </li>
                         <li class="nav-item m-1" id="redirection">
-                          <a class="nav-link" href="program">{{'navbar.program' | translate}}</a>
+                          <a class="nav-link" routerLink="/program">{{'navbar.program' | translate}}</a>
                         </li>
                         <li class="nav-item m-1">
                           <select class="nav-link" (change)="changeLang($any($event.target).value)">
@@ -76,7 +76,7 @@
             <button class="btn btn_discover" routerLink="/about"><span class="discover">{{'home.more' | translate}}</span></button>
         </div>
         <div class="col-lg-3 col-md-11 img1 rounded-2">
-            <img class="featurette-image img-fluid mx-auto"  alt="500x400" src="../../../assets/img/startup.png"  >
+            <img class="featurette-image img-fluid mx-auto"  alt="500x400" src="assets/img/startup.png"  >
         </div>
     </div>
     <div class="row target">
@@ -90,7 +90,7 @@
             <div class="row text-center flex justify-center">
                 <div class="card col-lg-2 col-md-5 m-2 accordion-item" >
                     <div class="card-header text-start">
-                      <img src="../../../assets/img/education.png" style="width: 32px; height: 32px" alt="" srcset="">
+                      <img src="assets/img/education.png" style="width: 32px; height: 32px" alt="" srcset="">
                       <h6 class="card-subtitle mt-2">{{'home.target_student_title' | translate}}</h6>
                     </div>
                     <div *ngIf="display1" class="card-body text-start">
@@ -104,7 +104,7 @@
     
                 <div class="card col-lg-2 col-md-5 m-2" >
                     <div class="card-header text-start">
-                        <img src="../../../assets/img/analyst.png" style="width: 32px; height: 32px" alt="" srcset="">
+                        <img src="assets/img/analyst.png" style="width: 32px; height: 32px" alt="" srcset="">
                         <h6 class="card-subtitle mt-2">{{'home.target_sector_title' | translate}}</h6>
     
                     </div>
@@ -119,7 +119,7 @@
     
                 <div class="card col-lg-2 col-md-5 m-2" >
                     <div class="card-header text-start">
-                        <img src="../../../assets/img/cashless-payment.png" class="" style="width: 32px; height: 32px" alt="" srcset="">
+                        <img src="assets/img/cashless-payment.png" class="" style="width: 32px; height: 32px" alt="" srcset="">
                         <h6 class="card-subtitle mt-2">{{'home.target_finance_title' | translate}}</h6>
                     </div>
                     <div *ngIf="display3"  class="card-body text-start">
@@ -133,7 +133,7 @@
     
                 <div class="card col-lg-2 col-md-5 m-2" >
                     <div class="card-header text-start">
-                        <img src="../../../assets/img/document.png" style="width: 32px; height: 32px" alt="" srcset="">
+                        <img src="assets/img/document.png" style="width: 32px; height: 32px" alt="" srcset="">
                         <h6 class="card-subtitle mt-2">{{'home.target_ins_title' | translate}}</h6>
                     </div>
                     <div *ngIf="display4" class="card-body text-start">
@@ -262,7 +262,7 @@
                                   <div class="swiper-slide">
                                     <div class="imgSlideRed">
                                         <div class="imgSlideJaune">
-                                            <img class="img-fluid imgSlideVert" src="../../../assets/img/sebgou.png" alt="alternative" />
+                                            <img class="img-fluid imgSlideVert" src="assets/img/sebgou.png" alt="alternative" />
                                         </div>
                                     </div>
                                     <div class="text_imgSlide">
@@ -273,7 +273,7 @@
                                   <div class="swiper-slide">
                                     <div class="imgSlideRed">
                                         <div class="imgSlideJaune">
-                                            <img class="img-fluid imgSlideVert" src="../../../assets/img/yamb.png" alt="alternative" />
+                                            <img class="img-fluid imgSlideVert" src="assets/img/yamb.png" alt="alternative" />
                                         </div>
                                     </div>
                                     <div class="text_imgSlide">
@@ -284,7 +284,7 @@
                                   <div class="swiper-slide">
                                     <div class="imgSlideRed">
                                         <div class="imgSlideJaune">
-                                            <img class="img-fluid imgSlideVert" src="../../../assets/img/joe.png" alt="alternative" />
+                                            <img class="img-fluid imgSlideVert" src="assets/img/joe.png" alt="alternative" />
                                         </div>
                                     </div>
                                     <div class="text_imgSlide">
@@ -332,9 +332,6 @@
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <a target="_blank" rel="noopener noreferrer" href="https://www.ledger.com/"><img src="../../../assets/img/ledger.png" class="sponsor_img" alt="Avatar" /></a>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/mole_app_africa"><img src="../../../assets/img/moleapp.png" class="sponsor_img" alt="Avatar" /></a>
                 </div>
             </div>
         </div> 
