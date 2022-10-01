@@ -101,7 +101,7 @@
     
     color: #060606;
     margin: 2%;
-    padding-bottom: 10%;
+    padding-bottom: 5%;
     width: 105px;
     height: 70px;
 }
@@ -585,3 +585,52 @@ a:hover {
     color: #008773 !important;
 }
 
+
+
+@media screen and (max-width: 700px) {
+    .rond{
+        /* yellow */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        justify-items: center;
+        margin: 2%;
+        width: 60px;
+        height: 60px;
+        background: #008773;
+        //border: 1px solid rgba(164, 5, 45, 0.8);
+        border-radius: 50%;
+        font-family: 'Sora';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        // line-height: 33px;
+        text-align: center;
+        color: #FAC400;
+    }
+    
+.date{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    /* black */
+    
+    color: #060606;
+    margin: 2%;
+    padding-bottom: 10%;
+    width: 60px;
+    height: 60px;
+}
+}
