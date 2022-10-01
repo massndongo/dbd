@@ -18,6 +18,12 @@ export class SpeakersComponent implements OnInit {
     
   }
   
+  changeBg(bg: string){
+    
+    localStorage.setItem('bgColor', bg)
+    window.location.reload()
+  }
+  
   changeLang(lang: string){
     localStorage.setItem('lang', lang)
     // window.location.reload()

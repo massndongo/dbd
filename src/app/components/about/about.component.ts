@@ -18,6 +18,11 @@ export class AboutComponent implements OnInit {
     
   }
 
+  changeBg(bg: string){
+    
+    localStorage.setItem('bgColor', bg)
+    window.location.reload()
+  }
   
   changeLang(lang: string){
     localStorage.setItem('lang', lang)
