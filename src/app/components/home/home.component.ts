@@ -87,14 +87,9 @@ private allocateTimeUnits (timeDifference: any) {
   }
   changeLang(lang: string){
     localStorage.setItem('lang', lang)
-    window.location.reload()
+    // window.location.reload()
   }
 
-  changeBg(bg: string){
-    
-    localStorage.setItem('bgColor', bg)
-    window.location.reload()
-  }
 
 
 
