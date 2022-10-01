@@ -29,6 +29,9 @@
                 <li class="nav-item ms-lg-5">
                     <button type="button" class="btn btn_participer rounded btn-dark"><a href="reserver" >{{'navbar.participer' | translate}}</a></button>
                 </li>
+                <li class="nav-item ms-lg-5">
+                  <button type="button" class="btn btn_participer2 rounded btn-dark"><a href="reserver"  (click)="changeBg('3')">{{'navbar.don' | translate}}</a></button>
+                </li>
             </ul>
             <!-- <span class="nav-item">
                 <a class="btn-solid-sm" href="#contact">Participer</a>
@@ -40,11 +43,11 @@
 
 <div id="startchange"></div>
 <div></div>
-<div class="row flex justify-center mb-5">
+<div class="row flex justify-center mt-5 mb-5">
     <div class="">
         <h1 class="titre_target text-center">{{'navbar.program' | translate}}</h1>
     </div>
-    <div class="text_program">{{'home.program_p' | translate}}</div>
+    <p class="lead text-start">{{'home.program_p' | translate}}</p>
     <div class="row div1 flex justify-center text-center">
         <button (click)="changeBg('bg1');"  [style]="bg1" class="col-md-11  program col-lg-5 mt-5 p-2">
             <div>
@@ -61,43 +64,43 @@
             </div>
         </button>
     </div>
-    <div *ngIf="program1" class="row  text-center flex justify-center ">
+    <div *ngIf="program1" class="row test text-center flex justify-center">
         <div class="stepper row">
-            <div class="horaire col-4">{{'home.program_hour_1' | translate}}</div>
-            <div class="step1 col-1 justify-content-center">
+            <div class="horaire col-5">{{'home.program_hour_1' | translate}}</div>
+            <div class="step1 col-1  justify-content-center">
                 <button class="butonStep1">1</button>
                 <div class="line1">&nbsp;</div>
             </div>
-            <div class="contenu_step1 text-start col-5">
+            <div class="contenu_step1 text-start col-md-5 col-5">
                 <ul>
-                    <li>{{'home.program_1' | translate}}</li>
-                    <li>{{'home.program_2' | translate}}</li>
-                    <li>{{'home.program_3' | translate}}</li>
+                    <li>{{'home.program_1' | translate}} - <a href="">Mouhamadou nourou Kouta</a></li>
+                    <li>{{'home.program_2' | translate}} - <a href="">Yamb Ntimba Dominique | Emmanuel Harrault</a></li>
+                    <li>{{'home.program_3' | translate}} - <a href="">Pr Abdoulaye Ndiaye</a></li>
                     <li>{{'home.program_4' | translate}}</li>
-                    <li>{{'home.program_5' | translate}}</li>
-                    <li>{{'home.program_6' | translate}}</li>
+                    <li>{{'home.program_5' | translate}} - <a href="">SenBlock | MoleApp | Coinhub | Mama Bitcoin</a></li>
+                    <li>{{'home.program_6' | translate}} - <a href="">Sébastien Ramos</a></li>
                 </ul>
             </div>
             
-            <div class="horaire col-4">{{'home.program_hour_2' | translate}}</div>
+            <div class="horaire col-5">{{'home.program_hour_2' | translate}}</div>
             <div class="step1 col-1 justify-content-center">
                 <button class="butonStep1">2</button>
                 <div class="line1">&nbsp;</div>
             </div>
             <div class="contenu_step1 text-start col-5">
                 <ul>
-                    <li>{{'home.program_7' | translate}}</li>
+                    <li>{{'home.program_7' | translate}} - <a href="">Elisee Sare | Paco | Toffene Kama | Hermann Vivier</a></li>
                     <li>{{'home.program_8' | translate}}</li>
-                    <li>{{'home.program_9' | translate}}</li>
-                    <li>{{'home.program_10' | translate}}</li>
-                    <li>{{'home.program_11' | translate}}</li>
-                    <li>{{'home.program_12' | translate}}</li>
-                    <li>{{'home.program_13' | translate}}</li>
-                    <li>{{'home.program_14' | translate}}</li>
+                    <li>{{'home.program_9' | translate}} - <a href="">Elisee Sare</a></li>
+                    <li>{{'home.program_10' | translate}} - <a href="">Peter Todd</a></li>
+                    <li>{{'home.program_11' | translate}} - <a href="">Bashir Diaby | Mouhammad Dieng | Idrissa Seck</a></li>
+                    <li>{{'home.program_12' | translate}} - <a href="">Toffene Kama</a></li>
+                    <li>{{'home.program_13' | translate}} - <a href="">Seydina Sall</a></li>
+                    <li>{{'home.program_14' | translate}} - <a href="">Mednation</a></li>
                 </ul>
             </div>
 
-            <div class="horaire col-4"></div>
+            <div class="horaire col-5"></div>
             <div class="step1 col-1 justify-content-center">
                 <button class="butonStep1 lastStep">2</button>
             </div>

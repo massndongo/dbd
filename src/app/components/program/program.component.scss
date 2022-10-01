@@ -19,6 +19,10 @@
     bottom: 10%;
     width: 100%;
 }
+.btn_participer:hover{
+    background: #FAC400;
+
+}
 
 .btn_participer{
     justify-content: center;
@@ -46,6 +50,31 @@
     color: #FAC400;
 }
 
+.btn_participer2{
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    // gap: 10px;
+
+
+    /* green */
+
+    background: #FAC400;
+    border-radius: 12px;
+    font-family: 'Sora';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 25px;
+    border: 1px solid #008773;
+
+    /* yellow */
+
+    color: #FAC400;
+}
+.btn_participer2 a{
+    text-decoration: none;
+    color: #008773;
+}
 ul.navbar-nav li a:hover, ul.navbar-nav li a:active, ul.navbar-nav li select:hover {
     color: #008773 !important;
 }
@@ -69,6 +98,31 @@ ul.navbar-nav li.active a {
     color: #008773;
 
 }
+.titre_target{
+    
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 50px;
+    /* identical to box height */
+    
+    
+    
+    /* yellow */
+    
+    color: #FAC400;
+}
+.lead{
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    width: 90%;
+    margin-left: 5%;
+    /* or 200% */
+}
 .program:hover{
     background-color: #008773;
     color: #FAC400;
@@ -83,10 +137,9 @@ ul.navbar-nav li.active a {
 }
 
 .horaire{
-    margin-left: 1%;
     font-family: 'Sora';
     font-style: normal;
-    font-weight: 700;
+    // font-weight: 700;
     font-size: 16px;
     line-height: 21px;
     
@@ -132,8 +185,8 @@ ul.navbar-nav li.active a {
 .contenu_step1{
     font-family: 'Sora';
     font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
+    // font-weight: 500;
+    font-size: 16px;
     line-height: 38px;
 }
 ul .disc{
@@ -142,3 +195,11 @@ ul .disc{
 .lastStep{
     background-color: #008773;
 }
+
+ul >li> a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #060606;
+    
+}
+
