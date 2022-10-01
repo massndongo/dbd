@@ -1,8 +1,8 @@
 
 <div class="row text-center flex justify-center mb-5">
-    <div class="banner flex ">
+    <div class="banner flex">
         
-        <nav id="navbarExample" class="navbar navbar-expand-lg nav1 fixed-top " aria-label="Main navigation">
+        <nav id="navbarExample" class="navbar navbar-expand-lg nav1 fixed-top text-start" aria-label="Main navigation">
             <div class="container">    
                  <a class="navbar-brand logo-text" href="#">
                     <img src="../../../assets/img/removebg-preview.png" alt="logo" style="width: 100px;">
@@ -12,26 +12,29 @@
                  </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto navbar-nav-scroll ml-lg-5 mb-lg-0">
-                        <li class="nav-item active">
+                        <li class="nav-item active m-1">
                           <a class="nav-link" href="accueil" (click)="changeBg('1')">{{'navbar.home' | translate}}</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item m-1">
                           <a class="nav-link " href="about" (click)="changeBg('2')">{{'navbar.about' | translate}}</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item m-1">
                           <a class="nav-link " href="speakers" (click)="changeBg('2')">{{'navbar.speakers' | translate}}</a>
                         </li>
-                        <li class="nav-item" id="redirection">
+                        <li class="nav-item m-1" id="redirection">
                           <a class="nav-link" href="program">{{'navbar.program' | translate}}</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item m-1">
                           <select class="nav-link" (change)="changeLang($any($event.target).value)">
                             <option value="fr" [selected]="lang == 'fr'">{{'navbar.btn_lang_fr' | translate}}</option>
                             <option value="en" [selected]="lang == 'en'">{{'navbar.btn_lang_en' | translate}}</option>
                           </select>
                         </li>
-                        <li class="nav-item ms-lg-5">
+                        <li class="nav-item ms-lg-5 m-1">
                           <button type="button" class="btn btn_participer rounded btn-dark"><a href="reserver"  (click)="changeBg('3')">{{'navbar.participer' | translate}}</a></button>
+                        </li>
+                        <li class="nav-item ms-lg-5 m-1">
+                          <button type="button" class="btn btn_participer2 rounded btn-dark"><a href="reserver"  (click)="changeBg('3')">{{'navbar.don' | translate}}</a></button>
                         </li>
                     </ul>
                     <!-- <span class="nav-item">
@@ -47,9 +50,9 @@
     <div id=""></div>
     <div id=""></div>
     <div class="row timer" id="">
-        <div class="left col-4"></div>
-        <div class="left col-lg-4 col-md-12">
-            <div class="row bg">
+        <!-- <div class="left col-4"></div> -->
+        <div class="left col-lg-12 col-md-12">
+            <div class="row bg ">
                 <div class="rond col-3"> <span>{{daysToDday}}</span> </div>
                 <div class="rond col-3"> <span>{{hoursToDday}}</span> </div>
                 <div class="rond col-3"> <span>{{minutesToDday}} </span> </div>
@@ -62,15 +65,15 @@
                 <div class="date col-3"> <span>{{'home.second' | translate}}</span> </div>
             </div>
         </div>
-        <div class="left col-4"></div>
+        <!-- <div class="left col-4"></div> -->
     </div>
     <div class="row dbd">
-        <div class="col-md-6 div1 mt-5 text-start">
+        <div class="col-md-12 col-lg-6 div1 mt-5 text-start">
             <h2 class="heading titre_dbd text-start">Dakar Bitcoin Days</h2>
             <p class="lead text-start">
                 {{'home.card1' | translate}}
             </p>
-            <button class="btn btn_discover"><span class="discover">{{'home.more' | translate}}</span></button>
+            <button class="btn btn_discover" routerLink="/about"><span class="discover">{{'home.more' | translate}}</span></button>
         </div>
         <div class="col-lg-3 col-md-11 img1 rounded-2">
             <img class="featurette-image img-fluid mx-auto"  alt="500x400" src="../../../assets/img/startup.png"  >
@@ -84,61 +87,62 @@
             <p class="lead text-start text-dark">
                 {{'home.target_p' | translate}}
             </p>
-
-            <div class="card col-lg-2 col-md-5 m-2 accordion-item" style="width: 18rem;">
-                <div class="card-header text-start">
-                  <img src="../../../assets/img/education.png" style="width: 32px; height: 32px" alt="" srcset="">
-                  <h6 class="card-subtitle mt-2">{{'home.target_student_title' | translate}}</h6>
+            <div class="row text-center flex justify-center">
+                <div class="card col-lg-2 col-md-5 m-2 accordion-item" >
+                    <div class="card-header text-start">
+                      <img src="../../../assets/img/education.png" style="width: 32px; height: 32px" alt="" srcset="">
+                      <h6 class="card-subtitle mt-2">{{'home.target_student_title' | translate}}</h6>
+                    </div>
+                    <div *ngIf="display1" class="card-body text-start">
+                      <p class="card-text mt-2">{{'home.target_student_p' | translate}}</p>
+                    </div>
+                    <div class="card-footer " >
+                        <button *ngIf="!display1" type="button" (click)="updateCard1()" >{{'home.more' | translate}}</button>
+                        <button *ngIf="display1" type="button" (click)="updateCard1()" >{{'home.less' | translate}}</button>
+                    </div>
                 </div>
-                <div *ngIf="display1" class="card-body text-start">
-                  <p class="card-text mt-2">{{'home.target_student_p' | translate}}</p>
+    
+                <div class="card col-lg-2 col-md-5 m-2" >
+                    <div class="card-header text-start">
+                        <img src="../../../assets/img/analyst.png" style="width: 32px; height: 32px" alt="" srcset="">
+                        <h6 class="card-subtitle mt-2">{{'home.target_sector_title' | translate}}</h6>
+    
+                    </div>
+                    <div *ngIf="display2" class="card-body text-start">
+                      <p class="card-text mt-2">{{'home.target_sector_p' | translate}}</p>
+                    </div>
+                    <div class="card-footer " >
+                        <button *ngIf="!display2" type="button" (click)="updateCard2()" >{{'home.more' | translate}}</button>
+                        <button *ngIf="display2" type="button" (click)="updateCard2()" >{{'home.less' | translate}}</button>
+                    </div>
                 </div>
-                <div class="card-footer " >
-                    <button *ngIf="!display1" type="button" (click)="updateCard1()" >{{'home.more' | translate}}</button>
-                    <button *ngIf="display1" type="button" (click)="updateCard1()" >{{'home.less' | translate}}</button>
+    
+                <div class="card col-lg-2 col-md-5 m-2" >
+                    <div class="card-header text-start">
+                        <img src="../../../assets/img/cashless-payment.png" class="" style="width: 32px; height: 32px" alt="" srcset="">
+                        <h6 class="card-subtitle mt-2">{{'home.target_finance_title' | translate}}</h6>
+                    </div>
+                    <div *ngIf="display3"  class="card-body text-start">
+                      <p class="card-text mt-2">{{'home.target_finance_p' | translate}}</p>
+                    </div>
+                    <div class="card-footer " >
+                        <button *ngIf="!display3" type="button" (click)="updateCard3()" >{{'home.more' | translate}}</button>
+                        <button *ngIf="display3" type="button" (click)="updateCard3()" >{{'home.less' | translate}}</button>
+                    </div>
                 </div>
-            </div>
-
-            <div class="card col-lg-2 col-md-5 m-2" style="width: 18rem;">
-                <div class="card-header text-start">
-                    <img src="../../../assets/img/analyst.png" style="width: 32px; height: 32px" alt="" srcset="">
-                    <h6 class="card-subtitle mt-2">{{'home.target_sector_title' | translate}}</h6>
-
-                </div>
-                <div *ngIf="display2" class="card-body text-start">
-                  <p class="card-text mt-2">{{'home.target_sector_p' | translate}}</p>
-                </div>
-                <div class="card-footer " >
-                    <button *ngIf="!display2" type="button" (click)="updateCard2()" >{{'home.more' | translate}}</button>
-                    <button *ngIf="display2" type="button" (click)="updateCard2()" >{{'home.less' | translate}}</button>
-                </div>
-            </div>
-
-            <div class="card col-lg-2 col-md-5 m-2" style="width: 18rem;">
-                <div class="card-header text-start">
-                    <img src="../../../assets/img/cashless-payment.png" class="" style="width: 32px; height: 32px" alt="" srcset="">
-                    <h6 class="card-subtitle mt-2">{{'home.target_finance_title' | translate}}</h6>
-                </div>
-                <div *ngIf="display3"  class="card-body text-start">
-                  <p class="card-text mt-2">{{'home.target_finance_p' | translate}}</p>
-                </div>
-                <div class="card-footer " >
-                    <button *ngIf="!display3" type="button" (click)="updateCard3()" >{{'home.more' | translate}}</button>
-                    <button *ngIf="display3" type="button" (click)="updateCard3()" >{{'home.less' | translate}}</button>
-                </div>
-            </div>
-
-            <div class="card col-lg-2 col-md-5 m-2" style="width: 18rem;">
-                <div class="card-header text-start">
-                    <img src="../../../assets/img/document.png" style="width: 32px; height: 32px" alt="" srcset="">
-                    <h6 class="card-subtitle mt-2">{{'home.target_ins_title' | translate}}</h6>
-                </div>
-                <div *ngIf="display4" class="card-body text-start">
-                  <p class="card-text mt-2">{{'home.target_ins_p' | translate}}</p>
-                </div>
-                <div class="card-footer " >
-                    <button *ngIf="!display4" type="button" (click)="updateCard4()" >{{'home.more' | translate}}</button>
-                    <button *ngIf="display4" type="button" (click)="updateCard4()" >{{'home.less' | translate}}</button>
+    
+                <div class="card col-lg-2 col-md-5 m-2" >
+                    <div class="card-header text-start">
+                        <img src="../../../assets/img/document.png" style="width: 32px; height: 32px" alt="" srcset="">
+                        <h6 class="card-subtitle mt-2">{{'home.target_ins_title' | translate}}</h6>
+                    </div>
+                    <div *ngIf="display4" class="card-body text-start">
+                      <p class="card-text mt-2">{{'home.target_ins_p' | translate}}</p>
+                    </div>
+                    <div class="card-footer " >
+                        <button *ngIf="!display4" type="button" (click)="updateCard4()" >{{'home.more' | translate}}</button>
+                        <button *ngIf="display4" type="button" (click)="updateCard4()" >{{'home.less' | translate}}</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -291,19 +295,19 @@
             <div class="bigSponsor row">
                 <h1 class="titre_target1">{{'home.partenaires' | translate}}</h1>
                 <div class="col-lg-4 col-md-6">
-                    <img src="../../../assets/img/yite.png" class="sponsor_img" alt="Avatar" />
+                    <a href=""><img src="../../../assets/img/yite.png" class="sponsor_img" alt="Avatar" /></a>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <img src="../../../assets/img/bitcoinsn.png" class="sponsor_img" alt="Avatar" />
+                    <a href=""><img src="../../../assets/img/bitcoinsn.png" class="sponsor_img" alt="Avatar" /></a>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <img src="../../../assets/img/senstartup.png" class="sponsor_img" alt="Avatar" />
+                    <a href=""><img src="../../../assets/img/senstartup.png" class="sponsor_img" alt="Avatar" /></a>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <img src="../../../assets/img/senblock.png" class="sponsor_img" alt="Avatar" />
+                    <a href=""><img src="../../../assets/img/senblock.png" class="sponsor_img" alt="Avatar" /></a>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <img src="../../../assets/img/optic.png" class="sponsor_img" alt="Avatar" />
+                    <a href=""><img src="../../../assets/img/optic.png" class="sponsor_img" alt="Avatar" /></a>
                 </div>
             </div>
         </div> 
@@ -313,23 +317,21 @@
             <div class="bigSponsor row">
                 <h1 class="titre_target1">{{'home.sponsors' | translate}}</h1>
                 <div class="col-lg-4 col-md-6">
-                    <img src="../../../assets/img/ftx.png" class="sponsor_img" alt="Avatar" />
+                    <a href=""><img src="../../../assets/img/ftx.png" class="sponsor_img" alt="Avatar" /></a>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <img src="../../../assets/img/ledger.png" class="sponsor_img" alt="Avatar" />
+                    <a href=""><img src="../../../assets/img/ledger.png" class="sponsor_img" alt="Avatar" /></a>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <img src="../../../assets/img/moleapp.png" class="sponsor_img" alt="Avatar" />
+                    <a href=""><img src="../../../assets/img/moleapp.png" class="sponsor_img" alt="Avatar" /></a>
                 </div>
             </div>
         </div> 
     </div>
    <div class="row dbd dbd1">
-        <div class="col-md-10 div1 mt-5">
-            <h2 class="heading titre_dbd text-start text-center">Dakar - Sénégal</h2>
-            <p class="lead text-start">
-                Dakar est la capitale du Sénégal, en Afrique occidentale. Cette ville portuaire sur l'océan Atlantique se trouve sur la presqu'île du Cap-Vert. Son quartier traditionnel, la Médina, accueille la Grande Mosquée, qui se distingue par son imposant minaret. Le musée Théodore-Monot expose des objets culturels comme des vêtements, des percussions, des sculptures et des outils. La vie nocturne animée de la ville trouve son inspiration dans la musique locale, le mbalax.
-            </p>
+        <div class="col-md-10 div2 mt-5">
+            <h2 class="heading titre_dbd text-center">Dakar - {{'home.pays' | translate}}</h2>
+            <p class="lead text-start">{{'home.p1' | translate}}</p>
         </div>
         <div class="" >
           <div class="container mt-5">
@@ -390,12 +392,10 @@
         </div> 
     </div>
 
-    <div class="row dbd dbd1">
+    <div class="row dbd1">
         <div class="col-md-10 div1 mt-5">
-            <h2 class="heading titre_dbd text-start text-center">Le lieu de l'événement</h2>
-            <p class="lead text-start">
-                Dakar est la capitale du Sénégal, en Afrique occidentale. Cette ville portuaire sur l'océan Atlantique se trouve sur la presqu'île du Cap-Vert. Son quartier traditionnel, la Médina, accueille la Grande Mosquée, qui se distingue par son imposant minaret. Le musée Théodore-Monot expose des objets culturels comme des vêtements, des percussions, des sculptures et des outils. La vie nocturne animée de la ville trouve son inspiration dans la musique locale, le mbalax.
-            </p>
+            <h2 class="heading titre_dbd text-start text-center">{{'home.place' | translate}}</h2>
+            <p class="lead text-start">{{'home.p1' | translate}}</p>
         </div>
         <video controls autoplay width="1220" height="580" controls [muted]="'muted'" loop>
             <source src="assets/img/le-grand-theatre-national-presentation-.mp4" type="video/mp4">
@@ -439,20 +439,11 @@
             
         </div>
         
-        <div class="col-lg-5 col-md-10 form_info">
-            <div class="row g-3">
-                <span class="titre_info text-start">Contactez nous !</span>
-                <div class="col-10 col-lg-5">
-                <input type="text" placeholder="Full name" class="form-control" id="name" required>
-                </div>
-                <div class="col-10 col-lg-5">
-                <input type="email" placeholder="Email" class="form-control" id="email" required>
-                </div>
-                <div class="col-10">
-                <textarea class="form-control" placeholder="Message" id="message" rows="3" required></textarea>
-                </div>
-                <div class="col-10">
-                <button class="btn btn-info col-4 mt-4 p-2">Envoyer</button>
+        <div class="col-lg-4 col-md-10 form_info">
+            <div class="row">
+                <span class="titre_info text-start">{{'home.info' | translate}}</span>
+                <div class="col-10  text-start">
+                <button class="btn btn-info col-4 mt-4 p-2">{{'home.btn_send' | translate}}</button>
                 </div>
                 
             </div>

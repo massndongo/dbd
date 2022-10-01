@@ -97,6 +97,35 @@ input[type=checkbox]:checked{
 
 
 }
+.btn_participer:hover{
+    background: #FAC400;
+
+}
+.btn_participer2{
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    // gap: 10px;
+
+
+    /* green */
+
+    background: #FAC400;
+    border-radius: 12px;
+    font-family: 'Sora';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 25px;
+    border: 1px solid #008773;
+
+    /* yellow */
+
+    color: #FAC400;
+}
+.btn_participer2 a{
+    text-decoration: none;
+    color: #008773;
+}
 
 ul.navbar-nav li a:hover, ul.navbar-nav li a:active, ul.navbar-nav li select:hover {
     color: #008773 !important;

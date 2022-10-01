@@ -1,33 +1,3 @@
-.btn_participer2{
-    
-    width: 216px;
-    height: 62px;
-    // margin-left: 15%;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    // margin-top: 90px;
-    font-family: 'Sora';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 42px;
-/* identical to box height */
-    border: none;
-
-
-/* green */
-
-    color: #008773;
-    
-    /* yellow */
-    
-    background: #FAC400;
-    border-radius: 12px;
-}
-
 .road{
     
     font-family: 'Sora';
@@ -46,6 +16,7 @@
 .banner{
     width: 100%;
     // overflow: hidden;
+    overflow-x: hidden !important;
     // position: relative;   
 }
 .img_banner{
@@ -79,6 +50,7 @@
 .timer{
     background-color: white;
     margin-top: 5%;
+    width: 95%;
 }
 
 .rond{
@@ -98,13 +70,16 @@
     font-style: normal;
     font-weight: 700;
     font-size: 50px;
-    line-height: 33px;
+    // line-height: 33px;
     text-align: center;
     color: #FAC400;
 }
 .bg{
     // background-color: green;
     justify-content: center;
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
 }
 
 .date{
@@ -126,7 +101,7 @@
     
     color: #060606;
     margin: 2%;
-    padding-bottom: 10%;
+    padding-bottom: 5%;
     width: 105px;
     height: 70px;
 }
@@ -134,6 +109,13 @@
     background-color: white;
     //box-shadow: 0px 20px 40px rgba(0, 135, 115, 0.2);
     padding-bottom: 2%;
+    width: 95%;
+}
+.dbd2{
+    background-color: white;
+    //box-shadow: 0px 20px 40px rgba(0, 135, 115, 0.2);
+    padding-bottom: 2%;
+    width: 100%;
 }
 .titre_dbd{
     font-family: 'Sora';
@@ -142,6 +124,7 @@
     font-size: 50px;
     line-height: 59px;
     /* identical to box height */
+    width: 90%;
     
     
     
@@ -176,10 +159,15 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 32px;
-    width: 85%;
+    width: 90%;
     /* or 200% */
 }
 .div1{
+    margin-left: 15%; 
+    // margin-right: 10%; 
+    // background-color: red;
+}
+.div2{
     margin-left: 15%; 
     // margin-right: 10%; 
     // background-color: red;
@@ -219,9 +207,9 @@
     height: fit-content;
 }
 .card_target{
-    width: 100%;
+    width: 85%;
     margin-left: 15%;
-    margin-top: 2%;
+    // margin-top: 2%;
     // background-color: red;
 }
 .card-header{
@@ -424,9 +412,9 @@ ul .disc{
 }
 
 #map{
-    margin-left: 5%;
+    margin-left: 15%;
     // width: 45%;
-    // height: 500px;
+    height: 200px;
 }
 
 .form_info{
@@ -500,7 +488,10 @@ textarea, input {
 
 
 
+.btn_participer:hover{
+    background: #FAC400;
 
+}
 .btn_participer{
     justify-content: center;
     align-items: center;
@@ -526,9 +517,35 @@ textarea, input {
     text-decoration: none;
     color: #FAC400;
 }
+.btn_participer2{
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    // gap: 10px;
+
+
+    /* green */
+
+    background: #FAC400;
+    border-radius: 12px;
+    font-family: 'Sora';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 25px;
+    border: 1px solid #008773;
+
+    /* yellow */
+
+    color: #FAC400;
+}
+.btn_participer2 a{
+    text-decoration: none;
+    color: #008773;
+}
 .nav1{
     background: white;
     width: 100%;
+    
 
 }
 
@@ -564,6 +581,56 @@ ul.navbar-nav li a:hover, ul.navbar-nav li a:active, ul.navbar-nav li select:hov
     color: #008773 !important;
 }
 
-ul.navbar-nav li.active a {
+a:hover {
     color: #008773 !important;
+}
+
+
+
+@media screen and (max-width: 700px) {
+    .rond{
+        /* yellow */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        justify-items: center;
+        margin: 2%;
+        width: 60px;
+        height: 60px;
+        background: #008773;
+        //border: 1px solid rgba(164, 5, 45, 0.8);
+        border-radius: 50%;
+        font-family: 'Sora';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        // line-height: 33px;
+        text-align: center;
+        color: #FAC400;
+    }
+    
+.date{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    /* black */
+    
+    color: #060606;
+    margin: 2%;
+    padding-bottom: 10%;
+    width: 60px;
+    height: 60px;
+}
 }
