@@ -1,9 +1,6 @@
 import { Component, Inject, OnDestroy, OnInit } from '@angular/core';
-// import { Loader } from '@googlemaps/js-api-loader';
-import * as mapboxgl from 'mapbox-gl';
 import { interval, Subscription } from 'rxjs';
 import { User } from 'src/app/models/user.model';
-import { environment } from 'src/environments/environment';
 
 
 @Component({
@@ -50,11 +47,6 @@ private allocateTimeUnits (timeDifference: any) {
     this.daysToDday = Math.floor((timeDifference) / (this.milliSecondsInASecond * this.minutesInAnHour * this.SecondsInAMinute * this.hoursInADay));
 }
 
-  map: mapboxgl.Map
-  style="mapbox://styles/mapbox/streets-v11"
-  lat = 14.7645042
-  lng = -17.3660286
-  zoom = 9
   
     
   constructor() {
@@ -70,8 +62,6 @@ private allocateTimeUnits (timeDifference: any) {
     console.log(this.bg);
 
     localStorage.setItem('bgColor', '1')
-
-    this.buildMap();
 
   
 
@@ -104,48 +94,6 @@ private allocateTimeUnits (timeDifference: any) {
     
     localStorage.setItem('bgColor', bg)
     window.location.reload()
-  }
-  buildMap(){
-    this.map = new mapboxgl.Map({
-      accessToken: environment.mapbox.accessToken,
-      container: 'map',
-      style: this.style,
-      zoom: this.zoom,
-      center: [this.lng, this.lat],
-      attributionControl: false,
-    });
-
-    const navControl = new mapboxgl.NavigationControl({
-      visualizePitch: true
-    });
-
-    this.map.addControl(navControl, 'top-right');
-    this.map.addControl(new mapboxgl.FullscreenControl(), 'top-right')
-
-        // Add markers to the map.
-
-    // Create a DOM element for each marker.
-    const el = document.createElement('div');
-    const width = 40;
-    const height = 40;
-    el.className = 'marker';
-    el.style.backgroundImage = `url(https://imageholdr.com/336x250/transparent/a4052d/fa-bitcoin)`;
-    el.style.width = `${width}px`;
-    el.style.height = `${height}px`;
-    el.style.backgroundSize = '100%';
-
-
-
-
-    // Add markers to the map.
-    new mapboxgl.Marker(el)
-      .setLngLat([this.lng, this.lat])
-      .addTo(this.map);
-
-    
-    
-
-
   }
 
 
