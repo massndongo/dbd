@@ -1,18 +1,4 @@
-.road{
-    
-    font-family: 'Sora';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 64px;
-    line-height: 59px;
-    text-align: center;
-    margin-left: 15%;
 
-    /* green */
-
-    color: #004137;
-
-}
 .banner{
     width: 100%;
     // overflow: hidden;
@@ -28,21 +14,6 @@
     bottom: 10%;
     width: 100%;
     height: 650px;
-}
-.header{
-    display: flex;
-    justify-content: center;
-    height: auto;
-    position: absolute;
-    top: 5%;
-    width: 100%;
-    justify-content: center;
-
-    
-}
-.header> h1{
-    background-color: white;
-    margin-top: 5%;
 }
 
 
@@ -203,28 +174,16 @@
     
     border:  none;
     background: #FFFFFF;
-    //box-shadow: 0px 20px 40px rgba(0, 135, 115, 0.2);
     height: fit-content;
 }
 .card_target{
     width: 85%;
     margin-left: 15%;
-    // margin-top: 2%;
-    // background-color: red;
 }
 .card-header{
     background: transparent;
 }
-  
-// .horizontal-scrollable {
-//     overflow-x: auto;
-//     white-space: nowrap;
-// }
-  
-// .horizontal-scrollable > .card {
-//     display: inline-block;
-//     float: none;
-// }
+
 .card-subtitle{
     font-family: 'Sora';
     font-style: normal;
@@ -300,84 +259,6 @@
 .nav-item{
     width: 50%;
 }
-
-.buttonday{
-    width: 100%;
-    font-family: 'Sora';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 15px;
-    text-align: start;
-    text-decoration: none;
-    
-    /* green */
-    
-    color: #008773;
-}
-.stepper{
-    margin-top: 5%;
-}
-.horaire{
-    margin-left: 1%;
-    font-family: 'Sora';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 21px;
-    
-    /* black */
-    
-    color: #060606;
-}
-.butonStep1{
-    border: none;
-    background: #0087732a;
-    // opacity: 0.3; 
-    font-family: 'Sora';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 16px;
-    line-height: 15px;
-/* identical to box height */
-
-
-/* green */
-
-    color: #008773;
-    // margin-left: 60%;
-    border-radius: 50%;
-}
-.step1{
-    margin-left: 8%;
-    width: auto;
-    justify-content: center;
-    justify-items: center;
-    display: flex;
-    flex-direction: column;
-
-}
-.line1{
-    background-color: #00877381;
-    height: 100%;
-    color: #008773;
-    width: 1%;
-    margin-left: 50%;
-
-}
-.contenu_step1{
-    font-family: 'Sora';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 28px;
-}
-ul .disc{
-    list-style-type: disc;
-}
-.lastStep{
-    background-color: #008773;
-}
 .imgSlideVert{
     border-radius: 50%;
     width: 200px;
@@ -428,9 +309,6 @@ ul .disc{
     color: #008773;
 }
 
-textarea, input {
-    border: 2px solid #008773;
-}
 .btn-info{
     font-family: 'Sora';
     font-style: normal;
@@ -446,14 +324,6 @@ textarea, input {
     border: none;
 }
 
-.marker{
-    // background-image: url('assets/img/marker.jpg');
-    background-size: cover;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    cursor: pointer;
-}
 .bigSponsor{
     width: 85%;
     margin-left: 10%;
@@ -468,24 +338,7 @@ textarea, input {
 .img_slide{
     width: 250px;
     height: 250px;
-    //filter: grayscale(100%);
-     //-webkit-filter: grayscale(100%);  
 }
-//.img_slide:hover{
-  //  filter: none;
-    //-webkit-filter: grayscale(0);
-//}
-
-
-
-
-
-
-
-
-
-
-
 
 .btn_participer:hover{
     background: #FAC400;

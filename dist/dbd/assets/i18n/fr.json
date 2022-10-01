@@ -1,0 +1,87 @@
+{
+    "navbar": {
+        "home": "Accueil",
+        "about": "A propros des DBD",
+        "speakers": "Intervenants",
+        "program": "Programme",
+        "participer": "Participer",
+        "don": "Dons",
+        "btn_lang_fr": "Français",
+        "btn_lang_en": "English"
+    },
+    "home": {
+        "header_text": "Le 1er forum du Sénégal et d'Afrique francophone 100% dédié au Bitcoin",
+        "day": "Jours",
+        "hour": "Heures",
+        "minute": "Minutes",
+        "second": "Secondes",
+        "card1": "Sans profit, de portée internationale, à destination des acteurs publiques, privés, universitaires, et de la population locale et sous régionale. Durant ce forum, il s’agira de parler des différents aspects qui sous-tendent le Bitcoin, d’en apporter une meilleure compréhension, de rendre visibles les communautés, les usages, de développer des projets/partenariats et de présenter des solutions pratiques et intuitives qu'offrent le protocole Bitcoin. Cette 1ère édition est dédiée à l’éducation, la sensibilisation et à la promotion de la technologie, au service de l'éducation financière.",
+        "more": "En savoir plus",
+        "less": "Moins",
+        "target": "Cibles",
+        "target_p": "Les personnes ciblées restent les sénégalais et les francophones d'Afrique qui s’intéressent de plus en plus au Bitcoin et au domaine plus large communément appelé la 'blockchain'. Il sera important qu’à la sortie du forum, qu’ils puissent démêler le vrai du faux lorsqu’il s’agit du Bitcoin.",
+        "target_student_title": "Académiciens",
+        "target_student_p": "Le forum est à destination des étudiants (programmation, sécurité, droit, économie, réseaux, télécoms, iot…) et du monde académique et de la recherche en général.",
+        "target_sector_title": "Secteur privé",
+        "target_sector_p": "Une de nos cibles prioritaires reste les commerçants, entrepreneurs et industriels de notre tissu économique qui ont besoin d’être exposés aux avantages d’utiliser et d’accepter le Bitcoin comme moyen de paiement.",
+        "target_finance_title": "Finances",
+        "target_finance_p": "Le secteur de la Finance (Banques, Assurances, Sociétés de Gestion et d’Intermédiation, Banque Centrale) est impacté par le nouveau paradigme proposé par le bitcoin en matière de transfert d’argent, d’épargne et d’investissement.",
+        "target_ins_title": "Institutionnels",
+        "target_ins_p": "Les pouvoirs publics verront les différentes facettes du Bitcoin afin qu’ils saisissent pourquoi est-ce que des pays comme le Salvador ou encore la République Centrafricaine ont décidé de créer un cadre légal pour le Bitcoin.",
+        "program_p": "Le forum se tiendra sur 2 journées avec différentes cibles et différents formats de contenu qui tourneront autour de panels (4 personnes maximum), de présentations sur des sujets spécifiques, de démos de solutions innovantes et d’un hackathon. Il y aura aussi des stands dédiés aux startups, aux entreprises qui évoluent autour du bitcoin et aux commerces qui acceptent le bitcoin comme moyen de paiement.",
+        "speakers": "Têtes d'Affiche",
+        "sponsors": "Sponsors",
+        "partenaires": "Partenaires",
+        "program_day_1": "Vendredi 02 Décembre 2022",
+        "program_day_2": "Samedi 03 Décember 2022",
+        "program_hour_1": "Matin",
+        "program_hour_2": "Après midi",
+        "program_1": "9h - Discours d’introduction ",
+        "program_2": "9h30 - Histoire de la monnaie : son évolution jusqu'à la naissance de la philosophie Bitcoin",
+        "program_3": "11h - L’impact économique du Bitcoin",
+        "program_4": "11h45 - Le minage de bitcoin, aide économique au développement de la production électrique renouvelable en Afrique?",
+        "program_5": "11h45 - Les oppotunités qu’offre le Bitcoin (emploi, entrepreunariat, consulting international...)?",
+        "program_6": "11h45 - Minage et rentabilité",
+        "program_7": "15h - Le Bitcoin en Afrique : état des lieux",
+        "program_8": "16h30 - L'état de la réglementation du Bitcoin dans le monde, avec un focus sur les cas du Salvador et de la Centrafrique",
+        "program_9": "15h - Le lightning network : transfert d'argent et micropaiements",
+        "program_10": "15h - Le lightning network : aspects techniques - ENG",
+        "program_11": "15h40 - Bitcoin vs Finance traditionnelle vs Transfert d'argent",
+        "program_12": "15h40 - Mutations de la finance traditionnelle : Bitcoin, DeFi, Stablecoins, CBDCs...",
+        "program_13": "16h20 - Garder ses bitcoins soit même ou les laisser sur un exchange ?",
+        "program_14": "17h Ponzi, altcoins, shitcoins : Y'a t-il que le Bitcoin de vrai ?",
+        "pays": "Sénégal",
+        "place": "Le lieu de l'événement",
+        "info": "Pour en savoir plus...",
+        "btn_send": "Contactez nous !",
+        "p1": "Dakar est la capitale du Sénégal, en Afrique occidentale. Cette ville portuaire sur l'océan Atlantique se trouve sur la presqu'île du Cap-Vert. Son quartier traditionnel, la Médina, accueille la Grande Mosquée, qui se distingue par son imposant minaret. Le musée Théodore-Monot expose des objets culturels comme des vêtements, des percussions, des sculptures et des outils. La vie nocturne animée de la ville trouve son inspiration dans la musique locale, le mbalax.",
+        "p2": "Le Grand Théâtre de Dakar est l’une des plus belles réalisations architecturales du continent. Il est en effet, le plus grand théâtre d’Afrique de l’Ouest. Ce monument imposant permet aux artistes d’effectuer diverses prestations, mais aux autres intéressés d'y organiser des forums et conférences. Inauguré en avril 2011 par l’ancien ­Président Abdoulaye Wade le Grand Théâtre National a une capacité de 1800 places. Il a­ six étages, 206 pièces, notamment des loges, des salles de répétition, des bureaux, des salles de conférences, des locaux techniques, un centre de documentation, une salle de réunion, un grand hall d’exposition et de performance."
+    },
+    "footer": {
+        "text": "Tous droits reservés."
+    },
+    "about": {
+        "title1": "Bitcoin, une révolution technologique",
+        "title2": "Les Dakar Bitcoin Days",
+        "p1": "Bitcoin est une révolution technologique qui met ensemble une longue liste de techniques et technologies largement diffusées et utilisées, dont l’association n’avait jamais été expérimentée. Dans Bitcoin, on manipule de la cryptographie, de l’algorithmie, de la programmation, du réseau (classique, p2p et d’anonymisation), du logiciel, du hardware, de la sécurité, de l’OS…. Avec Bitcoin, tous les aspects du monde dit « informatique » sont présents et font l’état de recherches perpétuelles pour éviter l'obsolescence. En parralèlle, le bitcoin est devenu à travers le temps un système de paiement portant une cryptomonnaie (une monnaie sécurisée par la cryptographie) qui sert aussi de réserve de valeur, d’unité de compte et de médium d’échange. Le bitcoin est utilisé pour garder de la valeur et lutter contre l’hyperinflation, envoyer et recevoir des fonds de partout dans le monde, à des frais réduits, mettre à l’abri son argent, sans risque d’être la victime de la chute ou de mauvais comportements d’une entité centrale.",
+        "p2": "Au Sénégal, on estime les utilisateurs de cryptomonnaies répertoriés par les exchanges à un peu plus de 200.000. A cela, il faut rajouter tous les autres utilisateurs qui font des échanges en p2p. Le bitcoin, qui fait partie de cette liste de cryptomonnaies, est donc largement plébiscité par la population locale. Il existe des commerces qui acceptent le bitcoin comme moyen de paiement, des industriels qui l’utilisent pour payer leurs fournisseurs, des startups qui bâtissent des produits et services autour du bitcoin, des associations qui promeuvent l’éducation financière à travers le bitcoin ETdes sociétés d’investissement qui proposent des véhicules d’investissement basés sur le bitcoin.",
+        "p3": "Sans but lucratif, d'envergure internationale, pour les secteurs public, privé, académique, et la population locale et sous-régionale, les Dakar Bitcoin Days se sont fixé de nombreux objectifs. Les objectifs à court terme sont les suivants : organiser des panels sur des sujets qui tournent autour du bitcoin (économie, finance, sécurité, cryptographie, minage, géopolitique, hardware, programmation, développement durable, philosophie...), organiser un hackathon pour trouver des solutions à problèmes connus/inconnus pouvant être résolus par le bitcoin, présenter des startups et autres entreprises qui développent des solutions autour du bitcoin, réunir les acteurs de l'écosystème bitcoin sénégalais, francophone et mondial, faire découvrir au monde l'écosystème bitcoin sénégalais et francophone . Les objectifs à long terme sont : mettre en lumière les aspects technologiques et cryptographiques du Bitcoin, démystifier les préjugés sur le Bitcoin en Afrique francophone, fédérer les acteurs locaux et régionaux de l'écosystème Bitcoin, faire éclore des startups qui tournent autour du Bitcoin, faire du Sénégal une destination phare pour les événements Bitcoin à travers le monde.",
+        "p4": "Ce forum est une excellente occasion de réunir tous ces acteurs et d'avoir leur retour d'expérience, mais aussi de faire connaître les aspects méconnus du Bitcoin au grand public et aux décideurs. Nous espérons avoir au moins 500 participants. Les personnes ciblées restent les Sénégalais et les Africains francophones qui s'intéressent de plus en plus au Bitcoin et au domaine plus large de ce qu'ils entendent être le web3 (blockchain, nft, metaverse, DeFi, etc.). Il sera important qu'à la fin du forum, ils puissent démêler le vrai du faux quand il s'agit de Bitcoin. Le forum s'adresse également aux étudiants des filières techniques (programmation, sécurité, réseaux, télécommunications, etc.) et du monde académique et de la recherche en général. Il est important de les sensibiliser aux innovations et opportunités (emplois et business) que Bitcoin peut offrir. Nous ciblons également le gouvernement pour leur présenter les différentes facettes du Bitcoin. Nous voulons qu'ils comprennent pourquoi des pays comme El Salvador et la République centrafricaine ont décidé de créer un cadre juridique pour le Bitcoin. Le secteur financier (Banques, Assurances, Gestionnaires de fortune, Banque centrale) fait également partie de nos cibles car ces tiers sont également intéressés par le nouveau paradigme qu'apporte Bitcoin à travers les virements, l'épargne et l'investissement. Enfin, une de nos cibles prioritaires reste les hommes d'affaires, entrepreneurs et industriels de notre tissu économique. Ils doivent être exposés aux avantages d'utiliser et d'accepter le Bitcoin comme moyen de paiement, mais aussi aux différents moyens qui existent pour sécuriser leurs bitcoins.",
+        "theme": {
+            "title": "Thématiques",
+            "nom1": "Sécurité",
+            "nom2": "Réseau Lightning",
+            "nom3": "Minage",
+            "nom4": "Réseau P2P",
+            "nom5": "Transferts transfrontliers",
+            "nom6": "Décentralisation",
+            "nom7": "Opportunités",
+            "nom8": "Autonomie financière",
+            "nom9": "Données"
+        }
+    },
+
+    "program": {
+        "para" : "Le forum se déroulera sur 2 jours avec différentes cibles et différents formats de contenus qui s'articuleront autour de panels (4 personnes maximum), de présentations sur des sujets précis, de démos de solutions innovantes et d'un hackathon. Il y aura également des stands dédiés aux startups, aux entreprises qui évoluent autour du bitcoin et aux entreprises qui acceptent le bitcoin comme moyen de paiement."
+    }
+}
