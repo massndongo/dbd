@@ -83,5 +83,11 @@
 
     "program": {
         "para" : "Le forum se déroulera sur 2 jours avec différentes cibles et différents formats de contenus qui s'articuleront autour de panels (4 personnes maximum), de présentations sur des sujets précis, de démos de solutions innovantes et d'un hackathon. Il y aura également des stands dédiés aux startups, aux entreprises qui évoluent autour du bitcoin et aux entreprises qui acceptent le bitcoin comme moyen de paiement."
+    },
+
+    "speaker": {
+        "title": "Découvrez nos intervenants",
+        "p1": "Ce forum est une excellente occasion pour réunir tous ces acteurs et avoir leur retour d’expériences, mais aussi pour faire connaitre les aspects méconnus du Bitcoin au grand public et aux décideurs.",
+        "p2": "Nous avons fait appel à des profils reconnus dans l'écosystème pour leurs compétences, leur connaissance du sujet et leur contribution à une plus grande adoption du Bitcoin dans le monde. Nos speakers viennent du Sénégal, de la Côte d'Ivoire, du Burkina Faso, du Cameroun, du Soudan, d'Afrique du Sud, de la France, de la Grande Bretagne, des Etats Unis, d'Inde, d'Australie et de la Roumanie."
     }
 }

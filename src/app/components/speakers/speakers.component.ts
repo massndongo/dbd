@@ -26,6 +26,6 @@ export class SpeakersComponent implements OnInit {
   
   changeLang(lang: string){
     localStorage.setItem('lang', lang)
-    // window.location.reload()
+    window.location.reload()
   }
 }

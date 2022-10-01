@@ -1,4 +1,4 @@
-.nav1{
+.nav1{   
     background: white;
     
     font-family: 'Sora';
@@ -196,10 +196,10 @@ ul .disc{
     background-color: #008773;
 }
 
-ul >li> a{
-    font-weight: bold;
+.link li > a{
     text-decoration: none;
-    color: #060606;
+    color: black;
+    font-weight: bold;
     
 }
 

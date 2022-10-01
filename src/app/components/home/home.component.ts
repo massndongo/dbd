@@ -59,7 +59,6 @@ private allocateTimeUnits (timeDifference: any) {
 
     this.bg = localStorage.getItem('bgColor') || '1'
     
-    console.log(this.bg);
 
     localStorage.setItem('bgColor', '1')
 
@@ -87,7 +86,7 @@ private allocateTimeUnits (timeDifference: any) {
   }
   changeLang(lang: string){
     localStorage.setItem('lang', lang)
-    // window.location.reload()
+    window.location.reload()
   }
 
 

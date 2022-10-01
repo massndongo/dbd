@@ -28,7 +28,7 @@ export class ProgramComponent implements OnInit {
   
   changeLang(lang: string){
     localStorage.setItem('lang', lang)
-    // window.location.reload()
+    window.location.reload()
   }
 
   
