@@ -1,13 +1,14 @@
 $(document).ready(function(){       
 	var scroll_start = 0;
+	var large = parseInt(document.getElementById("size").clientWidth);
 	var startchange = $('#startchange');
 	var offset = startchange.offset();
 	$(document).scroll(function() { 
 	   scroll_start = $(this).scrollTop();
-	   if(scroll_start > offset.top) {
-		   $('#navbarExample').css('background-color', '#fff');
+	   if(scroll_start > offset.top || large < 993) {
+		   $('.navbar').css('background-color', '#fff');
 		} else {
-		   $('#navbarExample').css('background-color', 'transparent');
+		   $('.navbar').css('background-color', 'transparent');
 		}
 	});
  });
@@ -118,7 +119,7 @@ var imageSlider = new Swiper('.image-slider', {
 		},
 		// when window is <= 767px
 		767: {
-			slidesPerView: 2,
+			slidesPerView: 1,
 			spaceBetween: 20
 		},
 		// when window is <= 991px
@@ -153,7 +154,7 @@ var imageSlider = new Swiper('.image-slide', {
 		},
 		// when window is <= 767px
 		767: {
-			slidesPerView: 2,
+			slidesPerView: 1,
 			spaceBetween: 20
 		},
 		// when window is <= 991px
@@ -183,12 +184,12 @@ var imageSlider = new Swiper('.image-slideur', {
 	breakpoints: {
 		// when window is <= 575px
 		575: {
-			slidesPerView: 2,
+			slidesPerView: 1,
 			spaceBetween: 10
 		},
 		// when window is <= 767px
 		767: {
-			slidesPerView: 2,
+			slidesPerView: 1,
 			spaceBetween: 20
 		},
 		// when window is <= 991px

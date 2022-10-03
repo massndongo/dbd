@@ -1,16 +1,16 @@
 
 <div class="row text-center flex justify-center mb-5">
+    
     <div class="banner flex">
-        
-        <nav id="navbarExample" class="navbar navbar-expand-lg nav1 fixed-top text-start" aria-label="Main navigation">
+        <nav ngxNavbarDynamicExpand  id="size" class="navbar navbar-expand-lg nav1 fixed-top text-start" aria-label="Main navigation">
             <div class="container">    
                  <a class="navbar-brand logo-text" href="#">
                     <img src="assets/img/removebg-preview.png" alt="logo" style="width: 100px;">
                  </a> 
-                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                 <button class="navbar-toggler" type="button" (click)="collapse.toggle()" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
                    <span class="navbar-toggler-icon"></span>
                  </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                 <ngx-navbar-collapse #collapse="ngxNavbarCollapse" id="main-nav">
                     <ul class="navbar-nav ms-auto navbar-nav-scroll ml-lg-5 mb-lg-0">
                         <li class="nav-item active m-1">
                           <a class="nav-link" href="accueil">{{'navbar.home' | translate}}</a>
@@ -37,10 +37,7 @@
                           <button type="button" class="btn btn_participer2 rounded btn-dark"><a target="_blank" rel="noopener noreferrer" href="https://pay.senebtc.com/apps/24h3zv5xfrSCjVEwi2DBv9rzEdDc/crowdfund">{{'navbar.don' | translate}}</a></button>
                         </li>
                     </ul>
-                    <!-- <span class="nav-item">
-                        <a class="btn-solid-sm" href="#contact">Participer</a>
-                    </span> -->
-                </div> 
+            </ngx-navbar-collapse>
             </div> 
         </nav>
         <img src="assets/img/website banner.png"  class="img_banner d-lg-block" />
@@ -87,7 +84,8 @@
             <p class="lead text-start text-dark">
                 {{'home.target_p' | translate}}
             </p>
-            <div class="row text-center flex justify-center">
+            <div class="row text-center flex justify-center ">
+                <div class="col-lg-1 col-md-0"></div>
                 <div class="card col-lg-2 col-md-5 m-2 accordion-item" >
                     <div class="card-header text-start">
                       <img src="assets/img/education.png" style="width: 32px; height: 32px" alt="" srcset="">
@@ -144,6 +142,7 @@
                         <button *ngIf="display4" type="button" (click)="updateCard4()" >{{'home.less' | translate}}</button>
                     </div>
                 </div>
+                <!-- <div class="col-lg-1 col-md-0"></div> -->
             </div>
         </div>
     </div>
@@ -296,6 +295,9 @@
                           </div> 
                       </div> 
                      
+                      <div>
+                        <button  class="btn_participer col-lg-3 mt-5"><a href="/speakers">{{'home.btn_show' | translate}}</a></button>
+                      </div>
                   </div> 
               </div>
           </div> 
@@ -325,12 +327,12 @@
     </div>
     <div class="row speaker" style="background-color: #ffffff;">
         <div class="row">
-            <div class="bigSponsor row">
+            <div class="bigSponsor row flex justify-center text-center item-center ">
                 <h1 class="titre_target1">{{'home.sponsors' | translate}}</h1>
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-6 col-md-6">
                     <a target="_blank" rel="noopener noreferrer" href="https://ftx.com/"><img src="../../../assets/img/ftx.png" class="sponsor_img" alt="Avatar" /></a>
                 </div>
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-6 col-md-6">
                     <a target="_blank" rel="noopener noreferrer" href="https://www.ledger.com/"><img src="../../../assets/img/ledger.png" class="sponsor_img" alt="Avatar" /></a>
                 </div>
             </div>
@@ -442,12 +444,12 @@
     </div>
 
 
-    <div class="row info">
-        <div class="col-lg-10 text-center flex justify-center  col-md-10 form_info mb-3">
+    <div class="row info flex justify-center text-center">
+        <div class="col-lg-12 text-center flex justify-center  col-md-12 form_info mb-3">
             <div class="row text-center flex justify-center">
                 <span class="titre_info">{{'home.info' | translate}}</span>
                 <div class="col-12">
-                <button class="btn btn-info col-2 mt-4 p-2">{{'home.btn_send' | translate}}</button>
+                <button class="btn btn-info col-lg-1 col-md-4 mt-4 p-2">{{'home.btn_send' | translate}}</button>
                 </div>
                 
             </div>
@@ -456,8 +458,8 @@
               <button class="btn btn-success" (click)="newUser()">Add</button>
           </div> -->
         </div>
-        <div class="col-lg-12 col-md-8 map text-start row ">
-            <iframe class="col-12" src="https://www.google.com/maps/d/embed?mid=1nz3Ez5_3RUTHcmQJGCncqzeetnEw7OE&ehbc=2E312F" height="380"></iframe>
+        <div class="map">
+            <iframe class="col-11 m-1 " src="https://www.google.com/maps/d/embed?mid=1nz3Ez5_3RUTHcmQJGCncqzeetnEw7OE&ehbc=2E312F" height="200px"></iframe>
         </div>
         
     </div>

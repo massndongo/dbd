@@ -34,6 +34,8 @@ export class HomeComponent implements OnInit, OnDestroy {
   display2: boolean = false;
   display3: boolean = false;
   display4: boolean = false;
+  test: boolean = true;
+  stop: boolean =true;
 
   private getTimeDifference () {
     this.timeDifference = this.dDay.getTime() - new  Date().getTime();
@@ -54,6 +56,7 @@ private allocateTimeUnits (timeDifference: any) {
   }
 
   ngOnInit(): void {
+    console.log(this.test);
     
     this.lang = localStorage.getItem('lang') || 'en'
 
@@ -71,6 +74,14 @@ private allocateTimeUnits (timeDifference: any) {
 
 
 
+  }
+  hide(){
+    this.test = !this.test
+    console.log(this.test);
+    
+  }
+  fermer(){
+    this.stop= false
   }
   updateCard1(){
     this.display1 = !this.display1
