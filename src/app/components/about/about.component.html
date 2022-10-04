@@ -8,10 +8,10 @@
             </button>
             <ngx-navbar-collapse #collapse="ngxNavbarCollapse" id="main-nav">
             <ul class="navbar-nav ms-auto navbar-nav-scroll ml-lg-5 mb-lg-0">
-                <li class="nav-item active m-1">
+                <li class="nav-item m-1">
                     <a class="nav-link" href="accueil">{{'navbar.home' | translate}}</a>
                 </li>
-                <li class="nav-item m-1">
+                <li class="nav-item active m-1">
                     <a class="nav-link " href="about" >{{'navbar.about' | translate}}</a>
                 </li>
                 <li class="nav-item m-1">
@@ -46,35 +46,57 @@
     <div class="row history mt-md-5">
         <div class="col-md-10 col-lg-6 div1 text-start">
             <h2 class="heading titre_history text-start">{{'about.title1' | translate}}</h2>
-            <p class="lead text-start">{{'about.p1' | translate}}</p>
-            <p class="lead text-start">{{'about.p2' | translate}}</p>
+            <p class="lead text-start mt-lg-5">{{'about.p1' | translate}}</p>
         </div>
         <div class="col-lg-3 col-md-11 img1 rounded-2">
-            <img class="featurette-image img-fluid mx-auto"  alt="logo" src="assets/img/The-Bitcoin-Monk-mod.webp" style="width: 400px; height: 400px;" >
+            <img class="featurette-image img-fluid mx-auto"  alt="logo" src="assets/img/The-Bitcoin-Monk-mod.webp" style="width: 300px; height: 280px;" >
         </div>
     </div>
-
-    <div class="row div2">
-        <div class="col-md-10 col-lg-6 div1 mt-5 text-start">
-            <h2 class="heading titre_history text-start">{{'about.title2' | translate}}</h2><br>
-            <p class="text-start lead1">{{'about.p3' | translate}}</p><br><br>
-            <p class="text-start lead1">{{'about.p4' | translate}}</p>
+    <div class="row history2 mt-md-5">
+        <div class="col-lg-3 col-md-11 img2 rounded-2">
+            <img class="featurette-image img-fluid mx-auto"  alt="logo" src="assets/img/prainha.jpeg" style="width: 300px; height: 280px; box-shadow: 10px 20px 40px rgba(0, 12, 10, 0.2);" >
         </div>
-        <div class="col-lg-3 col-md-9 m-5 rounded-2 d-lg-block d-none">
-                <div class="jaune col-4">
-                    <img src="assets/img/prainha.jpeg" alt="logo" style="width: 400px;box-shadow: 10px 20px 40px rgba(0, 12, 10, 0.2);">
-                </div>
-                <div class="jaune col-4">
-                    <img src="../../../assets/img/Bitcoin.svg.png" alt="logo" style="width: 300px;">
-                </div>
-                <div class="jaune col-4">
-                    <img src="../../../assets/img/youtubebitcoinsn.PNG" alt="logo" style="width: 400px;box-shadow: 10px 20px 40px rgba(0, 12, 10, 0.2);">
-                </div>
-                <div class="jaune col-4">
-                    <img src="../../../assets/img/robots-btc.jpg" alt="logo" style="width: 400px;">
-                </div>
+        <div class="col-md-10 col-lg-7 about-p3 ml-lg-5">
+            <p class="lead text-start col-12  mt-lg-5">{{'about.p2' | translate}}</p>
         </div>
-    </div>  
+    </div>
+    
+    <div class="row history mt-md-5">
+        <div class="col-md-10 col-lg-6 div1 text-start">
+            <h2 class="heading titre_history text-start">{{'about.title2' | translate}}</h2>
+            <p class="lead text-start mt-lg-5">{{'about.p3' | translate}}</p>
+        </div>
+        <div class="col-lg-3 col-md-11 img1 rounded-2">
+            <img class="featurette-image img-fluid mx-auto"  alt="logo" src="assets/img/Bitcoin.svg.png" style="width: 300px; height: 280px;" >
+        </div>
+    </div>
+    
+    <div class="row mt-md-5">
+        <div class="col-lg-3 col-md-11 img2 img3 rounded-2">
+            <img class="featurette-image img-fluid mx-auto"  alt="logo" src="assets/img/youtubebitcoinsn.PNG" style="width: 400px; height: 400px; box-shadow: 10px 20px 40px rgba(0, 12, 10, 0.2);" >
+            <img class="featurette-image img-fluid mx-auto mt-5"  alt="logo" src="assets/img/robots-btc.jpg" style="width: 4000px; height: 400px;" >
+        </div>
+        <div class="col-md-10 col-lg-7 mt-0 about-p3 ml-lg-5">
+            <p class="lead text-start col-12  mt-lg-5">{{'about.p4' | translate}}</p>
+            <p class="lead text-start col-12  mt-lg-5">{{'about.p5' | translate}}</p>
+            <p class="lead text-start col-12  mt-lg-5">{{'about.liste1.title' | translate}}</p>
+            <ul class="col-md-5 col-lg-11 text-start lead3">
+                <li class="">{{'about.liste1.l1' | translate}}</li>
+                <li class="">{{'about.liste1.l2' | translate}}</li>
+                <li class="">{{'about.liste1.l3' | translate}}</li>
+                <li class="">{{'about.liste1.l4' | translate}}</li>
+                <li class="">{{'about.liste1.l5' | translate}}</li>
+            </ul>
+            <p class="lead text-start col-12  mt-lg-5">{{'about.liste2.title' | translate}}</p>
+            <ul class="col-md-5 col-lg-11 text-start lead3">
+                <li class="">{{'about.liste2.l1' | translate}}</li>
+                <li class="">{{'about.liste2.l2' | translate}}</li>
+                <li class="">{{'about.liste2.l3' | translate}}</li>
+                <li class="">{{'about.liste2.l4' | translate}}</li>
+                <li class="">{{'about.liste2.l5' | translate}}</li>
+            </ul>
+        </div>
+    </div> 
     <div class="row text-center flex justify-center mb-5">
         <div class="theme">
             <div class="mt-5">
