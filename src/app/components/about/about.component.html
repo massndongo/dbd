@@ -11,13 +11,13 @@
                 <li class="nav-item m-1">
                     <a class="nav-link" href="accueil">{{'navbar.home' | translate}}</a>
                 </li>
-                <li class="nav-item active m-1">
+                <li class="nav-item m-1">
                     <a class="nav-link " href="about" >{{'navbar.about' | translate}}</a>
                 </li>
                 <li class="nav-item m-1">
                     <a class="nav-link " href="speakers">{{'navbar.speakers' | translate}}</a>
                 </li>
-                <li class="nav-item m-1" id="redirection">
+                <li class="nav-item active m-1" id="redirection">
                     <a class="nav-link" href="program">{{'navbar.program' | translate}}</a>
                 </li>
                 <li class="nav-item m-1">
@@ -36,27 +36,28 @@
     </ngx-navbar-collapse>
     </div> 
 </nav>
-<img src="assets/img/website banner.png"  class="img_banner d-lg-block" />
+
+<div  class="img_banner" ></div>
 
 <div id="startchange"></div>
 <div></div>
-<div class="row text-center flex justify-center mb-5" id="">
+<div class="row flex justify-center bigDiv" style="background: transparent;">
 
     
-    <div class="row history mt-md-5">
+    <div class="row history mt-md-5" style="background: transparent;">
         <div class="col-md-10 col-lg-6 div1 text-start">
             <h2 class="heading titre_history text-start">{{'about.title1' | translate}}</h2>
             <p class="lead text-start mt-lg-5">{{'about.p1' | translate}}</p>
         </div>
         <div class="col-lg-3 col-md-11 img1 rounded-2">
-            <img class="featurette-image img-fluid mx-auto"  alt="logo" src="assets/img/The-Bitcoin-Monk-mod.webp" style="width: 300px; height: 280px;" >
+            <img class="featurette-image img-fluid mx-auto"  alt="logo" src="assets/img/The-Bitcoin-Monk-mod.png" style="width: 300px; height: 280px; box-shadow: 10px 20px 40px rgba(0, 12, 10, 0.2);" >
         </div>
     </div>
     <div class="row history2 mt-md-5">
         <div class="col-lg-3 col-md-11 img2 rounded-2">
             <img class="featurette-image img-fluid mx-auto"  alt="logo" src="assets/img/prainha.jpeg" style="width: 300px; height: 280px; box-shadow: 10px 20px 40px rgba(0, 12, 10, 0.2);" >
         </div>
-        <div class="col-md-10 col-lg-7 about-p3 ml-lg-5">
+        <div class="col-md-10 col-lg-6 about-p3 ml-lg-5">
             <p class="lead text-start col-12  mt-lg-5">{{'about.p2' | translate}}</p>
         </div>
     </div>
@@ -67,16 +68,16 @@
             <p class="lead text-start mt-lg-5">{{'about.p3' | translate}}</p>
         </div>
         <div class="col-lg-3 col-md-11 img1 rounded-2">
-            <img class="featurette-image img-fluid mx-auto"  alt="logo" src="assets/img/Bitcoin.svg.png" style="width: 300px; height: 280px;" >
+            <img class="featurette-image img-fluid mx-auto"  alt="logo" src="assets/img/Bitcoin.svg.png" style="width: 300px; height: 280px; box-shadow: 10px 20px 40px rgba(0, 12, 10, 0.2);" >
         </div>
     </div>
     
     <div class="row mt-md-5">
         <div class="col-lg-3 col-md-11 img2 img3 rounded-2">
             <img class="featurette-image img-fluid mx-auto"  alt="logo" src="assets/img/youtubebitcoinsn.PNG" style="width: 400px; height: 400px; box-shadow: 10px 20px 40px rgba(0, 12, 10, 0.2);" >
-            <img class="featurette-image img-fluid mx-auto mt-5"  alt="logo" src="assets/img/robots-btc.jpg" style="width: 4000px; height: 400px;" >
+            <img class="featurette-image img-fluid mx-auto mt-5"  alt="logo" src="assets/img/robots-btc.png" style="width: 400px; height: 400px; box-shadow: 10px 20px 40px rgba(0, 12, 10, 0.2);" >
         </div>
-        <div class="col-md-10 col-lg-7 mt-0 about-p3 ml-lg-5">
+        <div class="col-md-10 col-lg-6 mt-0 about-p3 ml-lg-5">
             <p class="lead text-start col-12  mt-lg-5">{{'about.p4' | translate}}</p>
             <p class="lead text-start col-12  mt-lg-5">{{'about.p5' | translate}}</p>
             <p class="lead text-start col-12  mt-lg-5">{{'about.liste1.title' | translate}}</p>
@@ -162,60 +163,4 @@
             </div> 
         </div>
     </div> 
-    <!-- <div class="row theme">
-        <div class="col-12">
-            <h2 class="heading titre_history  text-start"> Thématiques</h2>
-        </div>
-        <div class="row disc mt-2">
-            <div class="col-lg-5 col-md-12 card_jaune text-start mt-2">
-                <ul>
-                    <li>Qu’est ce que le bitcoin ?</li>
-                    <li>les opportunité de carrère dans le bitcoin</li>
-                    <li>Les opportunité d’emploi dans le bitcoin( salariat, freelance, entrepreneuriat...)</li>
-                </ul>
-            </div>
-            <div class="col-lg-2 col-md-0">
-
-            </div>
-            <div class="col-lg-5 col-md-12 card_vert text-start mt-2">
-                <ul>
-                    <li>L’état de l’art du développement bitcoin</li>
-                    <li>Le réseau P2P</li>
-                    <li>La cryptographie</li>
-                    <li>La sécurité dans bitcoin: réseau, code, noeuds, wallet</li>
-                    <li>Le lightning network</li>
-                </ul>
-
-            </div>
-
-        </div>
-        <div class="row">
-            <div class="col-lg-10 d-lg-block d-none">
-                <img src="assets/img/cibles.png" class="cible" alt="">
-            </div>
-
-        </div>
-        <div class="row disc">
-            <div class="col-lg-5 col-md-12 card_vert text-start mt-2 mt-lg-0">
-                <ul>
-                    <li>Les niveaux du bitcion: layer 2, sidechains, layer3, ...</li>
-                    <li>Le lightning network</li>
-                    <li>La cryptographie</li>
-                    <li>Le Bitcoin VS la Finance traditionnelle VS le Transfert d'argent</li>
-                </ul>
-
-            </div>
-            <div class="col-lg-2 col-md-0">
-
-            </div>
-            <div class="col-lg-5 col-md-12 card_jaune text-start mt-2 mt-lg-0">
-                <ul>
-                    <li>Le bitcoin comme monnaie légale</li>
-                    <li>L'état de réglementation du Bitcoin dans le monde</li>
-                    <li>Lutte contre les ponzis</li>
-                </ul>
-            </div>
-
-        </div>
-    </div>  -->
 </div>
