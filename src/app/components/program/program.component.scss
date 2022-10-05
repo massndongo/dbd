@@ -221,5 +221,18 @@ ul .disc{
         background-position-x: center;
         background-size: cover;
         
+    }.btn_participer
+    .step1, .butonStep1{
+        display: none;
     }
+    .horaire{
+        font-weight: bolder;
+        color: #FAC400;
+        margin: 5%;
+        font-size: 20px;
+    }
+    .contenu_step1{
+        width: 100%;
+    }
+
 }

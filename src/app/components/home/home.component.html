@@ -41,16 +41,12 @@
 
 <div id="startchange"></div>
 <div></div>
-<div class="row text-center flex justify-center mb-5">
-    
-    <div class="banner flex">
-    
-    </div>
+<div class="text-center flex justify-center mb-5">
+
     <div id="startchange"></div>
     <div id=""></div>
     <div id=""></div>
     <div class="row timer" id="">
-        <!-- <div class="left col-4"></div> -->
         <div class="left col-lg-12 col-md-12">
             <div class="row bg ">
                 <div class="rond col-3"> <span>{{daysToDday}}</span> </div>
@@ -65,8 +61,8 @@
                 <div class="date col-3"> <span>{{'home.second' | translate}}</span> </div>
             </div>
         </div>
-        <!-- <div class="left col-4"></div> -->
     </div>
+
     <div class="row dbd">
         <div class="col-md-12 col-lg-6 div1 mt-5 text-start">
             <h2 class="heading titre_dbd text-start">Dakar Bitcoin Days</h2>
@@ -79,7 +75,8 @@
             <img class="featurette-image img-fluid mx-auto"  alt="500x400" src="assets/img/startup.png"  >
         </div>
     </div>
-    <div class="row target">
+        
+    <div class="target">
         <div class="">
             <h1 class="titre_target text-center">{{'home.target' | translate}}</h1>
         </div>
@@ -145,11 +142,11 @@
                         <button *ngIf="display4" type="button" (click)="updateCard4()" >{{'home.less' | translate}}</button>
                     </div>
                 </div>
-                <!-- <div class="col-lg-1 col-md-0"></div> -->
             </div>
         </div>
     </div>
-    <div class="row speaker" style="background-color: #ffffff;">
+    
+    <div class="speaker" style="background-color: #ffffff;">
         <div class="">
             <h1 class="titre_target mt-5 text-center">{{'home.speakers' | translate}}</h1>
         </div>
@@ -306,8 +303,9 @@
           </div> 
         </div> 
     </div>
-    <div class="row speaker" style="background-color: #ffffff;">
-        <div class="row">
+   
+    <div class="speaker" style="background-color: #ffffff;">
+        <div class="">
             <div class="bigSponsor row">
                 <h1 class="titre_target1">{{'home.partenaires' | translate}}</h1>
                 <div class="col-lg-4 col-md-6">
@@ -328,20 +326,24 @@
             </div>
         </div> 
     </div>
-    <div class="row speaker" style="background-color: #ffffff;">
-        <div class="row">
-            <div class="bigSponsor row flex justify-center text-center item-center ">
+     
+    <div class="speaker" style="background-color: #ffffff;">
+        <div>
+            <div class="bigSponsor flex justify-center text-center item-center ">
                 <h1 class="titre_target1">{{'home.sponsors' | translate}}</h1>
-                <div class="col-lg-6 col-md-6">
-                    <a target="_blank" rel="noopener noreferrer" href="https://ftx.com/"><img src="../../../assets/img/ftx.png" class="sponsor_img" alt="Avatar" /></a>
-                </div>
-                <div class="col-lg-6 col-md-6">
-                    <a target="_blank" rel="noopener noreferrer" href="https://www.ledger.com/"><img src="../../../assets/img/ledger.png" class="sponsor_img" alt="Avatar" /></a>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <a target="_blank" rel="noopener noreferrer" href="https://ftx.com/"><img src="../../../assets/img/ftx.png" class="sponsor_img" alt="Avatar" /></a>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <a target="_blank" rel="noopener noreferrer" href="https://www.ledger.com/"><img src="../../../assets/img/ledger.png" class="sponsor_img" alt="Avatar" /></a>
+                    </div>
                 </div>
             </div>
         </div> 
     </div>
-   <div class="row dbd dbd1">
+ 
+   <div class="dbd dbd1">
         <div class="col-md-10 div2 mt-5">
             <h2 class="heading titre_dbd text-center">Dakar - {{'home.pays' | translate}}</h2>
             <p class="lead text-start">{{'home.p1' | translate}}</p>
@@ -405,12 +407,12 @@
         </div> 
     </div>
 
-    <div class="row dbd1">
+    <div class="dbd1">
         <div class="col-md-10 div1 mt-5">
             <h2 class="heading titre_dbd text-start text-center">{{'home.place' | translate}}</h2>
             <p class="lead text-start">{{'home.p2' | translate}}</p>
         </div>
-        <video controls autoplay width="1220" height="580" controls [muted]="'muted'" loop>
+        <video controls autoplay height="580" style="width: 90%;" controls [muted]="'muted'" loop>
             <source src="assets/img/le-grand-theatre-national-presentation-.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
@@ -446,26 +448,22 @@
         </div> 
     </div>
 
-
-    <div class="row info flex justify-center text-center">
-        <div class="col-lg-12 text-center flex justify-center  col-md-12 form_info mb-3">
-            <div class="row text-center flex justify-center">
+    <div class="info flex justify-center text-center">
+        <div>
+            <div class="text-center flex justify-center">
                 <span class="titre_info">{{'home.info' | translate}}</span>
                 <div class="col-12">
                 <button class="btn btn-info col-lg-1 col-md-4 mt-4 p-2">{{'home.btn_send' | translate}}</button>
                 </div>
                 
             </div>
-          <!-- <div *ngIf="submitted">
-              <h4>You submitted successfully!</h4>
-              <button class="btn btn-success" (click)="newUser()">Add</button>
-          </div> -->
-        </div>
-        <div class="map">
-            <iframe class="col-11 m-1 " src="https://www.google.com/maps/d/embed?mid=1nz3Ez5_3RUTHcmQJGCncqzeetnEw7OE&ehbc=2E312F" height="200px"></iframe>
+            
+            <div class="map">
+                <iframe class="col-11 m-1 " src="https://www.google.com/maps/d/embed?mid=1nz3Ez5_3RUTHcmQJGCncqzeetnEw7OE&ehbc=2E312F" height="200px; "></iframe>
+            </div>
         </div>
         
+
     </div>
     
 </div>
-
