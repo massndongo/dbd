@@ -16,6 +16,7 @@ import {TranslateHttpLoader} from '@ngx-translate/http-loader';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { ProgramComponent } from './components/program/program.component';
 import { NgxNavbarModule } from 'ngx-bootstrap-navbar';
+import { HackatonComponent } from './components/hackaton/hackaton.component';
 
 
 
@@ -27,6 +28,7 @@ import { NgxNavbarModule } from 'ngx-bootstrap-navbar';
     SpeakersComponent,
     AboutComponent,
     ProgramComponent,
+    HackatonComponent,
     
 
   ],

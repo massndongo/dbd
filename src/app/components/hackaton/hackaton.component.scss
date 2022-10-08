@@ -1,0 +1,250 @@
+.nav1{   
+    background: white;
+    
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    justify-content: center;
+    align-items: center;
+    /* identical to box height */
+}
+
+.img_banner{
+    opacity: 0.7;
+    position: relative;
+    // bottom: 10%;
+    width: 100%;
+    height: 750px;
+    
+    // padding: -20%;
+    background-image: url('../../../assets/img/website\ banner.png');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+}
+
+.btn_participer:hover{
+    background: #FAC400;
+
+}
+
+.btn_participer{
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    // gap: 10px;
+
+
+    /* green */
+
+    background: #008773;
+    border-radius: 12px;
+    font-family: 'Sora';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 31px;
+    border: 1px solid #008773;
+
+    /* yellow */
+
+    color: #FAC400;
+}
+.btn_participer a{
+    text-decoration: none;
+    color: #FAC400;
+}
+
+.btn_participer2{
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    // gap: 10px;
+
+
+    /* green */
+
+    background: #FAC400;
+    border-radius: 12px;
+    font-family: 'Sora';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 25px;
+    border: 1px solid #008773;
+
+    /* yellow */
+
+    color: #FAC400;
+}
+.btn_participer2 a{
+    text-decoration: none;
+    color: #008773;
+}
+.titre_history{
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 50px;
+    /* identical to box height */
+    
+    
+    
+    /* yellow */
+    
+    color: #FAC400;
+}
+.lead{
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    /* or 200% */
+    
+    width: 85%;
+    text-align: justify;
+
+
+    /* white */
+
+    // color: #060606;
+}
+.lead1{
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+}
+.timer{
+    margin-left: 10%;
+}
+.img_icon{
+   
+    /* yellow */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    margin: 1%;
+    width: 90px;
+    height: 90px;
+    background: #008773;
+    //border: 1px solid rgba(164, 5, 45, 0.8);
+    border-radius: 50%;
+    text-align: center;
+}
+.rond{
+    border-right: 1px solid #008773;
+}
+ul.navbar-nav li a:hover, ul.navbar-nav li a:active, ul.navbar-nav li select:hover {
+    color: #008773 !important;
+}
+
+ul.navbar-nav li.active a {
+    color: #008773 !important;
+}
+.card{
+    border: none;
+}
+
+#timeline-wrap {
+    margin: 10% 10%;
+    top: 100;
+    position: relative;
+  
+  }
+  
+  .timeline {
+    height: 5px;
+    width: 100%;
+    background-color: #FAC400;
+    position: relative;
+  
+  }
+  
+  .marker {
+    z-index: 1000;
+    color: #fff;
+    width: 45px;
+    height: 45px;
+    line-height: 40px;
+    font-size: 1.5em;
+    text-align: center;
+    position: absolute;
+    margin-left: -25px;
+    background-color: #008773;
+    border-radius: 50%;
+  }
+  
+  .marker:hover {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+  }
+  
+  
+  .timeline-icon.one, .timeline-icon.two, .timeline-icon.three, .timeline-icon.four{
+    background-color: #008773 !important;
+  }
+  
+  
+  .mfirst {
+    top: -20px;
+  }
+  
+  .m2 {
+    top: -20px;
+    left: 32.5%
+  }
+  
+  .m3 {
+    top: -20px;
+    left: 66%;
+  }
+  
+  
+  .mlast {
+    top: -20px;
+    left: 100%
+  }
+
+@media screen and (max-width: 700px) {
+    .img_banner{
+        opacity: 0.7;
+        position: relative;
+        // bottom: 10%;
+        width: 100%;
+        height: 230px;  
+        background-image: url('../../../assets/img/website\ banner.png');
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-size: cover;
+        
+    }
+    .mobile{
+        display: flex;
+        flex-direction: column-reverse;
+      }
+      
+    .img_icon{
+   
+    margin: 1%;
+    width: 70px;
+    height: 70px;
+    }
+    .timer{
+        margin-left: 1%;
+    }
+}

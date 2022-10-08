@@ -21,6 +21,9 @@
                     <a class="nav-link" href="program">{{'navbar.program' | translate}}</a>
                 </li>
                 <li class="nav-item m-1">
+                    <a class="nav-link" href="hackathon">{{'navbar.hackathon' | translate}}</a>
+                </li>
+                <li class="nav-item m-1">
                     <select class="nav-link" (change)="changeLang($any($event.target).value)">
                     <option value="fr" [selected]="lang == 'fr'">{{'navbar.btn_lang_fr' | translate}}</option>
                     <option value="en" [selected]="lang == 'en'">{{'navbar.btn_lang_en' | translate}}</option>
