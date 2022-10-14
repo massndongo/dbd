@@ -106,7 +106,18 @@
 
     "speaker": {
         "title": "Découvrez nos intervenants",
-        "p1": "Ce forum est une excellente occasion pour réunir tous ces acteurs et avoir leur retour d’expériences, mais aussi pour faire connaitre les aspects méconnus du Bitcoin au grand public et aux décideurs.",
+        "p1": "Ce forum est une excellente occasion pour réunir tous ces acteurs et avoir leur retour d’expériences, mais aussi pour faire connaitre les aspects méconnus du Bitcoin au grand public et aux décideurs. ",
         "p2": "Nous avons fait appel à des profils reconnus dans l'écosystème pour leurs compétences, leur connaissance du sujet et leur contribution à une plus grande adoption du Bitcoin dans le monde. Nos speakers viennent du Sénégal, de la Côte d'Ivoire, du Burkina Faso, du Cameroun, du Soudan, d'Afrique du Sud, de la France, de la Grande Bretagne, des Etats Unis, d'Inde, d'Australie et de la Roumanie."
+    },
+
+    "hackathon": {
+        "title1": "Dakar Bitcoin Days Hackathon",
+        "p1": "Dakar Bitcoin Days est le 1er forum du Sénégal et d'Afrique francophone dédié à 100% au Bitcoin. Sans profit, l'envergre est international et l'événement est destiné au monde académique, au secteur public, au monde des affaires, à la population locale et sous régionale. Le théme étant << La technologie au service de l'autonomie financière >>, nous souhaitons améliorer la collaboration entre les développeurs locaux et internationaux, que les participants prennent du plaisir à créer des solutions efficaces, qu'ils acquièrent de nouvelles connaissances et qu'on soit la rampe de lancement de nouveaux projets.",
+        "p2": "Avec cet hackathon, nous nous concentrerons sur différentes problématiques auxquelles font face la population et dont nous pensons que Bitcoin pourrait être une solution. A terme, les organisateurs de ce hackathon veulent contribuer au développement des compétences des développeurs locaux et sous-régionaux, développeur l'écosystème Bitcoin, créer de nouvelles start-ups, améliorer la crédibilité et la visibilité des acteurs de la sous-région, et enfin résoudre des problématiques majeures.",
+        "title2": "Les outils à disposition",
+        "p3": "Le hackathon sera un événement majeur qui mobilisera une centaine de participants qui développeront des solutions innovantes en utilisant l'open source et le close source, pendant 30 heures. Ils feront face à 4 problématiques : inclusion financière, accès au financement, sécurité, transfert d'argent. Le sparticipants auront l'occasion de prendre en main et d'apprendre les bases technique de Bitcoin et des solutions qui tournent autour.",
+        "title3": "A propos du hackathon",
+        "p4": "Nous sommes à la recherche de personnes compétentes dans leur domaine, notamment dans les nouvelles technologies. Nous nous attendons à accueillir des développeurs web et/ou backend, de bon profils maîtrisant des langages comme C++, Python, Rust, Javascript, Node.js, C#, entre autres, mais aussi des analystes de données, des designers UI/UX, des ingénieurs en cybersécurité, des gestionnaires de projet et des business analystes.",
+        "highlights":""
     }
 }
