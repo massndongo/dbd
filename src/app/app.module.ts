@@ -17,6 +17,7 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { ProgramComponent } from './components/program/program.component';
 import { NgxNavbarModule } from 'ngx-bootstrap-navbar';
 import { HackatonComponent } from './components/hackaton/hackaton.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 
 
@@ -29,6 +30,7 @@ import { HackatonComponent } from './components/hackaton/hackaton.component';
     AboutComponent,
     ProgramComponent,
     HackatonComponent,
+    NavbarComponent,
     
 
   ],
@@ -50,7 +52,7 @@ import { HackatonComponent } from './components/hackaton/hackaton.component';
     FormsModule,
 
   ],
-  providers: [],
+  providers: [TranslateService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

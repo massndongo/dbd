@@ -1,0 +1,43 @@
+<nav ngxNavbarDynamicExpand  id="size" class="navbar navbar-expand-lg nav1 fixed-top text-start" aria-label="Main navigation">
+    <div class="container">    
+            <a class="navbar-brand logo-text" href="#">
+            <img src="assets/img/removebg-preview.png" alt="logo" style="width: 100px;">
+            </a> 
+            <button class="navbar-toggler" type="button" (click)="collapse.toggle()" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <ngx-navbar-collapse #collapse="ngxNavbarCollapse" id="main-nav">
+            <ul class="navbar-nav ms-auto navbar-nav-scroll ml-lg-5 mb-lg-0">
+                <li class="nav-item m-1">
+                    <a class="nav-link" href="accueil">{{'navbar.home' | translate}}</a>
+                </li>
+                <li class="nav-item m-1">
+                    <a class="nav-link " href="about" >{{'navbar.about' | translate}}</a>
+                </li>
+                <li class="nav-item m-1">
+                    <a class="nav-link " href="speakers">{{'navbar.speakers' | translate}}</a>
+                </li>
+                <li class="nav-item m-1">
+                    <a class="nav-link" href="program">{{'navbar.program' | translate}}</a>
+                </li>
+                <li class="nav-item m-1">
+                    <a class="nav-link" href="hackathon">{{'navbar.hackathon' | translate}}</a>
+                </li>
+                <li class="nav-item m-1">
+                    <select class="nav-link" (change)="changeLang($any($event.target).value)">
+                    <option value="fr" [selected]="lang == 'fr'">{{'navbar.btn_lang_fr' | translate}}</option>
+                    <option value="en" [selected]="lang == 'en'">{{'navbar.btn_lang_en' | translate}}</option>
+                    </select>
+                </li>
+                <li class="nav-item ms-lg-5 m-1">
+                    <button type="button" class="btn btn_participer rounded btn-dark"><a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSfZvsX9aViGHepwqAKdUtnhS33eVr--BZRhFzSMR47qWNzMOg/viewform?usp=sf_link" >{{'navbar.participer' | translate}}</a></button>
+                </li>
+                <li class="nav-item ms-lg-5 m-1">
+                    <button type="button" class="btn btn_participer2 rounded btn-dark"><a target="_blank" rel="noopener noreferrer" href="https://pay.senebtc.com/apps/24h3zv5xfrSCjVEwi2DBv9rzEdDc/crowdfund">{{'navbar.don' | translate}}</a></button>
+                </li>
+            </ul>
+    </ngx-navbar-collapse>
+    </div> 
+</nav>
+
+<div  class="img_banner d-lg-block" ></div>

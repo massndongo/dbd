@@ -1,25 +1,6 @@
 ::-webkit-scrollbar {
     display: none;
 }
-.banner{
-    // overflow: hidden;
-    // position: relative;   
-}
-.img_banner{
-    opacity: 0.7;
-    position: relative;
-    // bottom: 10%;
-    width: 100%;
-    height: 750px;
-    
-    // padding: -20%;
-    background-image: url('../../../assets/img/website\ banner.png');
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-size: cover;
-}
-
-
 
 .timer{
     background-color: white;
@@ -373,84 +354,10 @@
     text-decoration: none;
     color: #FAC400;
 }
-.btn_participer2{
-    justify-content: center;
-    align-items: center;
-    padding: 10px 30px;
-    // gap: 10px;
-
-
-    /* green */
-
-    background: #FAC400;
-    border-radius: 12px;
-    font-family: 'Sora';
-    font-style: normal;
-    font-size: 20px;
-    line-height: 20px;
-    width: 190px;
-    border: 1px solid #008773;
-
-    /* yellow */
-
-    color: #FAC400;
-}
-.btn_participer2 a{
-    text-decoration: none;
-    color: #008773;
-}
-.nav1{
-    background: white;
-    width: 100%;
-
-    
-
-}
-
-.nav1{
-
-    // position: relative;
-    
-    font-family: 'Sora';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 21px;
-    justify-content: center;
-    align-items: center;
-    /* identical to box height */
-    color: #008773;
-
-    /* black */
-
-}
-
-
-
-
-ul.navbar-nav li a:hover, ul.navbar-nav li a:active, ul.navbar-nav li select:hover {
-    color: #008773 !important;
-}
-
-a:hover {
-    color: #008773 !important;
-}
 
 
 
 @media screen and (max-width: 700px) {
-    .img_banner{
-        opacity: 0.7;
-        position: relative;
-        // bottom: 10%;
-        width: 100%;
-        height: 230px;  
-        background-image: url('../../../assets/img/website\ banner.png');
-        background-repeat: no-repeat;
-        background-position-x: center;
-        background-size: cover;
-        
-    }
     .rond{
         /* yellow */
         display: flex;

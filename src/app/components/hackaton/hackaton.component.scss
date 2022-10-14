@@ -1,30 +1,3 @@
-.nav1{   
-    background: white;
-    
-    font-family: 'Sora';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 21px;
-    justify-content: center;
-    align-items: center;
-    /* identical to box height */
-}
-
-.img_banner{
-    opacity: 0.7;
-    position: relative;
-    // bottom: 10%;
-    width: 100%;
-    height: 750px;
-    
-    // padding: -20%;
-    background-image: url('../../../assets/img/website\ banner.png');
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-size: cover;
-}
-
 .btn_participer a:hover, .btn_participer:hover{
     background: #FAC400;
     color: #008773;
@@ -57,31 +30,6 @@
     color: #FAC400;
 }
 
-.btn_participer2{
-    justify-content: center;
-    align-items: center;
-    padding: 10px 30px;
-    // gap: 10px;
-
-
-    /* green */
-
-    background: #FAC400;
-    border-radius: 12px;
-    font-family: 'Sora';
-    font-style: normal;
-    font-size: 20px;
-    line-height: 25px;
-    border: 1px solid #008773;
-
-    /* yellow */
-
-    color: #FAC400;
-}
-.btn_participer2 a{
-    text-decoration: none;
-    color: #008773;
-}
 .titre_history{
     font-family: 'Sora';
     font-style: normal;
@@ -140,13 +88,6 @@
 }
 .rond{
     border-right: 1px solid #008773;
-}
-ul.navbar-nav li a:hover, ul.navbar-nav li a:active, ul.navbar-nav li select:hover {
-    color: #008773 !important;
-}
-
-ul.navbar-nav li.active a {
-    color: #008773 !important;
 }
 .card{
     border: none;
@@ -266,18 +207,6 @@ ul.navbar-nav li.active a {
 }
 
 @media screen and (max-width: 700px) {
-    .img_banner{
-        opacity: 0.7;
-        position: relative;
-        // bottom: 10%;
-        width: 100%;
-        height: 230px;  
-        background-image: url('../../../assets/img/website\ banner.png');
-        background-repeat: no-repeat;
-        background-position-x: center;
-        background-size: cover;
-        
-    }
     .mobile{
         display: flex;
         flex-direction: column-reverse;

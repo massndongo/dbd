@@ -8,10 +8,12 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class AppComponent {
   title = 'dbd';
+  lang: any;
 
   constructor(private translateService: TranslateService) {
     this.translateService.setDefaultLang('fr')
     this.translateService.use(localStorage.getItem('lang') || 'en')
 
   }
+  
 }
