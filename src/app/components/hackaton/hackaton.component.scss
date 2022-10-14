@@ -52,7 +52,7 @@
     line-height: 32px;
     /* or 200% */
     
-    width: 85%;
+    // width: 85%;
     text-align: justify;
 
 
@@ -106,6 +106,10 @@
     position: relative;
   
   }
+  .img {
+    opacity: 1;
+    z-index: auto;
+  }
   .timeline-hackaton{
     padding: 5%;
     margin-top: 10%;
@@ -113,7 +117,7 @@
       rgba(0, 135, 115, 0.822), 
       rgba(0, 0, 0, 0.842)
       ),url("../../../assets/img/youtube DBD.png");
-    opacity: 0.7;
+    // opacity: 0.7;
     width: 100%;
     background-repeat: no-repeat;
     background-position-x: center;
@@ -206,6 +210,25 @@
 
 }
 
+.img_sponsor{
+  width: 23%;
+  margin: 1%;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+}
+.text_sponsor{
+  width: 100%;
+  
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+}
+.p-partner{
+  width: 35%;
+}
 @media screen and (max-width: 700px) {
     .mobile{
         display: flex;
@@ -226,5 +249,23 @@
     }
     .display-mobile{
         display: none;
+    }
+    .img_sponsor{
+      width: 90%;
+      display: flex;
+      justify-content: center;
+      justify-items: center;
+      text-align: center;
+    }
+    .text_sponsor{
+      width: 100%;
+      
+      display: flex;
+      justify-content: center;
+      justify-items: center;
+      text-align: center;
+    }
+    .p-partner{
+      width: 90%;
     }
 }
