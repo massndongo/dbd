@@ -112,12 +112,12 @@
 
     "hackathon": {
         "title1": "Dakar Bitcoin Days Hackathon",
-        "p1": "Dakar Bitcoin Days est le 1er forum du Sénégal et d'Afrique francophone dédié à 100% au Bitcoin. Sans profit, l'envergre est international et l'événement est destiné au monde académique, au secteur public, au monde des affaires, à la population locale et sous régionale. Le théme étant << La technologie au service de l'autonomie financière >>, nous souhaitons améliorer la collaboration entre les développeurs locaux et internationaux, que les participants prennent du plaisir à créer des solutions efficaces, qu'ils acquièrent de nouvelles connaissances et qu'on soit la rampe de lancement de nouveaux projets.",
-        "p2": "Avec cet hackathon, nous nous concentrerons sur différentes problématiques auxquelles font face la population et dont nous pensons que Bitcoin pourrait être une solution. A terme, les organisateurs de ce hackathon veulent contribuer au développement des compétences des développeurs locaux et sous-régionaux, développeur l'écosystème Bitcoin, créer de nouvelles start-ups, améliorer la crédibilité et la visibilité des acteurs de la sous-région, et enfin résoudre des problématiques majeures.",
+        "p1": "Dakar Bitcoin Days est le 1er forum du Sénégal et d'Afrique francophone 100% dédié au Bitcoin. Sans profit, d'envergure internationale, cet événement est destiné au monde académique, au secteur public, au monde des affaires, à la population locale et sous régionale. Le théme étant 'La technologie au service de l'autonomie financière', nous souhaitons améliorer la collaboration entre les développeurs locaux et internationaux, que les participants prennent du plaisir à créer des solutions efficaces, qu'ils acquièrent de nouvelles connaissances et que nous soyons la rampe de lancement de nouveaux projets.",
+        "p2": "Avec cet hackathon, nous nous concentrerons sur différentes problématiques auxquelles font face la population et dont nous pensons que Bitcoin pourrait être une solution. A terme, les organisateurs de ce hackathon veulent contribuer au développement des compétences des développeurs locaux et sous-régionaux, développer l'écosystème Bitcoin, créer de nouvelles start-ups, améliorer la crédibilité et la visibilité des acteurs de la sous-région, et enfin résoudre des problématiques majeures.",
         "title2": "Les outils à disposition",
-        "p3": "Le hackathon sera un événement majeur qui mobilisera une centaine de participants qui développeront des solutions innovantes en utilisant l'open source et le close source, pendant 30 heures. Ils feront face à 4 problématiques : inclusion financière, accès au financement, sécurité, transfert d'argent. Le sparticipants auront l'occasion de prendre en main et d'apprendre les bases technique de Bitcoin et des solutions qui tournent autour.",
+        "p3": "Le hackathon sera un événement majeur qui mobilisera une centaine de participants qui développeront des solutions innovantes en utilisant l'open source et le close source, pendant 30 heures. Ils feront face à 4 problématiques : inclusion financière, accès au financement, sécurité, transfert d'argent. Les participants auront l'occasion de prendre en main et d'apprendre les bases technique de Bitcoin et des solutions qui tournent autour.",
         "title3": "A propos du hackathon",
-        "p4": "Nous sommes à la recherche de personnes compétentes dans leur domaine, notamment dans les nouvelles technologies. Nous nous attendons à accueillir des développeurs web et/ou backend, de bon profils maîtrisant des langages comme C++, Python, Rust, Javascript, Node.js, C#, entre autres, mais aussi des analystes de données, des designers UI/UX, des ingénieurs en cybersécurité, des gestionnaires de projet et des business analystes.",
+        "p4": "Nous sommes à la recherche de personnes compétentes dans leur domaine, notamment dans les nouvelles technologies. Nous nous attendons à accueillir des développeurs web et/ou backend, de bon profils maîtrisant des langages de programmation comme C++, Python, Rust, Javascript, Node.js, C#, entre autres, mais aussi des analystes de données, des designers UI/UX, des ingénieurs en cybersécurité, des gestionnaires de projet et des business analystes.",
         "highlights":"",
         "about": {
             "participant": "Participants",
@@ -151,6 +151,7 @@
         "date": "Du 02 au 03 Décembre 2022",
         "place": "Lieu",
         "eno": "Espace Numérique Ouvert (ENO) de Mermoz",
-        "p17": "Nous sommes fiers de mettre en place cet Hackathon qui, à terme, sera à l'origine d'innombrables startups dans les années à venir."
+        "p17": "Nous sommes fiers de mettre en place cet Hackathon qui, à terme, sera à l'origine d'innombrables startups dans les années à venir.",
+        "partenaires":"Partenaires"
     }
 }

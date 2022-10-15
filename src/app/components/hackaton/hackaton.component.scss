@@ -30,12 +30,13 @@
     color: #FAC400;
 }
 
-.titre_history{
+.titre_history1{
     font-family: 'Sora';
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
     line-height: 50px;
+    margin-left: 10%;
     /* identical to box height */
     
     
@@ -44,7 +45,22 @@
     
     color: #FAC400;
 }
-.lead{
+
+.titre_history{
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 50px;
+  /* identical to box height */
+  
+  
+  
+  /* yellow */
+  
+  color: #FAC400;
+}
+.leada{
     font-family: 'Sora';
     font-style: normal;
     font-weight: 500;
@@ -54,12 +70,32 @@
     
     // width: 85%;
     text-align: justify;
+    margin-left: 10%;
 
 
     /* white */
 
     // color: #060606;
 }
+
+.leadb{
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  /* or 200% */
+  
+  // width: 85%;
+  text-align: justify;
+  margin-right: 10%;
+
+
+  /* white */
+
+  // color: #060606;
+}
+
 .lead1{
     font-family: 'Sora';
     font-style: normal;
@@ -69,6 +105,8 @@
 }
 .timer{
     margin-left: 10%;
+    margin-top: 3%;
+    margin-bottom: 5%;
 }
 .img_icon{
    
@@ -91,6 +129,19 @@
 }
 .card{
     border: none;
+}
+
+.card-text{
+  font-family: 'Sora';
+  font-size: 15px;
+}
+
+.text-center{
+  font-family: 'Sora';
+}
+
+.duration{
+  font-family: 'Sora';
 }
 
 #timeline-wrap {
@@ -188,7 +239,25 @@
     left: 100%
   }
 
+.container{
+  margin-bottom: 5%;
+}
+
 .titre_target1{
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 59px;
+  /* identical to box height */
+
+
+  /* green */
+
+  color: #008773;  
+}
+
+.titre_target2{
   font-family: 'Sora';
   font-style: normal;
   font-weight: 400;
@@ -204,11 +273,18 @@
 .p-partner{
   font-family: 'Sora';
   font-style: normal;
-  font-weight: bolder;
-  font-size: 25px;
+  font-size: 19px;
   line-height: 30px;
 
 }
+
+.p-partner2{
+  font-family: 'Sora';
+  font-style: normal;
+  font-size: 22px;
+  color: #008773;
+}
+
 
 .img_sponsor{
   width: 23%;
@@ -264,6 +340,8 @@
       justify-content: center;
       justify-items: center;
       text-align: center;
+      font-family: 'Sora';
+      font-size: 30px;
     }
     .p-partner{
       width: 90%;
