@@ -29,7 +29,7 @@
         "target_finance_p": "Le secteur de la Finance (Banques, Assurances, Sociétés de Gestion et d’Intermédiation, Banque Centrale) est impacté par le nouveau paradigme proposé par le bitcoin en matière de transfert d’argent, d’épargne et d’investissement.",
         "target_ins_title": "Institutionnels",
         "target_ins_p": "Les pouvoirs publics verront les différentes facettes du Bitcoin afin qu’ils saisissent pourquoi est-ce que des pays comme le Salvador ou encore la République Centrafricaine ont décidé de créer un cadre légal pour le Bitcoin.",
-        "program_p": "Le forum se tiendra sur 2 journées avec différentes cibles et différents formats de contenu qui tourneront autour de panels (4 personnes maximum), de présentations sur des sujets spécifiques, de démos de solutions innovantes et d’un hackathon. Il y aura aussi des stands dédiés aux startups, aux entreprises qui évoluent autour du bitcoin et aux commerces qui acceptent le bitcoin comme moyen de paiement.",
+        "program_p": "Le forum se tiendra sur 2 journées avec différentes cibles et différents formats de contenu qui tourneront autour de panels (4 personnes maximum), de présentations sur des sujets spécifiques, de démos de solutions innovantes et d’un hackathon. Il y aura aussi des stands dédiés aux startups, aux entreprises qui évoluent autour du bitcoin et aux commerces qui acceptent le bitcoin comme moyen de paiement. Ceci n'est pas le programme définitif. Il risque de changer d'ici le 1er  jour du forum.",
         "speakers": "Têtes d'Affiche",
         "sponsors": "Sponsors",
         "partenaires": "Partenaires",
@@ -57,7 +57,8 @@
         "btn_send": "Contactez nous !",
         "p1": "Dakar est la capitale du Sénégal, en Afrique occidentale. Cette ville portuaire sur l'océan Atlantique se trouve sur la presqu'île du Cap-Vert. Son quartier traditionnel, la Médina, accueille la Grande Mosquée, qui se distingue par son imposant minaret. Le musée Théodore-Monot expose des objets culturels comme des vêtements, des percussions, des sculptures et des outils. La vie nocturne animée de la ville trouve son inspiration dans la musique locale, le mbalax.",
         "p2": "Le Grand Théâtre de Dakar est l’une des plus belles réalisations architecturales du continent. Il est en effet, le plus grand théâtre d’Afrique de l’Ouest. Ce monument imposant permet aux artistes d’effectuer diverses prestations, mais aux autres intéressés d'y organiser des forums et conférences. Inauguré en avril 2011 par l’ancien ­Président Abdoulaye Wade le Grand Théâtre National a une capacité de 1800 places. Il a­ six étages, 206 pièces, notamment des loges, des salles de répétition, des bureaux, des salles de conférences, des locaux techniques, un centre de documentation, une salle de réunion, un grand hall d’exposition et de performance.",
-        "btn_show": "Découvrir les autres speakers"
+        "btn_show": "Découvrir les autres speakers",
+        "media": "Partenaire Média"
     },
     "footer": {
         "text": "Tous droits reservés."
@@ -101,7 +102,7 @@
     },
 
     "program": {
-        "para" : "Le forum se déroulera sur 2 jours avec différentes cibles et différents formats de contenus qui s'articuleront autour de panels (4 personnes maximum), de présentations sur des sujets précis, de démos de solutions innovantes et d'un hackathon. Il y aura également des stands dédiés aux startups, aux entreprises qui évoluent autour du bitcoin et aux entreprises qui acceptent le bitcoin comme moyen de paiement."
+        "para" : "Le forum se déroulera sur 2 jours avec différentes cibles et différents formats de contenus qui s'articuleront autour de panels (4 personnes maximum), de présentations sur des sujets précis, de démos de solutions innovantes et d'un hackathon. Il y aura également des stands dédiés aux startups, aux entreprises qui évoluent autour du bitcoin et aux entreprises qui acceptent le bitcoin comme moyen de paiement. Ceci n'est pas le programme définitif. Il risque de changer d'ici le 1er du forum."
     },
 
     "speaker": {
@@ -132,10 +133,10 @@
         "p7": "Les participants bénéficieront de sessions de prise en main des solutions suivantes, entre autres : Bitcoin Core, Bitcoin Dev Kit, BTCPay Server, Electrum server, Fulcrum server, Ledger Developer Portal, Lightning Core, C-Lightning, Lightning Dev Kit, mempool.space, Samourai Wallet, Sparrow Wallet...",
         "p8": "Le hackathon est construit de telle sorte que les participants aient toutes les ressources nécessaires pour s'approprier Bitcoin. Il leur permettra de connaître sa philosophie et son fonctionnement, mais aussi de pouvoir réfléchir sur ses applications présentes et futures, et leur implémentation dans le but d'impacter le monde de façon significative.",
         "title7": "Déroulement du Hackathon",
-        "p9": "Début de la campagne de communication et ouverture des inscriptions pour les sessions de formations et d'information.",
-        "p10": "Tenue des sessions de formation et d'information sur les outils open sources préselectionnés.",
-        "p11": "Ouverture des inscriptions au Hackathon.",
-        "p12": "Pré-hackathon et Hackathon",
+        "p9": "Début de la campagne de communication || Ouverture des inscriptions pour le Hackathon",
+        "p10": "Tenue des sessions de formation et d'information sur les outils open sources préselectionnés",
+        "p11": "Sélection des candidats || Publication des résultats || Bootcamp",
+        "p12": "Hackathon",
         "oct": "Octobre",
         "nov": "Novembre",
         "dec": "Décembre",

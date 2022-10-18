@@ -28,7 +28,7 @@
         "target_finance_p": "The Finance sector (Banks, Insurance, Management and Intermediation Companies, Central Bank) is impacted by the new paradigm offered by bitcoin in terms of money transfer, savings and investment.",
         "target_ins_title" : "Institutional",
         "target_ins_p": "Public authorities will see the different facets of Bitcoin so that they understand why countries like El Salvador or the Central African Republic have decided to create a legal framework for Bitcoin.",
-        "program_p": "The forum will be held over 2 days with different targets and different content formats that will revolve around panels (4 people maximum), presentations on specific topics, demos of innovative solutions and a Hackathon. There will also be stands dedicated to startups, businesses that evolve around bitcoin and businesses that accept bitcoin as a means of payment.",
+        "program_p": "The forum will be held over 2 days with different targets and different content formats that will revolve around panels (4 people maximum), presentations on specific topics, demos of innovative solutions and a Hackathon. There will also be stands dedicated to startups, businesses that evolve around bitcoin and businesses that accept bitcoin as a means of payment. This is not the final program. It may change until the 1st day of the conference.",
         "speakers": "Main Speakers",
         "sponsors": "Our Sponsors",
         "partenaires": "Organizers",
@@ -56,7 +56,8 @@
         "btn_send": "Contact us !",
         "p1": "Dakar is the capital of Senegal, in West Africa. This port city on the Atlantic Ocean is on the Cape Verde peninsula. Its traditional district, the Medina, hosts the Great Mosque, which is distinguished by its imposing minaret. The Théodore-Monot Museum exhibits cultural objects such as clothing, percussion, sculptures and tools. The city's lively nightlife finds its inspiration in the local music, mbalax.",
         "p2": "The Grand Théâtre de Dakar is one of the most beautiful architectural achievements on the continent. It is indeed the largest theatre in West Africa. This imposing monument allows artists to perform various performances, but other interested parties to organize forums and conferences. Inaugurated in April 2011 by former President Abdoulaye Wade, the Grand Théâtre National has a capacity of 1,800 seats. It has six floors, 206 rooms, including dressing rooms, rehearsal rooms, offices, conference rooms, technical rooms, documentation centre, meeting room, large exhibition and performance hall.",
-        "btn_show": "Show other speakers"
+        "btn_show": "Show other speakers",
+        "media": "Media Partner"
     },
     "about": {
         "title1": "Bitcoin, a technological revolution",
@@ -96,7 +97,7 @@
         }
     },
     "program": {
-        "para" : "The forum will be held over 2 days with different targets and different content formats that will revolve around panels (4 people maximum), presentations on specific topics, demos of innovative solutions and a Hackathon. There will also be stands dedicated to startups, businesses that evolve around bitcoin and businesses that accept bitcoin as a means of payment."
+        "para" : "The forum will be held over 2 days with different targets and different content formats that will revolve around panels (4 people maximum), presentations on specific topics, demos of innovative solutions and a Hackathon. There will also be stands dedicated to startups, businesses that evolve around bitcoin and businesses that accept bitcoin as a means of payment. This is not the final program. It may change until the 1st day of the conference."
     },
     "footer": {
         "text": "All rights reserved."
@@ -130,10 +131,10 @@
         "p7": "Participants will benefit from sessions to get started with the following solutions, among others: Bitcoin Core, Bitcoin Dev Kit, BTCPay Server, Electrum server, Fulcrum server, Ledger Developer Portal, Lightning Core, C-Lightning, Lightning Dev Kit, mempool.space , Samurai Wallet, Sparrow Wallet...",
         "p8": "The Hackathon is built in such a way that participants have all the necessary resources to make Bitcoin their own. It will allow them to know its philosophy and how it works, but also to be able to reflect on its present and future applications, and their implementation in order to impact the world in a significant way.",
         "title7": "What are the steps?",
-        "p9": "Start of the communication campaign and opening of registrations for training and information sessions.",
+        "p9": "Start of the communication campaign || Opening of registrations for the Hackathon",
         "p10": "Holding training and information sessions on the preselected open source tools.",
-        "p11": "Opening of registrations for the Hackathon.",
-        "p12": "Pre-Hackathon and Hackathon",
+        "p11": "Selection of participants || Results || Bootcamp",
+        "p12": "Hackathon",
         "oct": "October",
         "nov": "November",
         "dec": "December",
@@ -146,7 +147,7 @@
         "p14": "You will be entitled to training sessions, information, mentors, technical referents. No matter your level, you will learn something new.",
         "p15": "Come and introduce yourself to companies specializing in the field. Exchanges with recognized experts and professionals from all over the world.",
         "p16": "Your work will be rewarded, regardless of the outcome of the Hackathon. The prizes include financial compensation, a Ledger Nano S+, support in an incubation program.",
-        "date": "From 02 to 03 December 2022",
+        "date": "From December 2nd to 3rd 2022",
         "place": "Place",
         "eno": "Open Digital Space of Mermoz",
         "p17": "We are proud to set up this Hackathon which will ultimately be the source of countless startups in the years to come.",
