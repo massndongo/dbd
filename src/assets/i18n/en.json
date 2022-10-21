@@ -128,7 +128,7 @@
         "title6": "Achievements",
         "p5": "The Dakar Bitcoin Days Hackathon is a free event where participants, whether alone or in teams, just need to register on this website.",
         "p6": "The Hackathon is open to everyone, even if it is aimed primarily at developers or related profiles. Participants do not necessarily need to have advanced knowledge of Bitcoin before registering. We'll help them get the basics down with information/training sessions and demos during the pre-Hackathon.",
-        "p7": "Participants will benefit from sessions to get started with the following solutions, among others: Bitcoin Core, Bitcoin Dev Kit, BTCPay Server, Electrum server, Fulcrum server, Ledger Developer Portal, Lightning Core, C-Lightning, Lightning Dev Kit, mempool.space , Samurai Wallet, Sparrow Wallet...",
+        "p7": "Before the hackathon, participants will benefit from sessions to get started with the following solutions, among others: Bitcoin Core, Bitcoin Dev Kit, BTCPay Server, Electrum server, Fulcrum server, Ledger Developer Portal, Lightning Core, C-Lightning, Lightning Dev Kit, mempool.space , Samurai Wallet, Sparrow Wallet...",
         "p8": "The Hackathon is built in such a way that participants have all the necessary resources to make Bitcoin their own. It will allow them to know its philosophy and how it works, but also to be able to reflect on its present and future applications, and their implementation in order to impact the world in a significant way.",
         "title7": "What are the steps?",
         "p9": "Start of the communication campaign || Opening of registrations for the Hackathon",
@@ -144,13 +144,14 @@
         "reseau": "Networking",
         "recompense": "Awards",
         "p13": "You will have the opportunity to build innovative solutions using the Bitcoin protocol in whole or in part.",
-        "p14": "You will be entitled to training sessions, information, mentors, technical referents. No matter your level, you will learn something new.",
+        "p14": "Before the hackthon, you will be entitled to training sessions, information. During the Hackathon, mentors, technical referents will be besides you to help you learn. No matter your level, you will learn something new.",
         "p15": "Come and introduce yourself to companies specializing in the field. Exchanges with recognized experts and professionals from all over the world.",
         "p16": "Your work will be rewarded, regardless of the outcome of the Hackathon. The prizes include financial compensation, a Ledger Nano S+, support in an incubation program.",
         "date": "From December 2nd to 3rd 2022",
         "place": "Place",
         "eno": "Open Digital Space of Mermoz",
         "p17": "We are proud to set up this Hackathon which will ultimately be the source of countless startups in the years to come.",
-        "partenaires": "Partners"
+        "partenaires": "Partners",
+        "inscription":"Register"
     }
 }
