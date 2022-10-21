@@ -144,7 +144,7 @@
         "reseau": "Networking",
         "recompense": "Awards",
         "p13": "You will have the opportunity to build innovative solutions using the Bitcoin protocol in whole or in part.",
-        "p14": "Before the hackthon, you will be entitled to training sessions, information. During the Hackathon, mentors, technical referents will be besides you to help you learn. No matter your level, you will learn something new.",
+        "p14": "Before the Hackathon, you will be entitled to training sessions, information. During the Hackathon, mentors, technical referents will be besides you to help you learn. No matter your level, you will learn something new.",
         "p15": "Come and introduce yourself to companies specializing in the field. Exchanges with recognized experts and professionals from all over the world.",
         "p16": "Your work will be rewarded, regardless of the outcome of the Hackathon. The prizes include financial compensation, a Ledger Nano S+, support in an incubation program.",
         "date": "From December 2nd to 3rd 2022",
@@ -154,8 +154,8 @@
         "partenaires": "Partners",
         "inscription":"Register",
         "liste1": "Financial inclusion",
-        "liste2": "Access to finance",
+        "liste2": "Access to financing",
         "liste3": "Security",
-        "liste4": "Money transfer"
+        "liste4": "Remittance"
     }
 }
