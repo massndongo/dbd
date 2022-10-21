@@ -28,7 +28,7 @@
         "target_finance_p": "The Finance sector (Banks, Insurance, Management and Intermediation Companies, Central Bank) is impacted by the new paradigm offered by bitcoin in terms of money transfer, savings and investment.",
         "target_ins_title" : "Institutional",
         "target_ins_p": "Public authorities will see the different facets of Bitcoin so that they understand why countries like El Salvador or the Central African Republic have decided to create a legal framework for Bitcoin.",
-        "program_p": "The forum will be held over 2 days with different targets and different content formats that will revolve around panels (4 people maximum), presentations on specific topics, demos of innovative solutions and a hackathon. There will also be stands dedicated to startups, businesses that evolve around bitcoin and businesses that accept bitcoin as a means of payment.",
+        "program_p": "The forum will be held over 2 days with different targets and different content formats that will revolve around panels (4 people maximum), presentations on specific topics, demos of innovative solutions and a Hackathon. There will also be stands dedicated to startups, businesses that evolve around bitcoin and businesses that accept bitcoin as a means of payment. This is not the final program. It may change until the 1st day of the conference.",
         "speakers": "Main Speakers",
         "sponsors": "Our Sponsors",
         "partenaires": "Organizers",
@@ -56,7 +56,8 @@
         "btn_send": "Contact us !",
         "p1": "Dakar is the capital of Senegal, in West Africa. This port city on the Atlantic Ocean is on the Cape Verde peninsula. Its traditional district, the Medina, hosts the Great Mosque, which is distinguished by its imposing minaret. The Théodore-Monot Museum exhibits cultural objects such as clothing, percussion, sculptures and tools. The city's lively nightlife finds its inspiration in the local music, mbalax.",
         "p2": "The Grand Théâtre de Dakar is one of the most beautiful architectural achievements on the continent. It is indeed the largest theatre in West Africa. This imposing monument allows artists to perform various performances, but other interested parties to organize forums and conferences. Inaugurated in April 2011 by former President Abdoulaye Wade, the Grand Théâtre National has a capacity of 1,800 seats. It has six floors, 206 rooms, including dressing rooms, rehearsal rooms, offices, conference rooms, technical rooms, documentation centre, meeting room, large exhibition and performance hall.",
-        "btn_show": "Show other speakers"
+        "btn_show": "Show other speakers",
+        "media": "Media Partner"
     },
     "about": {
         "title1": "Bitcoin, a technological revolution",
@@ -69,7 +70,7 @@
         "liste1": {
             "title": "The short-term objectives are:",
             "l1": "Organize panels on topics that revolve around bitcoin (economy, finance, security, cryptography, mining, geopolitics, hardware, programming, sustainable development, philosophy...",
-            "l2": "Organize a hackathon to find solutions to known/unknown problems that can be solved by bitcoin,",
+            "l2": "Organize a Hackathon to find solutions to known/unknown problems that can be solved by bitcoin,",
             "l3": "Present startups and other companies that are developing solutions around bitcoin,",
             "l4": "Bring together players from the Senegalese, French-speaking and global bitcoin ecosystem,",
             "l5": "Introduce the world to the Senegalese and French-speaking bitcoin ecosystem."
@@ -96,7 +97,7 @@
         }
     },
     "program": {
-        "para" : "The forum will be held over 2 days with different targets and different content formats that will revolve around panels (4 people maximum), presentations on specific topics, demos of innovative solutions and a hackathon. There will also be stands dedicated to startups, businesses that evolve around bitcoin and businesses that accept bitcoin as a means of payment."
+        "para" : "The forum will be held over 2 days with different targets and different content formats that will revolve around panels (4 people maximum), presentations on specific topics, demos of innovative solutions and a Hackathon. There will also be stands dedicated to startups, businesses that evolve around bitcoin and businesses that accept bitcoin as a means of payment. This is not the final program. It may change until the 1st day of the conference."
     },
     "footer": {
         "text": "All rights reserved."
@@ -107,48 +108,54 @@
         "p1": "This forum is an excellent opportunity to bring together all these players and get their feedback, but also to make known the little-known aspects of Bitcoin to the general public and decision-makers.",
         "p2": "We have called on profiles recognized in the ecosystem for their skills, their knowledge of the subject and their contribution to greater adoption of Bitcoin in the world. Our speakers come from Senegal, Ivory Coast, Burkina Faso, Cameroon, Sudan, South Africa, France, Great Britain, United States, India, Australia and from Romania."
     },
-    
+
     "hackathon": {
         "title1": "Dakar Bitcoin Days Hackathon",
-        "p1": "Dakar Bitcoin Days is the 1st forum in Senegal and French-speaking Africa dedicated 100% to Bitcoin. Without profit, the envergre is international and the event is intended for the academic world, the public sector, the business world, the local and sub-regional population. The theme being 'Technology at the service of financial autonomy', we want to improve collaboration between local and international developers, that participants take pleasure in creating effective solutions, that they acquire new knowledge and that they 'we are the launching pad for new projects.",
-        "p2": "With this hackathon, we will focus on different issues that people are facing and that we think Bitcoin could be a solution for. Ultimately, the organizers of this hackathon want to contribute to the development of the skills of local and sub-regional developers, develop the Bitcoin ecosystem, create new start-ups, improve the credibility and visibility of actors in the sub-region, and Finally solve major problems.",
-        "title2": "The tools available",
-        "p3": "The hackathon will be a major event that will mobilize a hundred participants who will develop innovative solutions using open source and close source, for 30 hours. They will face 4 issues: financial inclusion, access to financing, security, money transfer. Participants will have the opportunity to take charge and learn the technical basics of Bitcoin and the solutions that revolve around it.",
-        "title3": "About the hackathon",
-        "p4": "We are looking for people who are competent in their field, particularly in new technologies. We expect to welcome web and/or backend developers, with good profiles mastering languages such as C++, Python, Rust, Javascript, Node.js, C#, among others, but also data analysts, UI/UX designers, cybersecurity engineers, project managers and business analysts.",
+        "p1": "Dakar Bitcoin Days is the 1st forum in Senegal and French-speaking Africa 100% dedicated to Bitcoin. Without profit, the scope is international and the event is intended for the academics, the public sector, the business world, the local and sub-regional population. The thematic being 'Technology at the service of financial autonomy', we want to improve collaboration between local and international developers, that participants take pleasure in creating effective solutions, that they acquire new knowledge and that we are the launching pad for new projects.",
+        "p2": "With this Hackathon, we will focus on different issues that people are facing and that we think Bitcoin could be a solution for. Ultimately, the organizers of this Hackathon want to contribute to the development of local and sub-regional developers' skills, develop the Bitcoin ecosystem, create new start-ups, improve the credibility and visibility of actors in the sub-region, and finally solve major problems.",
+        "title2": "Available tools",
+        "p3": "The Hackathon will be a major event that will mobilize a hundred participants who will develop innovative solutions using open source and close source tools, for 30 hours. They will face 4 issues: financial inclusion, access to financing, security, remittance. Participants will have the opportunity to grasp and learn the technical basics of Bitcoin and tools that revolve around it.",
+        "title3": "About the Hackathon",
+        "p4": "We are looking for skilled people, particularly in computing and programming. We expect to welcome web and/or backend developers, good profiles mastering programming languages such as C++, Python, Rust, Javascript, Node.js, C#, among others, but also data analysts, UI/UX designers, cybersecurity engineers, project managers and business analysts.",
         "highlights":"",
         "about": {
             "participant": "Attendees",
-            "thematique": "Themes",
+            "thematique": "Issues",
             "heure": "Competition hours"
         },
         "title4": "Innovation knows no bounds",
         "title5": "The Hackathon",
         "title6": "Achievements",
-        "p5": "The Dakar Bitcoin Days Hackathon is a free event where participants, whether alone or in teams, just need to register on this site.",
-        "p6": "The hackathon is open to everyone, even if it is aimed primarily at developers or related profiles. Participants do not necessarily need to have advanced knowledge of Bitcoin before registering. We'll help them get the basics down with information/training sessions and demos during the pre-hackathon.",
-        "p7": "Participants will benefit from sessions to get started with the following solutions, among others: Bitcoin Core, Bitcoin Dev Kit, BTCPay Server, Electrum server, Fulcrum server, Ledger Developer Portal, Lightning Core, C-Lightning, Lightning Dev Kit, mempool.space , Samurai Wallet, Sparrow Wallet...",
-        "p8": "The hackathon is built in such a way that participants have all the necessary resources to make Bitcoin their own. It will allow them to know its philosophy and its operation, but also to be able to reflect on its present and future applications, and their implementation in order to impact the world in a significant way.",
-        "title7": "Procedure of the Hackathon",
-        "p9": "Start of the communication campaign and opening of registrations for training and information sessions.",
+        "p5": "The Dakar Bitcoin Days Hackathon is a free event where participants, whether alone or in teams, just need to register on this website.",
+        "p6": "The Hackathon is open to everyone, even if it is aimed primarily at developers or related profiles. Participants do not necessarily need to have advanced knowledge of Bitcoin before registering. We'll help them get the basics down with information/training sessions and demos during the pre-Hackathon.",
+        "p7": "Before the hackathon, participants will benefit from sessions to get started with the following solutions, among others: Bitcoin Core, Bitcoin Dev Kit, BTCPay Server, Electrum server, Fulcrum server, Ledger Developer Portal, Lightning Core, C-Lightning, Lightning Dev Kit, mempool.space , Samurai Wallet, Sparrow Wallet...",
+        "p8": "The Hackathon is built in such a way that participants have all the necessary resources to make Bitcoin their own. It will allow them to know its philosophy and how it works, but also to be able to reflect on its present and future applications, and their implementation in order to impact the world in a significant way.",
+        "title7": "What are the steps?",
+        "p9": "Start of the communication campaign || Opening of registrations for the Hackathon",
         "p10": "Holding training and information sessions on the preselected open source tools.",
-        "p11": "Opening of registrations for the Hackathon.",
-        "p12": "Pre-Hackathon and Hackathon",
+        "p11": "Selection of participants || Results || Bootcamp",
+        "p12": "Hackathon",
         "oct": "October",
         "nov": "November",
         "dec": "December",
-        "title8": "Why should you participate in this hackathon?",
+        "title8": "Why should you participate in this Hackathon?",
         "programming": "Programming",
         "apprendre": "Learning",
         "reseau": "Networking",
         "recompense": "Awards",
         "p13": "You will have the opportunity to build innovative solutions using the Bitcoin protocol in whole or in part.",
-        "p14": "You will be entitled to training sessions, information, mentors, technical referents. No matter your level, you will learn something new.",
+        "p14": "Before the hackthon, you will be entitled to training sessions, information. During the Hackathon, mentors, technical referents will be besides you to help you learn. No matter your level, you will learn something new.",
         "p15": "Come and introduce yourself to companies specializing in the field. Exchanges with recognized experts and professionals from all over the world.",
         "p16": "Your work will be rewarded, regardless of the outcome of the Hackathon. The prizes include financial compensation, a Ledger Nano S+, support in an incubation program.",
-        "date": "From 02 to 03 December 2022",
+        "date": "From December 2nd to 3rd 2022",
         "place": "Place",
         "eno": "Open Digital Space of Mermoz",
-        "p17": "We are proud to set up this Hackathon which will ultimately be the source of countless startups in the years to come."
+        "p17": "We are proud to set up this Hackathon which will ultimately be the source of countless startups in the years to come.",
+        "partenaires": "Partners",
+        "inscription":"Register",
+        "liste1": "Financial inclusion",
+        "liste2": "Access to finance",
+        "liste3": "Security",
+        "liste4": "Money transfer"
     }
 }

@@ -30,36 +30,72 @@
     color: #FAC400;
 }
 
-.titre_history{
+.titre_history1{
     font-family: 'Sora';
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
     line-height: 50px;
+    margin-left: 10%;
     /* identical to box height */
-    
-    
-    
+
+
+
     /* yellow */
-    
+
     color: #FAC400;
 }
-.lead{
+
+.titre_history{
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 50px;
+  /* identical to box height */
+
+
+
+  /* yellow */
+
+  color: #FAC400;
+}
+.leada{
     font-family: 'Sora';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 32px;
     /* or 200% */
-    
+
     // width: 85%;
     text-align: justify;
+    margin-left: 10%;
 
 
     /* white */
 
     // color: #060606;
 }
+
+.leadb{
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  /* or 200% */
+
+  // width: 85%;
+  text-align: justify;
+  margin-right: 10%;
+
+
+  /* white */
+
+  // color: #060606;
+}
+
 .lead1{
     font-family: 'Sora';
     font-style: normal;
@@ -69,9 +105,11 @@
 }
 .timer{
     margin-left: 10%;
+    margin-top: 3%;
+
 }
 .img_icon{
-   
+
     /* yellow */
     display: flex;
     justify-content: center;
@@ -93,18 +131,31 @@
     border: none;
 }
 
+.card-text{
+  font-family: 'Sora';
+  font-size: 15px;
+}
+
+.text-center{
+  font-family: 'Sora';
+}
+
+.duration{
+  font-family: 'Sora';
+}
+
 #timeline-wrap {
     margin: 5% 15% 2% ;
     position: relative;
-  
+
   }
-  
+
   .timeline {
     height: 5px;
     width: 100%;
     background-color: #FAC400;
     position: relative;
-  
+
   }
   .img {
     opacity: 1;
@@ -112,9 +163,10 @@
   }
   .timeline-hackaton{
     padding: 5%;
-    margin-top: 10%;
+    margin-top: 5%;
+    margin-bottom: 8%;
     background: linear-gradient(
-      rgba(0, 135, 115, 0.822), 
+      rgba(0, 135, 115, 0.822),
       rgba(0, 0, 0, 0.842)
       ),url("../../../assets/img/youtube DBD.png");
     // opacity: 0.7;
@@ -145,50 +197,69 @@
     background-color: #008773;
     border-radius: 50%;
   }
-  
+
   .marker:hover {
     -moz-transform: scale(1.2);
     -webkit-transform: scale(1.2);
     -o-transform: scale(1.2);
     -ms-transform: scale(1.2);
     transform: scale(1.2);
-  
+
     -webkit-transition: all 300ms ease;
     -moz-transition: all 300ms ease;
     -ms-transition: all 300ms ease;
     -o-transition: all 300ms ease;
     transition: all 300ms ease;
   }
-  
+
   .duration{
     margin-top: 5%;
+    margin-bottom: 8%;
   }
   .timeline-icon.one, .timeline-icon.two, .timeline-icon.three, .timeline-icon.four{
     background-color: #008773 !important;
   }
-  
-  
+
+
   .mfirst {
     top: -20px;
   }
-  
+
   .m2 {
     top: -20px;
     left: 32.5%
   }
-  
+
   .m3 {
     top: -20px;
     left: 66%;
   }
-  
-  
+
+
   .mlast {
     top: -20px;
     left: 100%
   }
 
+.container{
+  margin-bottom: 8%;
+}
+
 .titre_target1{
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 59px;
+  /* identical to box height */
+
+
+  /* green */
+
+  color: #008773;
+}
+
+.titre_target2{
   font-family: 'Sora';
   font-style: normal;
   font-weight: 400;
@@ -199,16 +270,23 @@
 
   /* green */
 
-  color: #008773;  
+  color: #008773;
 }
 .p-partner{
   font-family: 'Sora';
   font-style: normal;
-  font-weight: bolder;
-  font-size: 25px;
+  font-size: 19px;
   line-height: 30px;
 
 }
+
+.p-partner2{
+  font-family: 'Sora';
+  font-style: normal;
+  font-size: 22px;
+  color: #008773;
+}
+
 
 .img_sponsor{
   width: 23%;
@@ -220,7 +298,7 @@
 }
 .text_sponsor{
   width: 100%;
-  
+
   display: flex;
   justify-content: center;
   justify-items: center;
@@ -234,12 +312,15 @@
         display: flex;
         flex-direction: column-reverse;
       }
-      
+
     .img_icon{
-   
+
     margin: 1%;
     width: 70px;
     height: 70px;
+    }
+    .img3{
+      margin-left: 15%;
     }
     .timer{
         margin-left: 0%;
@@ -259,11 +340,13 @@
     }
     .text_sponsor{
       width: 100%;
-      
+
       display: flex;
       justify-content: center;
       justify-items: center;
       text-align: center;
+      font-family: 'Sora';
+      font-size: 30px;
     }
     .p-partner{
       width: 90%;

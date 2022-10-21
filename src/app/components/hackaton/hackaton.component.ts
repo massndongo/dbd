@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HackatonComponent implements OnInit {
   lang: string;
+  theme:boolean = false
 
   constructor() { }
 
@@ -16,5 +17,8 @@ export class HackatonComponent implements OnInit {
   changeLang(lang: string){
     localStorage.setItem('lang', lang)
     window.location.reload()
+  }
+  hideThemeList(){
+    this.theme = !this.theme
   }
 }
